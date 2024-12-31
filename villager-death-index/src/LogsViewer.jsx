@@ -20,14 +20,14 @@ const LogViewer = () => {
 
   useEffect(() => {
     // Fetch the manifest file that lists all files
-    fetch("/logs-manifest.json")
+    fetch("/VillagerDeathIndex/logs-manifest.json")
       .then((response) => response.json())
       .then((data) => {
         // Filter only the .log files
         const logFiles = data.logs.filter((file) => file.endsWith(".log"));
         // Fetch and process each log file
         logFiles.forEach((file) => {
-          fetch(`/logs/${file}`)
+          fetch(`/VillagerDeathIndex/logs/${file}`)
             .then((response) => response.text()) // Get the text content of the log file
             .then((data) => {
               // Process the log content to extract villager death info
