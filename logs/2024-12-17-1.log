@@ -1,0 +1,149 @@
+[00:00:03] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[00:00:03] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[00:00:41] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:lectern
+[00:00:41] [Server thread/INFO]: [SirRabbit_: Gave 1 [Lectern] to SirRabbit_]
+[00:00:49] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:writable_book
+[00:00:49] [Server thread/INFO]: [SirRabbit_: Gave 1 [Book and Quill] to SirRabbit_]
+[00:04:01] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[00:04:01] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[00:04:03] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr could i come stay at ur place? nw if not, i just wanna see u
+[00:05:59] [Server thread/INFO]: bwjr issued server command: /w SirRabbit_ I mean u can, but I might've knocked over my mirror earlier while I was leavin for work, and since it was too late for me to vacuum, I just put a bunch of cardboard on the groun to cover up the glass shards :O
+[00:06:12] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:06:12] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:09:07] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 6
+[00:09:07] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 6 to value)]
+[00:09:09] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr mmmm how much glass
+[00:10:36] [Server thread/INFO]: bwjr issued server command: /w SirRabbit_ not a lot tbh, I threw the mirror and the one large shard out, but I'm always a lil paranoid about glass,,, there's definitely still small shards, but I think I got the whole area covered
+[00:10:45] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 7
+[00:10:45] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 7 to value)]
+[00:10:58] [Server thread/INFO]: bwjr issued server command: /w SirRabbit_ it's times like these that i'm glad i hoard cardboard
+[00:11:24] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr would u mind if i came over? ik u got test tomorrow :O
+[00:11:32] [Server thread/INFO]: SoapieTomato issued server command: /home
+[00:12:22] [Async Chat Thread - #51/INFO]: <ppr> u can come over :O (tho respectfully I prolly won't be doin much sleeping)
+[00:12:26] [Async Chat Thread - #51/INFO]: <Rabbit> :O
+[00:12:34] [Async Chat Thread - #51/INFO]: <ppr> lmao
+[00:12:43] [Async Chat Thread - #51/INFO]: <Rabbit> also first player house is almost done
+[00:12:43] [Async Chat Thread - #51/INFO]: <ppr> forgor how chat works
+[00:12:47] [Async Chat Thread - #50/INFO]: <ppr> omg?
+[00:12:48] [Async Chat Thread - #50/INFO]: <LunaMaiden> lmao rip
+[00:12:53] [Async Chat Thread - #50/INFO]: <LunaMaiden> :OO
+[00:13:12] [Async Chat Thread - #50/INFO]: <Rabbit> theyre not furnished but its got a little layout
+[00:13:17] [Async Chat Thread - #50/INFO]: <Rabbit> should be 3-4 of them once m done
+[00:13:36] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[00:13:36] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[00:15:36] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr mkay imma head over soon ish
+[00:15:41] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr ily a lot
+[00:15:44] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr <3
+[00:15:55] [Async Chat Thread - #53/INFO]: <Rabbit> o/
+[00:15:56] [Server thread/INFO]: bwjr issued server command: /w SirRabbit_ okie, ily too <3
+[00:15:57] [Server thread/INFO]: SirRabbit_ lost connection: Disconnected
+[00:15:57] [Server thread/INFO]: SirRabbit_ left the game
+[00:16:00] [Async Chat Thread - #52/INFO]: <LunaMaiden> bye :3
+[00:16:43] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[00:16:43] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[00:16:45] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 6
+[00:16:45] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 6 to value)]
+[00:16:50] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:16:50] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:17:03] [Server thread/INFO]: SoapieTomato issued server command: /home
+[00:38:26] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 13
+[00:38:26] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 13 to value)]
+[00:38:38] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[00:38:38] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[00:45:34] [Server thread/INFO]: bwjr lost connection: Disconnected
+[00:45:34] [Server thread/INFO]: bwjr left the game
+[00:46:52] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 9
+[00:46:52] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 9 to value)]
+[00:50:52] [Server thread/INFO]: SoapieTomato issued server command: /home
+[00:57:09] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 9
+[00:57:09] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 9 to value)]
+[00:57:53] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[00:57:53] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[01:00:05] [Server thread/INFO]: SoapieTomato issued server command: /trigger spawn
+[01:00:05] [Server thread/INFO]: [SoapieTomato: Triggered [Spawn]]
+[01:00:09] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[01:00:09] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[01:00:14] [Server thread/INFO]: SoapieTomato issued server command: /trigger home 9
+[01:00:17] [Server thread/INFO]: SoapieTomato issued server command: /trigger home set 9
+[01:00:17] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (set value to 9)]
+[01:00:19] [Server thread/INFO]: SoapieTomato issued server command: /trigger home set 10
+[01:00:19] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (set value to 10)]
+[01:10:34] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[01:10:34] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[01:13:12] [Server thread/INFO]: (mcMMO) LunaMaiden has reached a Power level of 2,500!
+[01:14:04] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:14:04] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:15:57] [Server thread/INFO]: SoapieTomato issued server command: /trigger spawn
+[01:15:57] [Server thread/INFO]: [SoapieTomato: Triggered [Spawn]]
+[01:21:03] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:21:03] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:22:00] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:22:00] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:22:02] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:22:02] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:22:59] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:22:59] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:23:01] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:23:01] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:23:09] [Server thread/INFO]: SoapieTomato issued server command: /time set night
+[01:23:09] [Server thread/INFO]: [SoapieTomato: Set the time to 13000]
+[01:23:23] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:23:23] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:23:32] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[01:23:33] [Server thread/INFO]: SoapieTomato left the game
+[01:23:34] [User Authenticator #9/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[01:23:35] [Server thread/INFO]: SoapieTomato joined the game
+[01:23:35] [Server thread/INFO]: SoapieTomato[/207.5.148.5:18951] logged in with entity id 477284 at ([soapSMP]-1825.5758880591973, 115.25097038778553, -790.3784934985797)
+[01:23:38] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:23:38] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:27:37] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[01:27:37] [Server thread/INFO]: SoapieTomato left the game
+[06:51:46] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:06:46] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:16:46] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:20:46] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:21:47] [Server thread/INFO]: Stopping the server
+[07:21:47] [Server thread/INFO]: Stopping server
+[07:21:47] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
+[07:21:47] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:21:47] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:21:47] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:21:47] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:21:48] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:21:48] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:21:48] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:21:48] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:21:48] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:21:48] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:21:48] [Server thread/INFO]: [NameColor] Disabled.
+[07:21:48] [Server thread/INFO]: Saving players
+[07:21:48] [Server thread/INFO]: Saving worlds
+[07:21:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Saved 6 block chunks, 353 entity chunks, 0 poi chunks in world 'soapSMP' in 0.14s
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:21:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:21:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:21:48] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:21:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:21:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:21:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:21:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:21:48] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:21:48] [Server thread/INFO]: All I/O tasks to complete
+[07:21:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:21:48] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

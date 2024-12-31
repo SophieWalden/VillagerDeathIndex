@@ -1,0 +1,376 @@
+[00:13:16] [Async Chat Thread - #43/INFO]: <ppr> eyo fin, can i have an invisible item frame?
+[00:13:25] [Server thread/INFO]: SirRabbit_ issued server command: /trigger tpa set 4
+[00:13:25] [Server thread/INFO]: [SirRabbit_: Triggered [tpa] (set value to 4)]
+[00:13:29] [Server thread/INFO]: bwjr issued server command: /trigger tpaccept
+[00:13:29] [Server thread/INFO]: [bwjr: Triggered [tpaccept]]
+[00:13:35] [Async Chat Thread - #43/INFO]: <ppr> thx <3
+[00:13:42] [Server thread/INFO]: SirRabbit_ issued server command: /trigger back
+[00:13:42] [Server thread/INFO]: [SirRabbit_: Triggered [Back]]
+[00:20:08] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[00:20:08] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[00:21:28] [Async Chat Thread - #45/INFO]: <LunaMaiden> gnggngnngngngngngngngngngngngngngngnggngngngnggngngngngngn
+[00:21:29] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[00:21:29] [Server thread/INFO]: SoapieTomato left the game
+[00:21:31] [Async Chat Thread - #45/INFO]: <Rabbit> o//
+[00:21:31] [Async Chat Thread - #45/INFO]: <ppr> gn!
+[00:27:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4294ms or 85 ticks behind
+[00:30:41] [Server thread/INFO]: bwjr issued server command: /time set night
+[00:30:41] [Server thread/INFO]: [bwjr: Set the time to 13000]
+[00:42:08] [Server thread/INFO]: SirRabbit_ issued server command: /trigger home set 2
+[00:42:08] [Server thread/INFO]: [SirRabbit_: Triggered [Home] (set value to 2)]
+[00:43:07] [Server thread/INFO]: SirRabbit_ issued server command: /trigger back
+[00:43:07] [Server thread/INFO]: [SirRabbit_: Triggered [Back]]
+[00:47:37] [Server thread/INFO]: SirRabbit_ issued server command: /trigger back
+[00:47:37] [Server thread/INFO]: [SirRabbit_: Triggered [Back]]
+[00:47:45] [Server thread/INFO]: SirRabbit_ issued server command: /trigger back
+[00:47:45] [Server thread/INFO]: [SirRabbit_: Triggered [Back]]
+[00:47:51] [Server thread/INFO]: SirRabbit_ issued server command: /trigger back
+[00:47:51] [Server thread/INFO]: [SirRabbit_: Triggered [Back]]
+[00:47:59] [Server thread/INFO]: SirRabbit_ issued server command: /trigger back
+[00:47:59] [Server thread/INFO]: [SirRabbit_: Triggered [Back]]
+[00:52:38] [Server thread/INFO]: SirRabbit_ issued server command: /trigger back
+[00:52:38] [Server thread/INFO]: [SirRabbit_: Triggered [Back]]
+[00:52:41] [Server thread/INFO]: SirRabbit_ issued server command: /trigger back
+[00:52:41] [Server thread/INFO]: [SirRabbit_: Triggered [Back]]
+[00:54:00] [Async Chat Thread - #47/INFO]: <Rabbit> gn my love! <3
+[00:54:03] [Server thread/INFO]: SirRabbit_ lost connection: Disconnected
+[00:54:03] [Server thread/INFO]: SirRabbit_ left the game
+[00:56:28] [Server thread/INFO]: bwjr issued server command: /home
+[00:56:37] [Server thread/INFO]: bwjr issued server command: /back
+[00:59:03] [Server thread/INFO]: bwjr issued server command: /time set night
+[00:59:03] [Server thread/INFO]: [bwjr: Set the time to 13000]
+[00:59:18] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[00:59:18] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[00:59:39] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:59:39] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:59:55] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[00:59:55] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[01:01:43] [Server thread/INFO]: Named entity Phantom['Phantom'/246554, uuid='5505ca26-946a-4a2d-8418-5da35bdd3ffc', l='ServerLevel[soapSMP]', x=-1331.93, y=129.88, z=-1366.61, cpos=[-84, -86], tl=868, v=true] died: Phantom was slain by Iron Golem
+[01:02:30] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[01:02:30] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[01:20:34] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[01:20:34] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[01:21:01] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[01:21:01] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[01:24:09] [Server thread/INFO]: bwjr issued server command: /fill -1335 124 -1383
+[01:24:17] [Server thread/INFO]: bwjr issued server command: /fill -1335 123 -1383
+[01:24:29] [Server thread/INFO]: bwjr issued server command: /fill -1335 123 -1383 -1323 123 -1374 minecraft:spruce_planks
+[01:24:29] [Server thread/INFO]: [bwjr: Successfully filled 128 block(s)]
+[02:14:33] [Server thread/INFO]: bwjr issued server command: /home
+[02:14:33] [Server thread/WARN]: bwjr moved too quickly! 42.10930042760856,82.0,-162.88922855493365
+[02:15:22] [Server thread/INFO]: bwjr issued server command: /back
+[02:15:35] [Server thread/INFO]: bwjr issued server command: /spawn
+[02:20:19] [Server thread/INFO]: Villager Villager['GoGurt'/262113, uuid='87b0d23c-06f1-41fc-a544-cc53890fb10d', l='ServerLevel[soapSMP]', x=-1331.29, y=72.19, z=-1077.98, cpos=[-84, -68], tl=928167, v=true] died, message: 'GoGurt was slain by Zombie'
+[02:20:19] [Server thread/INFO]: Named entity Villager['GoGurt'/262113, uuid='87b0d23c-06f1-41fc-a544-cc53890fb10d', l='ServerLevel[soapSMP]', x=-1331.29, y=72.19, z=-1077.98, cpos=[-84, -68], tl=928167, v=true] died: GoGurt was slain by Zombie
+[02:20:26] [Server thread/INFO]: Villager Villager['Papa'/262112, uuid='b40f68b9-e7b4-40d6-975a-a07d8b157aa3', l='ServerLevel[soapSMP]', x=-1331.36, y=72.19, z=-1078.78, cpos=[-84, -68], tl=928572, v=true] died, message: 'Papa was slain by Zombie'
+[02:20:26] [Server thread/INFO]: Named entity Villager['Papa'/262112, uuid='b40f68b9-e7b4-40d6-975a-a07d8b157aa3', l='ServerLevel[soapSMP]', x=-1331.36, y=72.19, z=-1078.78, cpos=[-84, -68], tl=928572, v=true] died: Papa was slain by Zombie
+[02:20:46] [Server thread/INFO]: bwjr issued server command: /home
+[02:20:47] [Server thread/WARN]: bwjr moved too quickly! 37.849696588700226,82.0,-161.7647523988985
+[02:21:44] [Server thread/INFO]: bwjr issued server command: /tp -1332 72 -1079
+[02:49:52] [Server thread/INFO]: bwjr issued server command: /fill -1309 74 -1093
+[02:50:07] [Server thread/INFO]: bwjr issued server command: /fill -1309 74 -1093 -1301 72 -1096 minecraft:air
+[02:50:07] [Server thread/INFO]: [bwjr: Successfully filled 87 block(s)]
+[02:54:09] [Server thread/INFO]: bwjr issued server command: /fill -1309 73 -1102
+[02:54:52] [Server thread/INFO]: bwjr issued server command: /fill -1309 73 -1102 -1304 70 -1108 minecraft:polished_andesite replace minecraft:stone
+[02:54:52] [Server thread/INFO]: [bwjr: Successfully filled 87 block(s)]
+[03:17:42] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[03:17:42] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[03:18:22] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[03:18:22] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[03:20:59] [Server thread/INFO]: bwjr issued server command: /time set night
+[03:20:59] [Server thread/INFO]: [bwjr: Set the time to 13000]
+[03:36:08] [Server thread/INFO]: bwjr issued server command: /fill -1298 71 -1108
+[03:36:20] [Server thread/INFO]: bwjr issued server command: /fill -1298 71 -1108 -1291 74 -1100 minecraft:air
+[03:36:20] [Server thread/INFO]: [bwjr: Successfully filled 230 block(s)]
+[03:38:39] [Server thread/INFO]: bwjr issued server command: /fill -1297 70 -1107
+[03:38:47] [Server thread/INFO]: bwjr issued server command: /fill -1297 70 -1107 -1292 70 -1101 minecraft:copper_block
+[03:38:47] [Server thread/INFO]: [bwjr: Successfully filled 40 block(s)]
+[04:08:20] [User Authenticator #15/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[04:08:21] [Server thread/INFO]: SoapieTomato joined the game
+[04:08:21] [Server thread/INFO]: SoapieTomato[/207.5.148.5:39309] logged in with entity id 277391 at ([soapSMP]-1783.300000011921, 62.0, -866.8666680436432)
+[04:08:25] [Async Chat Thread - #50/INFO]: <ppr> lmao
+[04:08:28] [Async Chat Thread - #50/INFO]: <LunaMaiden> meow meow
+[04:08:29] [Async Chat Thread - #50/INFO]: <ppr> good morning
+[04:08:31] [Async Chat Thread - #50/INFO]: <LunaMaiden> waht are you still doing up blestie
+[04:08:37] [Async Chat Thread - #50/INFO]: <ppr> minecraf
+[04:08:40] [Async Chat Thread - #50/INFO]: <LunaMaiden> so true
+[04:12:25] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[04:12:25] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[04:13:04] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[04:13:04] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[04:13:30] [Server thread/INFO]: SoapieTomato issued server command: /home
+[04:13:33] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:edithome SoapieTomato.maiden
+[04:13:36] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:home SoapieTomato.maiden
+[04:13:59] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[04:13:59] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[04:14:14] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[04:14:14] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[04:14:25] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[04:14:25] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[04:14:33] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[04:14:33] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[04:14:48] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[04:14:48] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[04:16:35] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[04:16:35] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[04:18:02] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[04:18:02] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[04:18:15] [Async Chat Thread - #51/INFO]: <ppr> do u wanna see my cave society progress?
+[04:18:19] [Async Chat Thread - #51/INFO]: <LunaMaiden> omg id be so down
+[04:18:21] [Server thread/INFO]: SoapieTomato issued server command: /tpa ppr
+[04:18:23] [Server thread/INFO]: SoapieTomato issued server command: /tpa bwjr
+[04:18:26] [Server thread/INFO]: bwjr issued server command: /huskhomes:tpaccept SoapieTomato
+[04:18:30] [Async Chat Thread - #51/INFO]: <LunaMaiden> im a big fan of big caves
+[04:18:34] [Async Chat Thread - #51/INFO]: <LunaMaiden> hly shit
+[04:18:40] [Async Chat Thread - #51/INFO]: <LunaMaiden> this is sick
+[04:18:51] [Async Chat Thread - #51/INFO]: <LunaMaiden> whats got them all callmoring lmoa
+[04:18:56] [Async Chat Thread - #51/INFO]: <ppr> potato
+[04:18:58] [Async Chat Thread - #51/INFO]: <LunaMaiden> love the potato diety
+[04:19:11] [Async Chat Thread - #51/INFO]: <LunaMaiden> love the buildings
+[04:19:15] [Async Chat Thread - #51/INFO]: <LunaMaiden> is this where all the villagres will go?
+[04:19:30] [Async Chat Thread - #51/INFO]: <ppr> thanks, I basically stole them from pinterest
+[04:19:31] [Async Chat Thread - #51/INFO]: <LunaMaiden> the glass top is crazy lookin
+[04:19:41] [Async Chat Thread - #51/INFO]: <ppr> yeah, all thos houses r moved in already
+[04:20:19] [Async Chat Thread - #51/INFO]: <ppr> think i wanna make a big market/trade hub here, and connect it to the river
+[04:20:19] [Async Chat Thread - #51/INFO]: <LunaMaiden> so true, I still might request one smeb if im able but this is so cute
+[04:20:29] [Async Chat Thread - #51/INFO]: <LunaMaiden> ooh yeha I think we should all get into boat trades
+[04:20:30] [Async Chat Thread - #52/INFO]: <ppr> u want my smeb?
+[04:20:39] [Async Chat Thread - #51/INFO]: <LunaMaiden> yeah wait why did you name him smeb
+[04:20:59] [Async Chat Thread - #51/INFO]: <ppr> cause u kept saying smeb and it got stuck in my head
+[04:21:00] [Async Chat Thread - #51/INFO]: <LunaMaiden> I mentioned that name a lot while watching arcan elmao
+[04:21:09] [Async Chat Thread - #51/INFO]: <LunaMaiden> haha thats what I was hoping
+[04:21:20] [Async Chat Thread - #51/INFO]: <LunaMaiden> yeye same cahracter but i made his little house
+[04:21:30] [Async Chat Thread - #51/INFO]: <LunaMaiden> I can also get another worldly smeb perchance
+[04:21:46] [Async Chat Thread - #51/INFO]: <LunaMaiden> is this not the mothertuber cave?
+[04:21:55] [Async Chat Thread - #51/INFO]: <ppr> well u could always bring smeb to your kingdom for vacation and his children could also be named smeb
+[04:22:07] [Async Chat Thread - #51/INFO]: <ppr> nope
+[04:22:31] [Async Chat Thread - #51/INFO]: <LunaMaiden> rip rip it is massive out in the opena
+[04:22:32] [Async Chat Thread - #51/INFO]: <ppr> tho it might actually connect to fin's godess in chains cave lol, it's far tho
+[04:22:41] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[04:22:41] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[04:23:00] [Async Chat Thread - #51/INFO]: <ppr> do u wanna connect our cave societies a little at some point?
+[04:23:15] [Async Chat Thread - #51/INFO]: <LunaMaiden> omg we are making little sewer pipes between the maiden towns
+[04:23:23] [Async Chat Thread - #51/INFO]: <LunaMaiden> so villagres can pass through
+[04:24:00] [Server thread/INFO]: SoapieTomato issued server command: /back
+[04:24:10] [Async Chat Thread - #51/INFO]: <ppr> omg wait, u wanna see my other town stuff I've been working on :O
+[04:24:13] [Async Chat Thread - #51/INFO]: <LunaMaiden> omg yes
+[04:24:14] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[04:24:14] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[04:24:15] [Server thread/INFO]: SoapieTomato issued server command: /tpa bwjr
+[04:24:17] [Server thread/INFO]: bwjr issued server command: /huskhomes:tpaccept SoapieTomato
+[04:24:22] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[04:24:22] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[04:24:26] [Async Chat Thread - #51/INFO]: <LunaMaiden> wait this has looked so sick on the map
+[04:24:32] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[04:24:32] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[04:24:32] [Async Chat Thread - #51/INFO]: <ppr> so this is the farming district
+[04:24:43] [Async Chat Thread - #51/INFO]: <LunaMaiden> no the tiered farming looks sick
+[04:24:50] [Async Chat Thread - #51/INFO]: <LunaMaiden> the wall is also massiv elmao
+[04:24:53] [Async Chat Thread - #51/INFO]: <ppr> right, i love
+[04:25:17] [Async Chat Thread - #51/INFO]: <ppr> up north over here is my librarian town
+[04:25:27] [Async Chat Thread - #51/INFO]: <LunaMaiden> ooh, I still notice the pool of snowmen
+[04:25:33] [Async Chat Thread - #51/INFO]: <ppr> yeah, the suana
+[04:25:39] [Async Chat Thread - #51/INFO]: <LunaMaiden> wait werent you also summoning in more iron golems saw some advancemnets about that
+[04:25:45] [Async Chat Thread - #51/INFO]: <LunaMaiden> I might need a loan of pumpkins
+[04:25:46] [Async Chat Thread - #51/INFO]: <ppr> i worked on this building a lot tho :O
+[04:25:51] [Async Chat Thread - #51/INFO]: <LunaMaiden> oooh
+[04:25:59] [Async Chat Thread - #51/INFO]: <LunaMaiden> is this the books store?
+[04:26:15] [Async Chat Thread - #51/INFO]: <ppr> u can take whatever pumpkins ya like, but if you'd prefer to trade for plot i understand
+[04:26:28] [Async Chat Thread - #51/INFO]: <ppr> nope, it's like a little public ammenies building
+[04:26:35] [Async Chat Thread - #51/INFO]: <LunaMaiden> nonono thats fair Lunas jsut supposed to be a asummoner of iron golems just havent done it yet
+[04:26:41] [Async Chat Thread - #51/INFO]: <LunaMaiden> ooh
+[04:27:03] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[04:27:03] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[04:27:16] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[04:27:16] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[04:27:27] [Async Chat Thread - #51/INFO]: <LunaMaiden> also just attached myself to you and turned on shaders and its like a movie it looks so cute in the town
+[04:27:47] [Async Chat Thread - #51/INFO]: <ppr> omg, u should send pics of my town with shaders <3
+[04:28:15] [Async Chat Thread - #51/INFO]: <LunaMaiden> it does look so crazy lit in the dark
+[04:28:34] [Server thread/INFO]: SoapieTomato issued server command: /time set day
+[04:28:34] [Server thread/INFO]: [SoapieTomato: Set the time to 1000]
+[04:28:40] [Server thread/INFO]: SoapieTomato issued server command: /time set 8000
+[04:28:40] [Server thread/INFO]: [SoapieTomato: Set the time to 8000]
+[04:28:44] [Server thread/INFO]: SoapieTomato issued server command: /time set 12000
+[04:28:44] [Server thread/INFO]: [SoapieTomato: Set the time to 12000]
+[04:28:47] [Async Chat Thread - #51/INFO]: <ppr> i was thinkin I should build a lighthouse :O
+[04:29:27] [Async Chat Thread - #51/INFO]: <LunaMaiden> oooh me too
+[04:29:31] [Async Chat Thread - #51/INFO]: <LunaMaiden> I need one for the harbor
+[04:29:43] [Async Chat Thread - #51/INFO]: <LunaMaiden> I really want to figure out a good system for ship trading
+[04:29:51] [Async Chat Thread - #52/INFO]: <LunaMaiden> whether thats funky chests in boats or something
+[04:31:01] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[04:31:10] [Server thread/INFO]: SoapieTomato issued server command: /time set 12000
+[04:31:10] [Server thread/INFO]: [SoapieTomato: Set the time to 12000]
+[04:31:24] [Server thread/INFO]: SoapieTomato issued server command: /time set 8000
+[04:31:24] [Server thread/INFO]: [SoapieTomato: Set the time to 8000]
+[04:31:51] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[04:31:51] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[04:32:08] [Async Chat Thread - #53/INFO]: <LunaMaiden> god its goofy but I want a website for all the city lore
+[04:32:11] [Async Chat Thread - #53/INFO]: <LunaMaiden> we have so much cute bits
+[04:32:19] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[04:32:19] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[04:32:45] [Async Chat Thread - #53/INFO]: <ppr> what would the website be? like a blog or smth?
+[04:32:59] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[04:32:59] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[04:33:03] [Async Chat Thread - #53/INFO]: <LunaMaiden> also i will be opening up a art donation hall which will be accepting public entrees
+[04:33:20] [Async Chat Thread - #53/INFO]: <ppr> omg, i'll get to work i promise
+[04:33:21] [Async Chat Thread - #53/INFO]: <LunaMaiden> I think itd be cute just to archive all the written lore and books and whatnot
+[04:33:34] [Async Chat Thread - #54/INFO]: <LunaMaiden> honestly im mostly on here to therapuetically draw
+[04:46:07] [Async Chat Thread - #55/INFO]: <LunaMaiden> meow imma totally go cram for an exam
+[04:46:11] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[04:46:12] [Server thread/INFO]: SoapieTomato left the game
+[04:46:13] [Async Chat Thread - #55/INFO]: <ppr> godspeed
+[04:52:04] [Server thread/INFO]: bwjr issued server command: /home
+[04:55:48] [Server thread/INFO]: bwjr issued server command: /time set day
+[04:55:48] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[05:11:14] [Server thread/INFO]: bwjr issued server command: /trigger home add 2
+[05:11:14] [Server thread/INFO]: [bwjr: Triggered [Home] (added 2 to value)]
+[05:13:28] [Server thread/INFO]: bwjr issued server command: /trigger back
+[05:13:28] [Server thread/INFO]: [bwjr: Triggered [Back]]
+[05:19:27] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[05:19:27] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[05:23:09] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:saddle
+[05:23:09] [Server thread/INFO]: [bwjr: Gave 1 [Saddle] to bwjr]
+[05:23:21] [Server thread/INFO]: bwjr issued server command: /spawn
+[05:23:33] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:structure_block
+[05:23:33] [Server thread/INFO]: [bwjr: Gave 1 [Structure Block] to bwjr]
+[05:23:36] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[05:23:36] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[05:25:51] [Server thread/INFO]: bwjr issued server command: /back
+[05:26:35] [Server thread/INFO]: bwjr issued server command: /fill -1461 84 -1151
+[05:27:12] [Server thread/INFO]: bwjr issued server command: /fill -1461 84 -1151 -1416 78 -1152 minecraft:air
+[05:27:12] [Server thread/INFO]: [bwjr: Successfully filled 550 block(s)]
+[05:27:32] [Server thread/INFO]: bwjr issued server command: /fill -1461 84 -1151 -1416 78 -1173 minecraft:air
+[05:27:32] [Server thread/INFO]: [bwjr: Successfully filled 6530 block(s)]
+[05:27:57] [Server thread/INFO]: bwjr issued server command: /fill -1461 84 -1151 -1416 78 -1138 minecraft:air
+[05:27:57] [Server thread/INFO]: [bwjr: Successfully filled 4081 block(s)]
+[05:30:55] [Server thread/INFO]: bwjr issued server command: /fill -1442 77 -1149
+[05:31:04] [Server thread/INFO]: bwjr issued server command: /fill -1442 77 -1149 -1396 82 -1137 minecraft:air
+[05:31:04] [Server thread/INFO]: [bwjr: Successfully filled 900 block(s)]
+[05:32:05] [Server thread/INFO]: bwjr issued server command: /fill -1394 82 -1137
+[05:32:30] [Server thread/INFO]: bwjr issued server command: /fill -1394 82 -1137 -1388 78 -1154 minecraft:air
+[05:32:30] [Server thread/INFO]: [bwjr: Successfully filled 608 block(s)]
+[05:32:48] [Server thread/INFO]: bwjr issued server command: /fill -1395 78 -1154
+[05:32:58] [Server thread/INFO]: bwjr issued server command: /fill -1395 78 -1154 -1415 82 -1150 minecraft:air
+[05:32:58] [Server thread/INFO]: [bwjr: Successfully filled 525 block(s)]
+[05:33:02] [Server thread/INFO]: bwjr issued server command: /fill -1395 78 -1154 -1415 82 -1150 minecraft:air
+[05:33:02] [Server thread/INFO]: [bwjr: Successfully filled 45 block(s)]
+[05:33:09] [Server thread/INFO]: bwjr issued server command: /fill -1415 83 -1154
+[05:33:25] [Server thread/INFO]: bwjr issued server command: /fill -1415 83 -1154 -1388 83 -1137 minecraft:air
+[05:33:25] [Server thread/INFO]: [bwjr: Successfully filled 479 block(s)]
+[05:33:39] [Server thread/INFO]: bwjr issued server command: /fill -1415 84 -1154 -1388 83 -1137 minecraft:air
+[05:33:39] [Server thread/INFO]: [bwjr: Successfully filled 486 block(s)]
+[05:45:06] [Server thread/INFO]: bwjr issued server command: /fill -1415 78 -1155
+[05:45:13] [Server thread/INFO]: bwjr issued server command: /fill -1415 78 -1155 -1415 84 -1173 minecraft:air
+[05:45:13] [Server thread/INFO]: [bwjr: Successfully filled 133 block(s)]
+[05:51:58] [Server thread/INFO]: bwjr issued server command: /fill -1444 77 -1174
+[05:52:09] [Server thread/INFO]: bwjr issued server command: /fill -1444 77 -1174 -1418 77 -1176 minecraft:grass_block
+[05:52:09] [Server thread/INFO]: [bwjr: Successfully filled 81 block(s)]
+[05:52:22] [Server thread/INFO]: bwjr issued server command: /fill -1418 81 -1177
+[05:52:34] [Server thread/INFO]: bwjr issued server command: /fill -1418 81 -1177 -1443 81 -1178 minecraft:grass_block
+[05:52:34] [Server thread/INFO]: [bwjr: Successfully filled 52 block(s)]
+[05:52:52] [Server thread/INFO]: bwjr issued server command: /fill -1418 81 -1177 -1443 81 -1176 minecraft:grass_block
+[05:52:52] [Server thread/INFO]: [bwjr: Successfully filled 27 block(s)]
+[05:54:35] [Server thread/INFO]: bwjr issued server command: /fill -1415 77 -1173
+[05:54:48] [Server thread/INFO]: bwjr issued server command: /fill -1415 77 -1173 -1461 77 -1150 minecraft:grass_block
+[05:54:48] [Server thread/INFO]: [bwjr: Successfully filled 1125 block(s)]
+[05:54:53] [Server thread/INFO]: bwjr issued server command: /fill -1461 77 -1149
+[05:55:04] [Server thread/INFO]: bwjr issued server command: /fill -1461 77 -1149 -1443 77 -1137 minecraft:grass_block
+[05:55:04] [Server thread/INFO]: [bwjr: Successfully filled 247 block(s)]
+[05:55:14] [Server thread/INFO]: bwjr issued server command: /fill -1414 77 -1150
+[05:55:21] [Server thread/INFO]: bwjr issued server command: /fill -1414 77 -1150 -1388 77 -1154 minecraft:grass_block
+[05:55:21] [Server thread/INFO]: [bwjr: Successfully filled 135 block(s)]
+[05:55:27] [Server thread/INFO]: bwjr issued server command: /fill -1395 77 -1149
+[05:55:33] [Server thread/INFO]: bwjr issued server command: /fill -1395 77 -1149 -1388 77 -1137 minecraft:grass_block
+[05:55:33] [Server thread/INFO]: [bwjr: Successfully filled 104 block(s)]
+[05:58:09] [Server thread/INFO]: bwjr issued server command: /fill -1441 77 -1155
+[05:58:18] [Server thread/INFO]: bwjr issued server command: /fill -1441 77 -1155 -1419 77 -1170 minecraft:air
+[05:58:18] [Server thread/INFO]: [bwjr: Successfully filled 301 block(s)]
+[05:58:28] [Server thread/INFO]: bwjr issued server command: /fill -1420 76 -1169
+[05:58:37] [Server thread/INFO]: bwjr issued server command: /fill -1420 76 -1169 -1440 76 -1156 minecraft:grass_block
+[05:58:37] [Server thread/INFO]: [bwjr: Successfully filled 294 block(s)]
+[05:59:56] [Server thread/INFO]: bwjr issued server command: /fill -1439 75 -1157
+[06:00:04] [Server thread/INFO]: bwjr issued server command: /fill -1439 75 -1157 -1421 75 -1168 minecraft:grass_block
+[06:00:04] [Server thread/INFO]: [bwjr: Successfully filled 227 block(s)]
+[06:00:07] [Server thread/INFO]: bwjr issued server command: /fill -1421 76 -1168
+[06:00:14] [Server thread/INFO]: bwjr issued server command: /fill -1421 76 -1168 -1439 76 -1157 minecraft:air
+[06:00:14] [Server thread/INFO]: [bwjr: Successfully filled 227 block(s)]
+[06:07:30] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:writable_book
+[06:07:30] [Server thread/INFO]: [bwjr: Gave 1 [Book and Quill] to bwjr]
+[06:12:33] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[06:12:33] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[06:14:29] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:saddle
+[06:14:29] [Server thread/INFO]: [bwjr: Gave 1 [Saddle] to bwjr]
+[06:18:10] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:name_tag
+[06:18:10] [Server thread/INFO]: [bwjr: Gave 1 [Name Tag] to bwjr]
+[06:21:16] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[06:21:16] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[06:22:12] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[06:22:12] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[06:22:35] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:saddle
+[06:22:35] [Server thread/INFO]: [bwjr: Gave 1 [Saddle] to bwjr]
+[06:23:36] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:name_tag
+[06:23:36] [Server thread/INFO]: [bwjr: Gave 1 [Name Tag] to bwjr]
+[06:24:53] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:saddle
+[06:24:53] [Server thread/INFO]: [bwjr: Gave 1 [Saddle] to bwjr]
+[06:24:54] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:saddle
+[06:24:54] [Server thread/INFO]: [bwjr: Gave 1 [Saddle] to bwjr]
+[06:24:56] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:name_tag
+[06:24:56] [Server thread/INFO]: [bwjr: Gave 1 [Name Tag] to bwjr]
+[06:27:30] [Server thread/INFO]: bwjr lost connection: Disconnected
+[06:27:30] [Server thread/INFO]: bwjr left the game
+[06:51:48] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:06:48] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:16:48] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:20:48] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:21:49] [Server thread/INFO]: Stopping the server
+[07:21:49] [Server thread/INFO]: Stopping server
+[07:21:50] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:21:50] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:21:50] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:21:50] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:21:50] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:21:50] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:21:50] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:21:50] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:21:50] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:21:50] [Server thread/INFO]: [NameColor] Disabled.
+[07:21:50] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:21:50] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:21:50] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:21:51] [Server thread/INFO]: [dynmap] Saved 4 pending tile renders in world 'soapSMP'
+[07:21:51] [Server thread/INFO]: [dynmap] Disabled
+[07:21:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:21:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:21:51] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:21:51] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:21:51] [Server thread/INFO]: Saving players
+[07:21:51] [Server thread/INFO]: Saving worlds
+[07:21:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Saved 7 block chunks, 335 entity chunks, 0 poi chunks in world 'soapSMP' in 0.15s
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:21:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.08s
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:21:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:21:51] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:21:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:21:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:21:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:21:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:21:51] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:21:51] [Server thread/INFO]: All I/O tasks to complete
+[07:21:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:21:51] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

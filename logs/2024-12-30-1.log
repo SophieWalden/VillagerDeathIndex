@@ -1,0 +1,251 @@
+[00:01:24] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:01:56] [Server thread/INFO]: haashthetag issued server command: /back
+[00:02:02] [Server thread/INFO]: haashthetag issued server command: /home treasure
+[00:02:24] [User Authenticator #18/INFO]: UUID of player Azuresty is 51643251-0baf-455d-a7be-482a8a2d6913
+[00:02:25] [Server thread/INFO]: Azuresty joined the game
+[00:02:25] [Server thread/INFO]: Azuresty[/38.21.219.232:58923] logged in with entity id 445728 at ([soapSMP]-2059.8181689760295, 50.0, -906.0865752712555)
+[00:02:27] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 5
+[00:02:27] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 5 to value)]
+[00:02:32] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:02:34] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:02:44] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[00:03:06] [Server thread/INFO]: Azuresty issued server command: /tpa haashthetag
+[00:03:08] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 5
+[00:03:08] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 5 to value)]
+[00:03:09] [Server thread/INFO]: haashthetag issued server command: /huskhomes:tpaccept Azuresty
+[00:03:41] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[00:03:41] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[00:03:42] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[00:03:42] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[00:03:42] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[00:03:42] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[00:03:43] [Server thread/INFO]: haashthetag issued server command: /home home
+[00:03:44] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[00:03:44] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[00:04:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2511ms or 50 ticks behind
+[00:04:04] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[00:04:04] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[00:04:05] [Server thread/INFO]: haashthetag issued server command: /back
+[00:04:08] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[00:04:08] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[00:04:29] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[00:04:29] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[00:04:37] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:04:47] [Server thread/INFO]: Azuresty issued server command: /home trident
+[00:05:13] [Server thread/INFO]: haashthetag issued server command: /back
+[00:05:45] [Server thread/INFO]: haashthetag issued server command: /back
+[00:05:56] [Server thread/INFO]: SoapieTomato issued server command: /home smelt
+[00:06:17] [Server thread/INFO]: bwjr issued server command: /fill -1400 73 -1056
+[00:06:42] [Server thread/INFO]: bwjr issued server command: /fill -1400 73 -1056 -1395 75 -1052 stone replace minecraft:gravel
+[00:06:42] [Server thread/INFO]: [bwjr: Successfully filled 21 block(s)]
+[00:07:03] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:07:25] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[00:07:30] [Server thread/INFO]: haashthetag issued server command: /back
+[00:07:32] [Server thread/INFO]: SoapieTomato issued server command: /home nether
+[00:07:40] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[00:07:54] [Server thread/INFO]: haashthetag issued server command: /back
+[00:08:05] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:08:16] [Server thread/INFO]: SoapieTomato issued server command: /home nether
+[00:08:36] [Server thread/INFO]: SoapieTomato issued server command: /mining
+[00:09:15] [Server thread/INFO]: haashthetag issued server command: /back
+[00:09:37] [Server thread/INFO]: haashthetag issued server command: /back
+[00:10:24] [Server thread/INFO]: Azuresty issued server command: /phome harbor
+[00:11:37] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[00:11:48] [Server thread/INFO]: haashthetag issued server command: /back
+[00:12:07] [Server thread/INFO]: haashthetag issued server command: /back
+[00:13:40] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:13:57] [Server thread/INFO]: haashthetag issued server command: /back
+[00:14:33] [Server thread/INFO]: haashthetag issued server command: /back
+[00:14:49] [Server thread/INFO]: haashthetag issued server command: /back
+[00:15:02] [Server thread/INFO]: haashthetag issued server command: /back
+[00:15:41] [Server thread/INFO]: haashthetag issued server command: /back
+[00:16:00] [Server thread/INFO]: haashthetag issued server command: /back
+[00:17:13] [Server thread/INFO]: haashthetag issued server command: /back
+[00:17:51] [Server thread/INFO]: haashthetag issued server command: /back
+[00:18:15] [Server thread/INFO]: haashthetag issued server command: /phome maiden
+[00:18:25] [Server thread/INFO]: haashthetag issued server command: /back
+[00:18:38] [Server thread/INFO]: haashthetag issued server command: /back
+[00:20:54] [Server thread/INFO]: haashthetag issued server command: /back
+[00:21:10] [Server thread/INFO]: haashthetag issued server command: /back
+[00:21:15] [Server thread/INFO]: haashthetag issued server command: /home home
+[00:21:33] [Server thread/INFO]: haashthetag issued server command: /home treasure
+[00:21:48] [Server thread/INFO]: haashthetag issued server command: /back
+[00:22:03] [Server thread/INFO]: haashthetag issued server command: /back
+[00:22:34] [Server thread/INFO]: Azuresty issued server command: /home trident
+[00:25:47] [Server thread/INFO]: bwjr issued server command: /home `
+[00:25:51] [Server thread/INFO]: bwjr issued server command: /home 1
+[00:26:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[00:26:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2502ms or 50 ticks behind
+[00:26:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
+[00:27:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3180ms or 63 ticks behind
+[00:27:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4162ms or 83 ticks behind
+[00:27:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4548ms or 90 ticks behind
+[00:28:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3873ms or 77 ticks behind
+[00:28:19] [Server thread/INFO]: bwjr issued server command: /home 1
+[00:28:32] [Server thread/INFO]: SoapieTomato issued server command: /mining
+[00:28:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
+[00:28:47] [Server thread/INFO]: bwjr issued server command: /back
+[00:28:52] [Server thread/INFO]: bwjr issued server command: /home 1
+[00:28:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2507ms or 50 ticks behind
+[00:29:08] [Server thread/INFO]: bwjr issued server command: /back
+[00:29:55] [Server thread/INFO]: SoapieTomato issued server command: /home smelt
+[00:30:05] [Server thread/INFO]: SoapieTomato issued server command: /tpa Azuresty
+[00:30:09] [Server thread/INFO]: Azuresty issued server command: /huskhomes:tpaccept SoapieTomato
+[00:30:41] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:30:45] [Server thread/INFO]: bwjr issued server command: /home 1
+[00:30:47] [Server thread/INFO]: SoapieTomato issued server command: /home maidne
+[00:30:49] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:30:50] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[00:31:00] [Server thread/INFO]: SoapieTomato issued server command: /bakc
+[00:31:01] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:31:23] [Server thread/INFO]: SoapieTomato issued server command: /home smelt
+[00:31:28] [Server thread/INFO]: bwjr issued server command: /back
+[00:32:53] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:34:35] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:36:03] [Server thread/INFO]: bwjr issued server command: /home 1
+[00:36:05] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[00:36:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[00:36:15] [Server thread/INFO]: bwjr issued server command: /back
+[00:37:11] [Server thread/INFO]: bwjr lost connection: Disconnected
+[00:37:11] [Server thread/INFO]: bwjr left the game
+[00:37:31] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[00:39:13] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:39:19] [Server thread/INFO]: SoapieTomato issued server command: /bakc
+[00:39:20] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:39:41] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[00:40:18] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:40:39] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[00:41:59] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[00:42:26] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:42:31] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[00:47:03] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[00:47:48] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:47:58] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[00:48:07] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:49:59] [Server thread/INFO]: (mcMMO) LunaMaiden has reached a Power level of 3,900!
+[00:52:23] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:58:02] [Server thread/INFO]: SoapieTomato issued server command: /home smelt
+[00:58:16] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:58:25] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[00:59:47] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:01:07] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:01:37] [Server thread/INFO]: SoapieTomato issued server command: /home spider
+[01:03:18] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:04:30] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[01:05:31] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:05:37] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:06:22] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:06:43] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:08:28] [Server thread/INFO]: SoapieTomato issued server command: /home spider
+[01:08:50] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:08:56] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:09:46] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[01:10:10] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:10:16] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:12:11] [Server thread/INFO]: SoapieTomato issued server command: /home st
+[01:12:45] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[01:12:49] [Server thread/INFO]: (mcMMO) Aze has reached level 200 in ACROBATICS!
+[01:12:58] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:13:42] [Server thread/INFO]: haashthetag issued server command: /home home
+[01:13:54] [Server thread/INFO]: haashthetag issued server command: /back
+[01:14:12] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[01:14:25] [Server thread/INFO]: SoapieTomato was doomed to fall
+[01:14:28] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:back
+[01:16:43] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:18:10] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[01:18:10] [Server thread/INFO]: SoapieTomato left the game
+[01:20:05] [Server thread/INFO]: haashthetag issued server command: /home treasure
+[01:22:18] [Server thread/INFO]: haashthetag issued server command: /home treasure
+[01:23:08] [Server thread/INFO]: haashthetag issued server command: /home water
+[01:24:19] [Server thread/INFO]: haashthetag lost connection: Disconnected
+[01:24:19] [Server thread/INFO]: haashthetag left the game
+[02:03:44] [Async Chat Thread - #72/INFO]: <bwjr2> what an amazing spelling ofsoup
+[02:03:56] [Async Chat Thread - #72/INFO]: <bwjr2> idk whati just said tbh
+[02:27:44] [Server thread/INFO]: DamPnutManFan lost connection: Disconnected
+[02:27:45] [Server thread/INFO]: DamPnutManFan left the game
+[02:34:58] [Server thread/INFO]: Azuresty lost connection: Disconnected
+[02:34:58] [Server thread/INFO]: Azuresty left the game
+[02:40:20] [Server thread/INFO]: Villager Villager['Q. Barrelman'/479059, uuid='2bb58e57-b3f5-4968-ab18-60becdce64d3', l='ServerLevel[soapSMP]', x=-1543.78, y=64.00, z=-1184.09, cpos=[-97, -75], tl=159686, v=true] died, message: 'Q. Barrelman hit the ground too hard'
+[02:40:20] [Server thread/INFO]: Named entity Villager['Q. Barrelman'/479059, uuid='2bb58e57-b3f5-4968-ab18-60becdce64d3', l='ServerLevel[soapSMP]', x=-1543.78, y=64.00, z=-1184.09, cpos=[-97, -75], tl=159686, v=true] died: Q. Barrelman was doomed to fall by Zombie
+[02:40:48] [Server thread/INFO]: bwjr2 issued server command: /phomelist
+[02:40:51] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:phome SirRabbit_.Aden
+[02:40:51] [Server thread/WARN]: bwjr2 moved too quickly! 103.73932637432472,21.737499952316284,321.39204119587293
+[02:41:17] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:phome SirRabbit_.MtGimon
+[02:41:17] [Server thread/WARN]: bwjr2 moved too quickly! 232.3999520681084,30.681265793351926,-437.7319330489845
+[03:50:08] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:phome SirRabbit_.BirchHarbor
+[03:50:08] [Server thread/WARN]: bwjr2 moved too quickly! 916.4006799335959,-41.0,1325.1114253718783
+[03:50:12] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:phome SoapieTomato.harbor
+[03:50:19] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:phome Azuresty.pale
+[03:50:19] [Server thread/WARN]: bwjr2 moved too quickly! 5884.03387329053,43.0625,-1520.1943735925825
+[03:50:24] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:phome SoapieTomato.mangrove
+[03:50:26] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:phome SoapieTomato.maiden
+[03:50:27] [Server thread/WARN]: bwjr2 moved too quickly! -3333.024769115482,0.0,3901.6733990306275
+[03:50:28] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:phome SoapieTomato.harbor
+[03:50:29] [Server thread/WARN]: bwjr2 moved too quickly! 63.227781120774125,-2.0625,170.3674251244654
+[03:50:29] [Server thread/WARN]: bwjr2 moved too quickly! 63.227781120774125,-2.0625,170.3674251244654
+[03:51:21] [Server thread/WARN]: bwjr2 moved too quickly! 30.6382797189101,17.411222415374496,43.31655942313057
+[03:51:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2875ms or 57 ticks behind
+[03:53:41] [Server thread/INFO]: bwjr2 issued server command: /home Lighthouse
+[03:53:48] [Server thread/INFO]: bwjr2 issued server command: /sethome Lighthouse
+[03:53:54] [Server thread/INFO]: bwjr2 issued server command: /phome Aden
+[03:53:55] [Server thread/WARN]: bwjr2 moved too quickly! 104.8481978492041,38.9375,332.042685049955
+[03:55:42] [Server thread/INFO]: bwjr2 issued server command: /home Lighthouse
+[03:55:42] [Server thread/WARN]: bwjr2 moved too quickly! 279.41836954933865,-122.11098590963806,-321.51765996617553
+[04:02:24] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[04:02:24] [Server thread/INFO]: bwjr2 left the game
+[06:53:25] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:08:26] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:18:26] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:22:26] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:23:27] [Server thread/INFO]: Stopping the server
+[07:23:27] [Server thread/INFO]: Stopping server
+[07:23:27] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:23:27] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:23:27] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:23:27] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:23:27] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:23:27] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:23:27] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:23:27] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:23:27] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:23:27] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:23:27] [Server thread/INFO]: [NameColor] Disabled.
+[07:23:27] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:23:27] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:23:27] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:23:28] [Server thread/INFO]: [dynmap] Disabled
+[07:23:28] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:23:28] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:23:28] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:23:28] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:23:28] [Server thread/INFO]: Saving players
+[07:23:28] [Server thread/INFO]: Saving worlds
+[07:23:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:23:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:23:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:23:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Saved 14 block chunks, 455 entity chunks, 0 poi chunks in world 'soapSMP' in 0.33s
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:23:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.02s
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:23:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.02s
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:23:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:23:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:23:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:23:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:23:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:23:29] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:23:29] [Server thread/INFO]: All I/O tasks to complete
+[07:23:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:23:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

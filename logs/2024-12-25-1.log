@@ -1,0 +1,101 @@
+[00:00:05] [Server thread/INFO]: SirRabbit_ issued server command: /back
+[00:00:13] [Server thread/INFO]: SirRabbit_ issued server command: /trigger home set 4
+[00:00:13] [Server thread/INFO]: [SirRabbit_: Triggered [Home] (set value to 4)]
+[00:02:58] [Server thread/INFO]: SirRabbit_ issued server command: /trigger home set 4
+[00:02:58] [Server thread/INFO]: [SirRabbit_: Triggered [Home] (set value to 4)]
+[00:03:11] [Server thread/INFO]: bwjr issued server command: /time set day
+[00:03:11] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[00:07:53] [Server thread/INFO]: SirRabbit_ issued server command: /trigger tpa set 4
+[00:07:53] [Server thread/INFO]: [SirRabbit_: Triggered [tpa] (set value to 4)]
+[00:07:55] [Server thread/INFO]: bwjr issued server command: /trigger tpaccept
+[00:07:55] [Server thread/INFO]: [bwjr: Triggered [tpaccept]]
+[00:12:50] [Server thread/INFO]: bwjr issued server command: /time set day
+[00:12:50] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[00:13:52] [Server thread/INFO]: bwjr issued server command: /back
+[00:13:57] [Server thread/INFO]: bwjr issued server command: /home
+[00:14:00] [Server thread/INFO]: bwjr issued server command: /home 1
+[00:14:00] [Server thread/WARN]: bwjr moved too quickly! -532.0904231812827,121.0,1257.838148650047
+[00:22:50] [Server thread/INFO]: SirRabbit_ issued server command: /home
+[00:22:53] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:edithome SirRabbit_.BirchHarbor
+[00:22:54] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:home SirRabbit_.BirchHarbor
+[00:22:54] [Server thread/WARN]: SirRabbit_ moved too quickly! -1.775587630720679,-30.618136263519744,2705.4400779504404
+[00:43:11] [Server thread/INFO]: bwjr issued server command: /time set day
+[00:43:11] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[00:44:56] [Server thread/INFO]: SirRabbit_ issued server command: /trigger tpa set 4
+[00:44:56] [Server thread/INFO]: [SirRabbit_: Triggered [tpa] (set value to 4)]
+[00:44:59] [Server thread/INFO]: bwjr issued server command: /trigger tpaccept
+[00:44:59] [Server thread/INFO]: [bwjr: Triggered [tpaccept]]
+[00:45:45] [Server thread/INFO]: bwjr issued server command: /spawn
+[00:55:39] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr u okay?
+[01:05:51] [Server thread/INFO]: SirRabbit_ issued server command: /home BirchHarbor
+[01:07:14] [Server thread/INFO]: SirRabbit_ issued server command: /back
+[01:13:19] [Server thread/INFO]: bwjr issued server command: /time set day
+[01:13:19] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[01:21:03] [Server thread/INFO]: SirRabbit_ issued server command: /weather rain
+[01:21:03] [Server thread/INFO]: [SirRabbit_: Set the weather to rain]
+[01:23:35] [Server thread/INFO]: bwjr issued server command: /time set day
+[01:23:35] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[01:23:38] [Server thread/INFO]: bwjr issued server command: /weather clear
+[01:23:38] [Server thread/INFO]: [bwjr: Set the weather to clear]
+[01:34:03] [Server thread/INFO]: bwjr issued server command: /time set day
+[01:34:03] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[01:40:28] [Server thread/INFO]: SirRabbit_ lost connection: Disconnected
+[01:40:28] [Server thread/INFO]: SirRabbit_ left the game
+[03:18:52] [Server thread/INFO]: bwjr lost connection: Disconnected
+[03:18:52] [Server thread/INFO]: bwjr left the game
+[06:52:17] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:07:17] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:17:19] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:21:21] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:22:21] [Server thread/INFO]: Stopping the server
+[07:22:21] [Server thread/INFO]: Stopping server
+[07:22:21] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:22:21] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:22:21] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:22:21] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:22:21] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:22:21] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:22:21] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:22:21] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:22:21] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:22:21] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:22:21] [Server thread/INFO]: [NameColor] Disabled.
+[07:22:21] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:22:21] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:22:21] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:22:22] [Server thread/INFO]: [dynmap] Disabled
+[07:22:22] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:22:22] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:22:23] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:22:23] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:22:23] [Server thread/INFO]: Saving players
+[07:22:23] [Server thread/INFO]: Saving worlds
+[07:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 453 entity chunks, 0 poi chunks in world 'soapSMP' in 0.29s
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:22:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:22:23] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:22:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:22:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:22:23] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:22:23] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:22:23] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:22:23] [Server thread/INFO]: All I/O tasks to complete
+[07:22:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:22:23] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

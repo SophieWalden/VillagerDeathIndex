@@ -1,0 +1,1112 @@
+[07:22:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 5.15.0-75-generic (amd64)
+[07:22:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-14-master@b746d9d (2024-12-11T21:22:39Z) for Minecraft 1.21.4
+[07:22:27] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:22:27] [ServerMain/WARN]: [org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper] Failed to get hostname, using 'localhost'
+java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1936) ~[?:?]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.getHostname(DiscriminatingNameMapper.java:90) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.<init>(DiscriminatingNameMapper.java:69) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NameMappers.discriminatingNameMapper(NameMappers.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.getManuallyCreatedNameMappers(NamedLockFactoryAdapterFactoryImpl.java:78) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.<init>(NamedLockFactoryAdapterFactoryImpl.java:107) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:159) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.DefaultSyncContextFactory.initService(DefaultSyncContextFactory.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultMetadataResolver.initService(DefaultMetadataResolver.java:123) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.apache.maven.repository.internal.DefaultVersionResolver.initService(DefaultVersionResolver.java:106) ~[maven-resolver-provider-3.9.6.jar:3.9.6]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.initService(DefaultRepositorySystem.java:158) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.bukkit.plugin.java.LibraryLoader.<init>(LibraryLoader.java:60) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.<clinit>(SpigotPluginProvider.java:38) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.<clinit>(PluginFileType.java:40) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:77) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1931) ~[?:?]
+	... 45 more
+[07:22:28] [ServerMain/WARN]: [org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper] Failed to get hostname, using 'localhost'
+java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1936) ~[?:?]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.getHostname(DiscriminatingNameMapper.java:90) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.<init>(DiscriminatingNameMapper.java:69) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NameMappers.discriminatingNameMapper(NameMappers.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.getManuallyCreatedNameMappers(NamedLockFactoryAdapterFactoryImpl.java:78) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.<init>(NamedLockFactoryAdapterFactoryImpl.java:107) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:159) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.DefaultSyncContextFactory.initService(DefaultSyncContextFactory.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultMetadataResolver.initService(DefaultMetadataResolver.java:123) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.apache.maven.repository.internal.DefaultVersionResolver.initService(DefaultVersionResolver.java:106) ~[maven-resolver-provider-3.9.6.jar:3.9.6]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.initService(DefaultRepositorySystem.java:158) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver.<init>(MavenLibraryResolver.java:73) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.PaperHuskHomesLoader.classloader(PaperHuskHomesLoader.java:44) ~[HuskHomes-Paper-4.8.3.jar:?]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:38) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:23) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.register(PluginFileType.java:72) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1931) ~[?:?]
+	... 47 more
+[07:22:29] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[07:22:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[07:22:29] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - HuskHomes (4.8.3)
+[07:22:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - ArmorPoser (1.1.0), BisectHosting (1.0.4), LuckPerms (5.4.150), NameColor (1.9), dynmap (3.7-beta-7-Dev), mcMMO (2.2.029-SNAPSHOT)
+[07:22:34] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:22:34] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[07:22:35] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 450.0ms
+[07:22:35] [ServerMain/INFO]: Found non-pack entry './soapSMP/datapacks/.DS_Store', ignoring
+[07:22:35] [ServerMain/ERROR]: Invalid directory entry: .DS_Store in ./soapSMP/datapacks/BlazeandCaves Advancements Pack 1.18.
+java.nio.file.NotDirectoryException: .DS_Store
+	at net.minecraft.server.packs.PathPackResources.getNamespaces(PathPackResources.java:108) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.lambda$new$0(MultiPackResourceManager.java:27) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:273) ~[?:?]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.<init>(MultiPackResourceManager.java:27) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:274) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:993) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:988) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:273) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:22:35] [ServerMain/ERROR]: Invalid directory entry: .DS_Store in ./soapSMP/datapacks/BlazeandCaves Advancements Pack 1.18.
+java.nio.file.NotDirectoryException: .DS_Store
+	at net.minecraft.server.packs.PathPackResources.getNamespaces(PathPackResources.java:108) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.<init>(MultiPackResourceManager.java:31) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:274) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:993) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:988) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:273) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:22:35] [ServerMain/ERROR]: Invalid path in pack: blazeandcave:tags/entity_type/overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S)_zombies.json, ignoring
+[07:22:37] [Worker-Main-1/ERROR]: Invalid path in pack: blazeandcave:predicate/in_the_overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S).json, ignoring
+[07:22:37] [Worker-Main-1/ERROR]: Invalid path in pack: blazeandcave:predicate/at_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:37] [Worker-Main-1/ERROR]: Invalid path in pack: multiplayer_sleep:predicate/overSoapie SMP (Main World)-2.json, ignoring
+[07:22:37] [Worker-Main-3/ERROR]: Couldn't parse data file 'minecraft:entities/creeper' from 'minecraft:loot_table/entities/creeper.json': DataResult.Error['Failed to parse either. First: Failed to get element infinite_music_discs:dontplaymustnotplay; Second: Cannot parse as key without registry; Not a JSON object: 6 missed input: {"minecraft:custom_model_data":6,"minecraft:jukebox_playable":{"song":"infinite_music_discs:dontplaymustnotplay"}}; Failed to parse either. First: Failed to get element infinite_music_discs:heavenandhell; Second: Cannot parse as key without registry; Not a JSON object: 5 missed input: {"minecraft:custom_model_data":5,"minecraft:jukebox_playable":{"song":"infinite_music_discs:heavenandhell"}}; Failed to parse either. First: Failed to get element infinite_music_discs:onedaymore; Second: Cannot parse as key without registry; Not a JSON object: 4 missed input: {"minecraft:custom_model_data":4,"minecraft:jukebox_playable":{"song":"infinite_music_discs:onedaymore"}}; Failed to parse either. First: Failed to get element infinite_music_discs:pianoman; Second: Cannot parse as key without registry; Not a JSON object: 3 missed input: {"minecraft:custom_model_data":3,"minecraft:jukebox_playable":{"song":"infinite_music_discs:pianoman"}}; Failed to parse either. First: Failed to get element infinite_music_discs:pitterpatter; Second: Cannot parse as key without registry; Not a JSON object: 2 missed input: {"minecraft:custom_model_data":2,"minecraft:jukebox_playable":{"song":"infinite_music_discs:pitterpatter"}}; Failed to parse either. First: Failed to get element infinite_music_discs:redstoneeleavtor; Second: Cannot parse as key without registry; Not a JSON object: 1 missed input: {"minecraft:custom_model_data":1,"minecraft:jukebox_playable":{"song":"infinite_music_discs:redstoneeleavtor"}}': net.minecraft.world.level.storage.loot.LootTable@6e130b60]
+[07:22:37] [Worker-Main-3/ERROR]: Couldn't parse data file 'armor_statues:random_pose' from 'armor_statues:loot_table/random_pose.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage': net.minecraft.world.level.storage.loot.LootTable@1e51f22b]
+[07:22:37] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called more_mob_heads:entities/villager
+[07:22:37] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: blazeandcave:function/new_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/.DS_Store, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:37] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/nether/ride_strider_in_overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S)_lava.json, ignoring
+[07:22:37] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/adventure/trade_at_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:37] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/adventure/fall_from_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:37] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.json, ignoring
+[07:22:37] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.json, ignoring
+[07:22:37] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).json, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/trophy/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/trophy/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:37] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:37] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:adventure/do_you_want_to_trade' from 'blazeandcave:advancement/adventure/do_you_want_to_trade.json': DataResult.Error['Missing tag: 'blazeandcave:village' in 'minecraft:worldgen/structure' missed input: {"village":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"#blazeandcave:village"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}}}': Advancement[parent=Optional[minecraft:adventure/root], display=Optional[net.minecraft.advancements.DisplayInfo@303b9ce9], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@7efb8cca]], criteria={village=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@71e55842]]]}, requirements=[[village]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Do You Want to Trade?', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Do You Want to Trade?', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Find an NPC village', args=[]}[style={color=green}]]]]}]]}[style={color=green}]]]]
+[07:22:37] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:adventure/oh_look_it_dings' from 'blazeandcave:advancement/adventure/oh_look_it_dings.json': DataResult.Error['Missing tag: 'blazeandcave:village' in 'minecraft:worldgen/structure' missed input: {"bell":{"trigger":"minecraft:any_block_use","conditions":{"location":[{"condition":"minecraft:location_check","predicate":{"block":{"blocks":["minecraft:bell"]},"structures":"#blazeandcave:village"}}]}}}': Advancement[parent=Optional[blazeandcave:adventure/do_you_want_to_trade], display=Optional[net.minecraft.advancements.DisplayInfo@40920de3], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@7e89837f]], criteria={bell=Criterion[trigger=net.minecraft.advancements.critereon.AnyBlockInteractionTrigger@503b7690, triggerInstance=TriggerInstance[player=Optional.empty, location=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@2e3e5ec3]]]}, requirements=[[bell]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Oh, look, it dings!', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Oh, look, it dings!', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Ring a bell in a village', args=[]}[style={color=green}]]]]}]]}[style={color=green}]]]]
+[07:22:38] [Worker-Main-8/ERROR]: Couldn't parse data file 'vanillatweaks:armored_elytra' from 'vanillatweaks:advancement/armored_elytra.json': DataResult.Error['Not a JSON object: 13522556 missed input: {"minecraft:custom_model_data":13522556}': Advancement[parent=Optional[vanillatweaks:root], display=Optional[net.minecraft.advancements.DisplayInfo@2fcae87f], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional.empty], criteria={tick=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@867d6e3, triggerInstance=TriggerInstance[player=Optional.empty]]}, requirements=[[tick]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[literal{Armored Elytra            }[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=literal{Armored Elytra            }[style={color=green}, siblings=[literal{
+}, empty[siblings=[literal{Drop}[style={color=green}], literal{ elytra and a chestplate above an anvil to merge them into one item.
+}[style={color=gold}], literal{Drop}[style={color=green}], literal{ the merged item above a grindstone to separate them again.
+}[style={color=gold}], literal{Enchantments}[style={color=green}], literal{ are kept safely between merging and separating.
+}[style={color=gold}], literal{Burning}[style={color=green}], literal{ netherite armored elytra will keep the chestplate but burn off the elytra.}[style={color=gold}]]]]]]}]]}[style={color=green}]]]]
+[07:22:38] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:end/void_walker' from 'blazeandcave:advancement/end/void_walker.json': DataResult.Error['Missing tag: 'blazeandcave:end_barrens' in 'minecraft:worldgen/biome'; Missing tag: 'blazeandcave:end_midlands' in 'minecraft:worldgen/biome' missed input: {"end_midlands":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_midlands"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}},"end_barrens":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_barrens"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}}}': Advancement[parent=Optional[minecraft:end/enter_end_gateway], display=Optional[net.minecraft.advancements.DisplayInfo@248ae22e], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@445c4019]], criteria={end_highlands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@d564f97]]], end_midlands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@8c0ee3b]]], small_end_islands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@7ba8f69f]]], the_end=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@5dd22d7b]]], end_barrens=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@6247fba1]]]}, requirements=[[the_end], [small_end_islands], [end_highlands], [end_midlands], [end_barrens]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Void Walker', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Void Walker', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Explore every end biome', args=[]}[style={color=#75E1FF}]]]]}]]}[style={color=green}]]]]
+[07:22:40] [ServerMain/INFO]: Loaded 1609 recipes
+[07:22:40] [ServerMain/ERROR]: Failed to load function armor_statues:trigger/random_pose
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / armor_statues:random_pose] at position 116: ...andom_pose<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / armor_statues:random_pose] at position 116: ...andom_pose<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:40] [ServerMain/ERROR]: Failed to load function blazeandcave:one_second_timer
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 239: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / blazeandcave:third_line] at position 54: ...third_line<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 239: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / blazeandcave:third_line] at position 54: ...third_line<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:40] [ServerMain/ERROR]: Failed to load function multiplayer_sleep:start_sleeping
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / multiplayer_sleep:overworld] at position 48: ...:overworld<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / multiplayer_sleep:overworld] at position 48: ...:overworld<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:40] [ServerMain/ERROR]: Couldn't load advancements: [blazeandcave:adventure/retro_future_knight, minecraft:adventure/minecraft_trials_edition, blazeandcave:adventure/break_wind, blazeandcave:technical/branch2_end, blazeandcave:adventure/keys_to_success, blazeandcave:adventure/heres_johnny, blazeandcave:adventure/businessman, blazeandcave:adventure/workaholic, blazeandcave:adventure/your_daily_fix, blazeandcave:adventure/crazy_cat_lady, blazeandcave:adventure/core_keeper, blazeandcave:adventure/treasure_map, blazeandcave:adventure/filthy_stinkin_rich, blazeandcave:adventure/house_of_psychos, blazeandcave:end/dimension_penetration, minecraft:adventure/under_lock_and_key, minecraft:adventure/revaulting, blazeandcave:adventure/traveller, blazeandcave:adventure/guardian_destroyer, blazeandcave:adventure/the_tribal_villagers, minecraft:adventure/summon_iron_golem, blazeandcave:adventure/from_under_your_feet, blazeandcave:adventure/filthy_rich, blazeandcave:challenges/a_million_blocks_away, blazeandcave:adventure/all_chained_up, blazeandcave:adventure/knowledge_is_power, minecraft:adventure/totem_of_undying, minecraft:adventure/trade_at_world_height, blazeandcave:challenges/overwarden, minecraft:adventure/trade, blazeandcave:end/unending_hell, blazeandcave:adventure/ghostbuster, blazeandcave:adventure/monumental, blazeandcave:challenges/the_devils_distance, minecraft:adventure/blowback, minecraft:husbandry/complete_catalogue, blazeandcave:adventure/tricky_treasures, blazeandcave:adventure/rekt, blazeandcave:adventure/mapmaker, blazeandcave:adventure/omniscient, blazeandcave:adventure/rare_candy_shop, blazeandcave:adventure/breeze_suppressor, blazeandcave:adventure/hard_mode_activated, blazeandcave:adventure/nerds_never_die, blazeandcave:adventure/mapmakers_table, blazeandcave:technical/branch5_end, blazeandcave:adventure/village_settler, blazeandcave:adventure/master_trader, blazeandcave:adventure/wololo, blazeandcave:adventure/prime_specimen, blazeandcave:adventure/spear_fishing, blazeandcave:adventure/town_planner, blazeandcave:adventure/if_only_cats_grew_into_kittens, blazeandcave:adventure/sponge_miner, blazeandcave:challenges/immortal, blazeandcave:adventure/hey_you_two_should_kiss, blazeandcave:adventure/the_shielding, blazeandcave:challenges/farlander, blazeandcave:adventure/im_not_lost_anymore, blazeandcave:adventure/dry_spell, blazeandcave:adventure/murderer, blazeandcave:adventure/the_deep_end, blazeandcave:adventure/professional, blazeandcave:adventure/vault_hunter, blazeandcave:adventure/laser_sharks, blazeandcave:adventure/lilypad_hatter, blazeandcave:challenges/death_from_all, blazeandcave:adventure/you_are_the_pillager, blazeandcave:adventure/this_will_be_a_breeze, blazeandcave:adventure/map_room, minecraft:adventure/who_needs_rockets]
+[07:22:40] [ServerMain/INFO]: Loaded 2760 advancements
+[07:22:40] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[07:22:40] [Server thread/INFO]: Loading properties
+[07:22:40] [Server thread/INFO]: This server is running Paper version 1.21.4-14-master@b746d9d (2024-12-11T21:22:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[07:22:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:22:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:22:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:22:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[07:22:41] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:22:42] [Server thread/INFO]: Default game type: SURVIVAL
+[07:22:42] [Server thread/INFO]: Generating keypair
+[07:22:42] [Server thread/INFO]: Starting Minecraft server on 173.240.148.216:27000
+[07:22:42] [Server thread/INFO]: Using epoll channel type
+[07:22:42] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:22:42] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:22:42] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
+[07:22:42] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-beta-7-Dev
+[07:22:42] [Server thread/INFO]: [dynmap] version=1.21.4-14-b746d9d (MC: 1.21.4)
+[07:22:43] [Server thread/INFO]: [dynmap] Mod Support API available
+[07:22:43] [Server thread/INFO]: [NameColor] Loading server plugin NameColor v1.9
+[07:22:43] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.029-SNAPSHOT
+[07:22:43] [Server thread/INFO]: [BisectHosting] Loading server plugin BisectHosting v1.0.4
+[07:22:43] [Server thread/INFO]: [ArmorPoser] Loading server plugin ArmorPoser v1.1.0
+[07:22:43] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
+[07:22:43] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[07:22:43] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
+[07:22:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:22:43] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[07:22:43] [Server thread/INFO]:         __    
+[07:22:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
+[07:22:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:22:43] [Server thread/INFO]: 
+[07:22:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:22:44] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:22:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:22:44] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:22:44] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1601ms)
+[07:22:44] [Server thread/INFO]: Preparing level "soapSMP"
+[07:22:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:22:46] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:46] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:46] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:47] [Server thread/INFO]: Time elapsed: 1356 ms
+[07:22:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:22:47] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:47] [Server thread/INFO]: Time elapsed: 399 ms
+[07:22:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:22:47] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:47] [Server thread/INFO]: Time elapsed: 38 ms
+[07:22:47] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-7-Dev
+[07:22:48] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
+[07:22:48] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.150 for access control
+[07:22:48] [Server thread/INFO]: [dynmap] Extracted files upgraded
+[07:22:48] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[07:22:52] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[07:22:52] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[07:22:52] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[07:22:52] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[07:22:52] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[07:22:52] [Server thread/INFO]: [dynmap] Web server started on address 173.240.148.216:8123
+[07:22:52] [Server thread/INFO]: [dynmap] version 3.7-beta-7-Dev is enabled - core version 3.7-beta-7-Dev
+[07:22:52] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[07:22:52] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[07:22:52] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[07:22:52] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[07:22:52] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'soapSMP'.
+[07:22:53] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'soapSMP_nether'.
+[07:22:53] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'soapSMP_the_end'.
+[07:22:53] [Server thread/INFO]: [dynmap] Enabled
+[07:22:53] [Server thread/INFO]: [NameColor] Enabling NameColor v1.9
+[07:22:53] [Server thread/INFO]: [NameColor] Essentials plugin not found, using Server mode
+[07:22:53] [Server thread/INFO]: [NameColor] Configuration found.
+[07:22:53] [Server thread/INFO]: [NameColor] NameColor version 1.9 enabled.
+[07:22:53] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.029-SNAPSHOT
+[07:22:54] [Server thread/INFO]: [mcMMO] Loaded 220 Alchemy potions, skipped 0.
+[07:22:55] [Server thread/INFO]: [BisectHosting] Enabling BisectHosting v1.0.4
+[07:22:55] [Server thread/INFO]: [ArmorPoser] Enabling ArmorPoser v1.1.0
+[07:22:55] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
+[07:22:55] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[07:22:55] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
+[07:22:56] [Server thread/INFO]: [spark] Starting background profiler...
+[07:22:56] [Server thread/INFO]: Done preparing level "soapSMP" (11.469s)
+[07:22:56] [Server thread/INFO]: Running delayed init tasks
+[07:22:56] [Server thread/INFO]: Done (30.761s)! For help, type "help"
+[07:23:01] [Craft Scheduler Thread - 3 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[07:24:29] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[07:24:29] [Dynmap Render Thread/WARN]: [dynmap] Resource assets/minecraft/textures/all.png for mod minecraft not found
+[10:03:50] [User Authenticator #0/INFO]: UUID of player Azuresty is 51643251-0baf-455d-a7be-482a8a2d6913
+[10:03:52] [Server thread/INFO]: Azuresty joined the game
+[10:03:52] [Server thread/INFO]: Azuresty[/38.21.219.232:49294] logged in with entity id 999 at ([soapSMP]-1825.171678085269, 69.9375, -638.707993635514)
+[10:04:08] [User Authenticator #0/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[10:04:09] [Server thread/INFO]: SoapieTomato joined the game
+[10:04:09] [Server thread/INFO]: SoapieTomato[/38.21.219.232:54317] logged in with entity id 1256 at ([soapSMP]-1821.300000011921, 58.875, -837.3000000119209)
+[10:11:24] [Server thread/WARN]: SoapieTomato moved wrongly!
+[10:16:29] [Server thread/INFO]: SoapieTomato issued server command: /HOME STOrage
+[10:16:31] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[10:17:01] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 11
+[10:17:01] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 11 to value)]
+[10:17:12] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[10:20:10] [Server thread/INFO]: (mcMMO) LunaMaiden has reached a Power level of 3,000!
+[10:20:36] [Server thread/INFO]: SoapieTomato issued server command: /home luna]
+[10:20:38] [Server thread/INFO]: SoapieTomato issued server command: /home luna
+[10:21:05] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[10:21:25] [Server thread/INFO]: SoapieTomato issued server command: /bacxk
+[10:21:31] [Server thread/INFO]: SoapieTomato issued server command: /back
+[10:21:31] [Server thread/WARN]: SoapieTomato moved too quickly! -1248.5262152057346,13.0,-1035.2972256285375
+[10:22:25] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[10:22:26] [Server thread/WARN]: SoapieTomato moved too quickly! -58.68763621079688,-25.0,-232.56849267005634
+[10:23:28] [Server thread/INFO]: SoapieTomato issued server command: /back
+[10:23:28] [Server thread/WARN]: SoapieTomato moved too quickly! 59.318316186738684,25.0,222.89841390977642
+[10:30:23] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[10:30:23] [Server thread/WARN]: SoapieTomato moved too quickly! -71.50803294620368,-47.0,-217.58445680780073
+[10:30:30] [Server thread/INFO]: SoapieTomato issued server command: /back
+[10:30:30] [Server thread/WARN]: SoapieTomato moved too quickly! 70.62851587429532,47.0,207.73366930110956
+[10:35:55] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[10:36:02] [Server thread/INFO]: SoapieTomato issued server command: /back
+[10:40:18] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[10:40:41] [Server thread/INFO]: SoapieTomato issued server command: /back
+[10:44:26] [Server thread/INFO]: Azuresty issued server command: /phome
+[10:44:30] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[10:53:07] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[10:53:07] [Server thread/WARN]: SoapieTomato moved too quickly! -42.229860316871736,-13.9375,-183.42999253451717
+[10:54:01] [Server thread/INFO]: SoapieTomato issued server command: /home luna
+[10:54:01] [Server thread/WARN]: SoapieTomato moved too quickly! -13.240076600493921,102.0,298.62760633398386
+[11:05:22] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:05:44] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:06:26] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[11:06:26] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[11:06:39] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[11:06:39] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[11:07:28] [Server thread/INFO]: Azuresty lost connection: Disconnected
+[11:07:28] [Server thread/INFO]: Azuresty left the game
+[11:13:01] [User Authenticator #1/INFO]: UUID of player Azuresty is 51643251-0baf-455d-a7be-482a8a2d6913
+[11:13:01] [Server thread/INFO]: Azuresty joined the game
+[11:13:02] [Server thread/INFO]: Azuresty[/38.21.219.232:56951] logged in with entity id 16124 at ([soapSMP]-1823.9352266286235, 70.0, -633.5755917352419)
+[11:13:30] [Server thread/INFO]: SoapieTomato issued server command: /home nether
+[11:13:34] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[11:15:53] [Async Chat Thread - #3/INFO]: <LunaMaiden> 350 -90
+[11:17:57] [Async Chat Thread - #4/INFO]: <LunaMaiden> -150 -> -500
+[11:18:13] [Async Chat Thread - #4/INFO]: <LunaMaiden> -389 -> 286
+[11:19:17] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[11:19:23] [Async Chat Thread - #6/INFO]: <LunaMaiden> -1909
+[11:19:25] [Async Chat Thread - #6/INFO]: <LunaMaiden> -867
+[11:21:04] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[11:21:22] [Server thread/INFO]: SoapieTomato issued server command: /bakc
+[11:21:24] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:21:27] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[11:21:27] [Server thread/INFO]: SoapieTomato left the game
+[11:22:26] [Async Chat Thread - #8/INFO]: <Aze> 2500,-660
+[11:22:39] [User Authenticator #2/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[11:22:39] [Server thread/INFO]: SoapieTomato joined the game
+[11:22:39] [Server thread/INFO]: SoapieTomato[/38.21.219.232:60685] logged in with entity id 21796 at ([soapSMP_nether]-357.46049760771456, 128.0, -180.3818983331578)
+[11:23:03] [Server thread/INFO]: Azuresty issued server command: /phome
+[11:23:11] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[11:23:26] [Server thread/INFO]: SoapieTomato issued server command: /sethome froglight
+[11:24:13] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:24:35] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:25:12] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 14
+[11:25:12] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 14 to value)]
+[11:25:23] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:25:23] [Server thread/WARN]: SoapieTomato moved too quickly! -32.09685051344172,-16.0,-177.4447937571324
+[11:25:32] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[11:25:32] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[11:27:23] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:27:38] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.harbor
+[11:27:44] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[11:28:08] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SirRabbit_.BirchHarbor
+[11:28:09] [Server thread/WARN]: Azuresty moved too quickly! 1308.919833923794,-7.9375,1152.1345063582394
+[11:28:28] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:28:28] [Server thread/WARN]: SoapieTomato moved too quickly! 35.971617314373134,-10.0,49.22315098164904
+[11:29:21] [Async Chat Thread - #10/INFO]: <Aze> 312,-82
+[11:30:27] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[11:30:29] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[11:31:20] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:31:20] [Server thread/WARN]: SoapieTomato moved too quickly! 34.16845540524332,-9.0,45.17000748932469
+[11:32:10] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[11:33:59] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:36:02] [Server thread/INFO]: Named entity Slime['Slime'/30532, uuid='8933af92-135f-4551-a344-dcf8e125091e', l='ServerLevel[soapSMP]', x=2461.55, y=63.54, z=-778.94, cpos=[153, -49], tl=1866, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:04] [Server thread/INFO]: Named entity Slime['Slime'/31333, uuid='f8e6ba75-27b2-49a5-8686-09f2c378bee0', l='ServerLevel[soapSMP]', x=2461.75, y=62.44, z=-778.37, cpos=[153, -49], tl=18, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:04] [Server thread/INFO]: Named entity Slime['Slime'/31332, uuid='1b1b1270-206f-4aac-8374-924e9b163b62', l='ServerLevel[soapSMP]', x=2460.56, y=62.21, z=-779.10, cpos=[153, -49], tl=34, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:07] [Server thread/INFO]: Named entity Slime['Slime'/31354, uuid='8ee9627b-6c9d-4bec-aeda-4d1b5353ceea', l='ServerLevel[soapSMP]', x=2459.88, y=63.00, z=-780.23, cpos=[153, -49], tl=41, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:08] [Server thread/INFO]: Named entity Slime['Slime'/31334, uuid='2f3a1fb9-a2cf-40c6-8011-7ebcee57a8c6', l='ServerLevel[soapSMP]', x=2460.30, y=64.18, z=-779.75, cpos=[153, -49], tl=112, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:09] [Server thread/INFO]: Named entity Slime['Slime'/31355, uuid='14cd3cd0-f4d6-40f5-a063-9ea7295dea8c', l='ServerLevel[soapSMP]', x=2459.61, y=62.41, z=-779.74, cpos=[153, -49], tl=70, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:09] [Server thread/INFO]: Named entity Slime['Slime'/31357, uuid='50db62d7-f358-4182-a943-551582ff2bf2', l='ServerLevel[soapSMP]', x=2460.13, y=62.79, z=-779.17, cpos=[153, -49], tl=81, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:10] [Server thread/INFO]: Named entity Slime['Slime'/31348, uuid='7d632ccc-1d0a-4983-b261-124a49c2d36b', l='ServerLevel[soapSMP]', x=2460.50, y=63.06, z=-779.53, cpos=[153, -49], tl=110, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:11] [Server thread/INFO]: Named entity Slime['Slime'/31382, uuid='68ae084a-4ba0-4bfa-a3fb-774373b8ded5', l='ServerLevel[soapSMP]', x=2462.26, y=62.40, z=-779.12, cpos=[153, -49], tl=30, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:12] [Server thread/INFO]: Named entity Slime['Slime'/31383, uuid='e0e0f74e-55a7-4137-8874-8d0a47d6ef3c', l='ServerLevel[soapSMP]', x=2462.30, y=62.10, z=-779.64, cpos=[153, -49], tl=47, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:12] [Server thread/INFO]: Named entity Slime['Slime'/31384, uuid='119bd794-c5ca-486c-9df1-cce305badd66', l='ServerLevel[soapSMP]', x=2461.75, y=62.69, z=-778.99, cpos=[153, -49], tl=57, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:14] [Server thread/INFO]: Named entity Slime['Slime'/31385, uuid='f8a107ad-b9ba-4409-988c-9febbfbf2b99', l='ServerLevel[soapSMP]', x=2462.42, y=62.84, z=-778.31, cpos=[153, -49], tl=92, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:14] [Server thread/INFO]: Named entity Slime['Slime'/31349, uuid='c35b385d-9d29-4716-b258-6b00cfcf285e', l='ServerLevel[soapSMP]', x=2461.79, y=62.40, z=-778.61, cpos=[153, -49], tl=195, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:15] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[11:36:15] [Server thread/INFO]: Named entity Slime['Slime'/31350, uuid='e2df9c8d-971d-46ef-8fad-2d6d86113760', l='ServerLevel[soapSMP]', x=2461.69, y=62.03, z=-779.46, cpos=[153, -49], tl=204, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:36:15] [Server thread/WARN]: SoapieTomato moved too quickly! -9.69182616685589,110.0,7.28584634152935
+[11:36:15] [Server thread/INFO]: Named entity Slime['Slime'/31356, uuid='92836ec3-71e2-4cd0-987b-dcbd36122e1e', l='ServerLevel[soapSMP]', x=2461.36, y=62.92, z=-779.06, cpos=[153, -49], tl=196, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:37:21] [Server thread/INFO]: SoapieTomato issued server command: /home frogot
+[11:37:26] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[11:38:25] [Server thread/INFO]: SoapieTomato issued server command: /home spider
+[11:38:27] [Server thread/INFO]: Named entity Zombie['Zombie'/31483, uuid='35ee524d-4be4-4c52-a645-9c2c06b5ee03', l='ServerLevel[soapSMP]', x=2525.24, y=66.00, z=-700.49, cpos=[157, -44], tl=2420, v=true] died: Zombie was shot by Skeleton
+[11:38:58] [Server thread/INFO]: SoapieTomato issued server command: /tpa Azuresty
+[11:39:04] [Server thread/INFO]: Azuresty issued server command: /huskhomes:tpaccept SoapieTomato
+[11:39:12] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[11:40:21] [Server thread/INFO]: Named entity Slime['Slime'/32201, uuid='62b53d8b-3605-4468-a39f-11a5246487e4', l='ServerLevel[soapSMP]', x=2484.06, y=62.73, z=-663.71, cpos=[155, -42], tl=2154, v=true] died: Slime was slain by Azuresty using [✦✧ SMITER ✧✦]
+[11:41:07] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:42:30] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:42:52] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[11:43:06] [Async Chat Thread - #12/INFO]: <LunaMaiden> -246
+[11:43:07] [Async Chat Thread - #12/INFO]: <LunaMaiden> -107
+[11:44:00] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[11:44:00] [Server thread/WARN]: SoapieTomato moved too quickly! -243.3860225324614,0.0,-115.302899686929
+[11:45:46] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:45:55] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:47:31] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[11:48:26] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[11:48:26] [Server thread/WARN]: SoapieTomato moved too quickly! 277.40379894483317,11.0,197.50466450255226
+[11:49:41] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:49:41] [Server thread/WARN]: SoapieTomato moved too quickly! -330.10167122943767,-7.0,-166.70155053067765
+[11:49:44] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:49:44] [Server thread/WARN]: SoapieTomato moved too quickly! 330.10167122943767,7.0,166.70155053067765
+[11:51:14] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[11:54:10] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[11:55:07] [Server thread/INFO]: SoapieTomato issued server command: /back
+[11:55:56] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[11:55:56] [Server thread/WARN]: SoapieTomato moved too quickly! 13.764330633961094,-4.0,3.077266758214023
+[11:59:29] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[12:01:46] [Server thread/INFO]: SoapieTomato issued server command: /back
+[12:04:39] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[12:04:47] [Server thread/INFO]: SoapieTomato issued server command: /back
+[12:08:28] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[12:09:50] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[12:16:09] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[12:16:23] [Server thread/WARN]: SoapieTomato moved wrongly!
+[12:17:11] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[12:17:31] [Server thread/INFO]: SoapieTomato issued server command: /back
+[12:24:15] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[12:24:34] [Server thread/INFO]: SoapieTomato issued server command: /back
+[12:26:09] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[12:26:27] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 5
+[12:26:27] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 5 to value)]
+[12:26:38] [Server thread/WARN]: SoapieTomato moved wrongly!
+[12:27:50] [Server thread/INFO]: SoapieTomato issued server command: /back
+[12:29:25] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[12:29:40] [Server thread/INFO]: SoapieTomato issued server command: /back
+[12:34:53] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 5
+[12:34:53] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 5 to value)]
+[12:35:13] [Server thread/INFO]: SoapieTomato issued server command: /home spider
+[12:39:24] [Server thread/INFO]: haashthetag (/38.21.219.232:54760) lost connection: Disconnected
+[12:39:27] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[12:39:27] [Server thread/WARN]: SoapieTomato moved too quickly! -1468.2773916104434,86.0,-1749.8894902872316
+[12:39:31] [Server thread/INFO]: haashthetag (/38.21.219.232:54765) lost connection: Disconnected
+[12:39:43] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[12:41:22] [Server thread/INFO]: SoapieTomato issued server command: /home mangrove
+[12:42:02] [User Authenticator #3/INFO]: UUID of player haashthetag is 181bd98a-7afa-41cc-922b-acc4f388ab5a
+[12:42:02] [Server thread/INFO]: haashthetag joined the game
+[12:42:02] [Server thread/INFO]: haashthetag[/38.21.219.232:54848] logged in with entity id 60443 at ([soapSMP]-1850.1684249905443, 76.5625, -755.6034212553318)
+[12:47:01] [Server thread/INFO]: SoapieTomato issued server command: /back
+[12:48:30] [Server thread/INFO]: SoapieTomato fell from a high place
+[12:48:34] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[12:49:19] [Server thread/INFO]: Named entity IronGolem['Iron Golem'/62570, uuid='24931760-8ad2-4cd6-8093-728aeeb225d9', l='ServerLevel[soapSMP_nether]', x=-492.74, y=135.00, z=-239.26, cpos=[-31, -15], tl=12052, v=true] died: Iron Golem was slain by Magma Cube
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62990, uuid='0d788c39-82c7-4070-b9f8-62bd16e0c725', l='ServerLevel[soapSMP_nether]', x=-495.06, y=132.00, z=-237.19, cpos=[-31, -15], tl=2230, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63431, uuid='4396be6b-d784-4821-ad0e-f4dc7bf3a2db', l='ServerLevel[soapSMP_nether]', x=-496.16, y=132.00, z=-235.82, cpos=[-32, -15], tl=1402, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63028, uuid='3776f03e-33c2-4f9c-93e2-784531cf26c3', l='ServerLevel[soapSMP_nether]', x=-496.23, y=132.00, z=-238.22, cpos=[-32, -15], tl=2061, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62935, uuid='c84229ad-4d70-4031-81b1-3131e9237713', l='ServerLevel[soapSMP_nether]', x=-496.17, y=132.00, z=-237.42, cpos=[-32, -15], tl=2467, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62964, uuid='b8ebd5e2-d815-45e2-a4dc-a5beb3689fc4', l='ServerLevel[soapSMP_nether]', x=-495.22, y=132.00, z=-236.45, cpos=[-31, -15], tl=2311, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63350, uuid='22478763-d164-4949-99b8-2cb158bd7af3', l='ServerLevel[soapSMP_nether]', x=-493.90, y=132.00, z=-235.89, cpos=[-31, -15], tl=1583, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63409, uuid='6bde461c-4829-441a-94d9-890c623c4cc7', l='ServerLevel[soapSMP_nether]', x=-495.49, y=132.00, z=-235.87, cpos=[-31, -15], tl=1443, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63410, uuid='c452e5eb-5315-445f-a3e1-579dc8f2c988', l='ServerLevel[soapSMP_nether]', x=-494.49, y=132.00, z=-236.03, cpos=[-31, -15], tl=1443, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63429, uuid='aa1e8be8-2ec3-4630-91f0-363c4a276846', l='ServerLevel[soapSMP_nether]', x=-494.33, y=132.00, z=-237.20, cpos=[-31, -15], tl=1402, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63358, uuid='e6ef87c6-d62c-4f7f-804b-224aa5db1850', l='ServerLevel[soapSMP_nether]', x=-493.57, y=132.00, z=-238.45, cpos=[-31, -15], tl=1547, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63513, uuid='c811fe71-6364-4ec2-8c73-159e6be9a08c', l='ServerLevel[soapSMP_nether]', x=-494.58, y=132.00, z=-236.62, cpos=[-31, -15], tl=1085, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63284, uuid='bc6708e7-239e-4af8-bf14-e113b34e13f6', l='ServerLevel[soapSMP_nether]', x=-495.00, y=132.00, z=-237.84, cpos=[-31, -15], tl=1653, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63538, uuid='80a86a86-3a53-4ab4-96cd-665c72169cdf', l='ServerLevel[soapSMP_nether]', x=-494.30, y=132.00, z=-238.62, cpos=[-31, -15], tl=959, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63539, uuid='7d6b2929-4e55-4551-8fa3-dab92c4e3ab2', l='ServerLevel[soapSMP_nether]', x=-493.98, y=132.00, z=-236.58, cpos=[-31, -15], tl=959, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63399, uuid='d25a2da1-7848-48d8-91b1-af9289bd6b61', l='ServerLevel[soapSMP_nether]', x=-494.30, y=132.00, z=-238.01, cpos=[-31, -15], tl=1464, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62969, uuid='9a3c2170-a3ac-4e7b-ab0b-629f5cea30a0', l='ServerLevel[soapSMP_nether]', x=-495.61, y=132.00, z=-238.25, cpos=[-31, -15], tl=2291, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63283, uuid='f6572388-f524-4fbb-85b4-7a80ca08b88d', l='ServerLevel[soapSMP_nether]', x=-495.60, y=132.00, z=-237.09, cpos=[-31, -15], tl=1653, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62965, uuid='1fa67fd0-7aef-4ba5-8d25-374988d44a64', l='ServerLevel[soapSMP_nether]', x=-494.95, y=132.00, z=-235.67, cpos=[-31, -15], tl=2311, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62943, uuid='e4e6b318-bf9e-4af5-85e0-075662807cd0', l='ServerLevel[soapSMP_nether]', x=-495.59, y=132.00, z=-237.71, cpos=[-31, -15], tl=2446, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62971, uuid='84d72454-4bb3-4b03-b2d2-ccc50fa582c7', l='ServerLevel[soapSMP_nether]', x=-495.93, y=132.00, z=-236.44, cpos=[-31, -15], tl=2291, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:56] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62574, uuid='de73b7c0-3ec2-4d1f-abb6-8ddcabe76371', l='ServerLevel[soapSMP_nether]', x=-495.06, y=132.00, z=-237.53, cpos=[-31, -15], tl=3662, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63349, uuid='8b7680c2-46d2-4b14-8c55-66a641d181af', l='ServerLevel[soapSMP_nether]', x=-494.98, y=132.00, z=-239.53, cpos=[-31, -15], tl=1609, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62882, uuid='4c44acaa-28b5-4448-91de-c7984bd45f3a', l='ServerLevel[soapSMP_nether]', x=-495.38, y=132.00, z=-239.34, cpos=[-31, -15], tl=2620, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63507, uuid='adb5f380-0ac4-46d7-b976-97db6eb4e6fc', l='ServerLevel[soapSMP_nether]', x=-496.74, y=132.00, z=-240.20, cpos=[-32, -16], tl=1146, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63505, uuid='7b8b433f-c041-482b-8ebc-2304ccb3d990', l='ServerLevel[soapSMP_nether]', x=-496.13, y=132.00, z=-240.67, cpos=[-32, -16], tl=1146, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62972, uuid='cd8a2660-bd64-4722-b12b-8e5621ecd58a', l='ServerLevel[soapSMP_nether]', x=-494.65, y=132.00, z=-240.05, cpos=[-31, -16], tl=2331, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62879, uuid='f6241c80-864d-454a-8c60-e19e817773ba', l='ServerLevel[soapSMP_nether]', x=-494.07, y=132.00, z=-240.65, cpos=[-31, -16], tl=2623, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63348, uuid='d7cd4346-131a-45ac-803d-54340755e33c', l='ServerLevel[soapSMP_nether]', x=-495.53, y=132.00, z=-240.60, cpos=[-31, -16], tl=1623, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63389, uuid='9e300b55-b16a-4aa1-9c86-97d666298be2', l='ServerLevel[soapSMP_nether]', x=-494.92, y=132.00, z=-240.79, cpos=[-31, -16], tl=1525, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63398, uuid='4995cd69-e1bc-4a77-938a-e17fbfdf7b8d', l='ServerLevel[soapSMP_nether]', x=-496.74, y=132.00, z=-239.42, cpos=[-32, -15], tl=1504, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63354, uuid='097357e1-ab60-49bd-9524-60781d3c0d0d', l='ServerLevel[soapSMP_nether]', x=-496.74, y=132.00, z=-238.85, cpos=[-32, -15], tl=1608, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63514, uuid='2a84333e-46d1-451f-b08f-a221010105b4', l='ServerLevel[soapSMP_nether]', x=-496.74, y=132.00, z=-238.22, cpos=[-32, -15], tl=1125, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63057, uuid='37ce347e-baff-4eb2-949e-69fbcb7dcaf4', l='ServerLevel[soapSMP_nether]', x=-496.18, y=132.00, z=-239.38, cpos=[-32, -15], tl=1981, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63555, uuid='5aa026e1-865b-44d2-a9a8-292257e54642', l='ServerLevel[soapSMP_nether]', x=-494.81, y=132.00, z=-238.99, cpos=[-31, -15], tl=929, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62894, uuid='853ca649-a557-45c2-a9a3-feda3e346ad3', l='ServerLevel[soapSMP_nether]', x=-494.61, y=132.00, z=-238.15, cpos=[-31, -15], tl=2611, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63609, uuid='a4b8dede-e2aa-45cc-abe3-90949ac4c5bf', l='ServerLevel[soapSMP_nether]', x=-494.25, y=132.00, z=-239.43, cpos=[-31, -15], tl=623, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63335, uuid='fa2ebe64-b705-47bd-aee9-f0d522594281', l='ServerLevel[soapSMP_nether]', x=-494.21, y=132.00, z=-238.86, cpos=[-31, -15], tl=1651, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63285, uuid='b800b4da-bfa7-423c-85a3-33475f9a4ac1', l='ServerLevel[soapSMP_nether]', x=-495.41, y=132.00, z=-238.49, cpos=[-31, -15], tl=1693, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63388, uuid='5dad060d-ebf8-4285-8ce5-5e44e2710e2c', l='ServerLevel[soapSMP_nether]', x=-495.64, y=132.00, z=-239.96, cpos=[-31, -15], tl=1525, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62967, uuid='2378412e-cc77-449b-b763-c281b489ac12', l='ServerLevel[soapSMP_nether]', x=-494.10, y=132.00, z=-239.99, cpos=[-31, -15], tl=2351, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:58] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63352, uuid='a70fce35-21d4-4481-91f7-0dbaf04cfc3c', l='ServerLevel[soapSMP_nether]', x=-493.75, y=132.00, z=-241.42, cpos=[-31, -16], tl=1623, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:59] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62988, uuid='d5b6bb7e-c513-44c5-b48c-f603ec80ead3', l='ServerLevel[soapSMP_nether]', x=-495.43, y=133.40, z=-241.24, cpos=[-31, -16], tl=2298, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:59] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63138, uuid='55c5e87f-6a60-4afc-873a-795c4b5a18d3', l='ServerLevel[soapSMP_nether]', x=-495.00, y=133.84, z=-241.93, cpos=[-31, -16], tl=1818, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:59] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63506, uuid='e1486016-cf00-428c-bac4-9086596bc65b', l='ServerLevel[soapSMP_nether]', x=-496.05, y=133.82, z=-242.92, cpos=[-32, -16], tl=1189, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:59] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63079, uuid='e2164c0b-0679-436a-a9f2-1b178ff7ab63', l='ServerLevel[soapSMP_nether]', x=-494.39, y=133.25, z=-240.84, cpos=[-31, -16], tl=1962, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:59] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63080, uuid='b82c5753-7e5d-49a5-bdab-513731fe6156', l='ServerLevel[soapSMP_nether]', x=-494.64, y=133.30, z=-243.13, cpos=[-31, -16], tl=1962, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:49:59] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63334, uuid='ba559a4c-bf41-4820-93a6-4702c8ad9346', l='ServerLevel[soapSMP_nether]', x=-494.08, y=133.12, z=-243.32, cpos=[-31, -16], tl=1694, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:00] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63585, uuid='439fc98d-de53-40e0-9c73-6c530b009cc8', l='ServerLevel[soapSMP_nether]', x=-493.76, y=133.84, z=-240.87, cpos=[-31, -16], tl=809, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:00] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62949, uuid='4034190c-baf2-4024-aa79-24a3b77a7a86', l='ServerLevel[soapSMP_nether]', x=-493.91, y=133.12, z=-242.23, cpos=[-31, -16], tl=2503, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:00] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63035, uuid='510e511b-dc21-420b-9ea2-c5d2ae35c813', l='ServerLevel[soapSMP_nether]', x=-492.49, y=133.40, z=-240.30, cpos=[-31, -16], tl=2139, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:00] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63007, uuid='163fb77c-f92b-4dc4-b7e6-a45097dd58c2', l='ServerLevel[soapSMP_nether]', x=-492.46, y=133.25, z=-239.67, cpos=[-31, -15], tl=2242, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:01] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63037, uuid='158955a8-27ef-4f2b-958b-d744034b451f', l='ServerLevel[soapSMP_nether]', x=-491.54, y=132.00, z=-241.70, cpos=[-31, -16], tl=2136, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63011, uuid='2c410b7c-6d92-4838-ac3f-c8958cd1bc45', l='ServerLevel[soapSMP_nether]', x=-493.42, y=132.00, z=-241.25, cpos=[-31, -16], tl=2247, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63059, uuid='c2ad5879-851d-45be-8ba6-784ca74add62', l='ServerLevel[soapSMP_nether]', x=-493.39, y=132.00, z=-241.84, cpos=[-31, -16], tl=2072, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63064, uuid='cabea576-9b4d-4e7a-ac3d-d8606b4d11dc', l='ServerLevel[soapSMP_nether]', x=-492.19, y=132.00, z=-240.86, cpos=[-31, -16], tl=2052, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63337, uuid='70251c67-289b-4e8b-917a-a17789589500', l='ServerLevel[soapSMP_nether]', x=-493.06, y=132.00, z=-242.40, cpos=[-31, -16], tl=1742, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63391, uuid='950fcca0-654a-4a1a-8630-510a68ff4e40', l='ServerLevel[soapSMP_nether]', x=-492.75, y=132.00, z=-241.27, cpos=[-31, -16], tl=1615, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63484, uuid='360ec9af-05b2-460e-b18e-d7d62cf47dff', l='ServerLevel[soapSMP_nether]', x=-493.91, y=132.00, z=-240.57, cpos=[-31, -16], tl=1317, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63565, uuid='4ea5cbf5-a3fb-443a-804a-ff175adfe3d1', l='ServerLevel[soapSMP_nether]', x=-492.17, y=132.00, z=-242.64, cpos=[-31, -16], tl=981, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63359, uuid='209f338a-a110-4f1a-ab94-c2f612c8b966', l='ServerLevel[soapSMP_nether]', x=-493.19, y=132.00, z=-241.87, cpos=[-31, -16], tl=1678, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62952, uuid='847ec224-dde9-4c6f-af1a-5fddcf554fa2', l='ServerLevel[soapSMP_nether]', x=-494.23, y=132.00, z=-242.64, cpos=[-31, -16], tl=2517, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63141, uuid='2ef03c53-c228-4061-b7c2-c2059c81bf04', l='ServerLevel[soapSMP_nether]', x=-493.35, y=132.00, z=-240.40, cpos=[-31, -16], tl=1865, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63139, uuid='5fa2d40e-b918-4ac2-9f66-2a477b3be169', l='ServerLevel[soapSMP_nether]', x=-492.76, y=132.00, z=-240.58, cpos=[-31, -16], tl=1866, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63430, uuid='1b6262f1-29b6-42e5-a11b-da2cdb7010eb', l='ServerLevel[soapSMP_nether]', x=-494.51, y=132.00, z=-240.44, cpos=[-31, -16], tl=1533, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:02] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63095, uuid='929d199e-483e-4b41-a45e-7c2c74250614', l='ServerLevel[soapSMP_nether]', x=-492.62, y=132.00, z=-239.82, cpos=[-31, -15], tl=1972, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:03] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62989, uuid='e4d6d778-c779-4f56-a8c1-f9aff56a2dbc', l='ServerLevel[soapSMP_nether]', x=-494.92, y=133.55, z=-240.02, cpos=[-31, -16], tl=2376, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:03] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62892, uuid='4ec58e69-9335-4c36-9178-bb1f41f9e2f0', l='ServerLevel[soapSMP_nether]', x=-494.04, y=132.00, z=-237.31, cpos=[-31, -15], tl=2733, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63408, uuid='a680c5ad-4800-48ab-879d-2b66f2506808', l='ServerLevel[soapSMP_nether]', x=-492.20, y=132.00, z=-238.22, cpos=[-31, -15], tl=1619, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62927, uuid='9f6b233d-3bed-4063-804f-129d8de24d6c', l='ServerLevel[soapSMP_nether]', x=-491.98, y=132.00, z=-237.66, cpos=[-31, -15], tl=2664, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63075, uuid='16f6927d-cb8a-4d5b-8a27-ae3ccffe5c39', l='ServerLevel[soapSMP_nether]', x=-492.00, y=132.00, z=-237.12, cpos=[-31, -15], tl=2077, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63098, uuid='a75811d2-3faf-4888-8ffc-feff4956a901', l='ServerLevel[soapSMP_nether]', x=-491.80, y=132.00, z=-236.92, cpos=[-31, -15], tl=2014, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63109, uuid='4d6b63d3-66ca-47ba-b10a-10f57e549eeb', l='ServerLevel[soapSMP_nether]', x=-491.68, y=132.00, z=-238.52, cpos=[-31, -15], tl=1952, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63111, uuid='db86410f-65c1-49c0-b6e7-a7f9d43e6369', l='ServerLevel[soapSMP_nether]', x=-492.99, y=132.00, z=-237.11, cpos=[-31, -15], tl=1952, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63226, uuid='b84cea41-b741-466e-afe8-cb659934c64d', l='ServerLevel[soapSMP_nether]', x=-493.11, y=132.00, z=-237.80, cpos=[-31, -15], tl=1844, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62970, uuid='d504e1b1-169e-49f5-acf0-9e71169c424c', l='ServerLevel[soapSMP_nether]', x=-493.59, y=132.00, z=-238.21, cpos=[-31, -15], tl=2467, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63557, uuid='fac22408-c2a0-4ea8-aca1-649536d2042a', l='ServerLevel[soapSMP_nether]', x=-491.68, y=132.00, z=-239.10, cpos=[-31, -15], tl=1065, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63570, uuid='0510d297-78c4-41bb-87bf-83afcc9bb444', l='ServerLevel[soapSMP_nether]', x=-493.64, y=132.00, z=-238.89, cpos=[-31, -15], tl=998, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63571, uuid='6db20a09-f654-4141-aa3a-a9103aa15326', l='ServerLevel[soapSMP_nether]', x=-492.76, y=132.00, z=-238.39, cpos=[-31, -15], tl=998, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63546, uuid='55dabcbc-1f10-4c7d-bdaa-b039ffe5ece4', l='ServerLevel[soapSMP_nether]', x=-492.23, y=132.00, z=-238.93, cpos=[-31, -15], tl=1120, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63590, uuid='6100dd85-bb1c-48c4-936f-e838077c02bc', l='ServerLevel[soapSMP_nether]', x=-492.68, y=132.00, z=-239.59, cpos=[-31, -15], tl=867, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63591, uuid='1a2a9a9c-f8f1-4df7-9be5-d723a65eee32', l='ServerLevel[soapSMP_nether]', x=-491.31, y=132.52, z=-237.98, cpos=[-31, -15], tl=867, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62951, uuid='a44d0d0e-0dd5-4c23-82cb-dcdea9d2b7a9', l='ServerLevel[soapSMP_nether]', x=-493.19, y=132.00, z=-239.00, cpos=[-31, -15], tl=2562, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63342, uuid='723d1540-1023-4eba-a890-05bac395e366', l='ServerLevel[soapSMP_nether]', x=-491.13, y=132.00, z=-238.69, cpos=[-31, -15], tl=1765, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63094, uuid='60a5c8a4-2dde-483c-b905-072f6b98b862', l='ServerLevel[soapSMP_nether]', x=-493.40, y=132.00, z=-239.59, cpos=[-31, -15], tl=2017, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62893, uuid='ceb40001-3439-4743-aa04-60a954ab2cb1', l='ServerLevel[soapSMP_nether]', x=-491.67, y=132.00, z=-239.70, cpos=[-31, -15], tl=2747, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:05] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63375, uuid='7cd7806d-61c3-44fc-a003-1d04257f18af', l='ServerLevel[soapSMP_nether]', x=-490.72, y=132.00, z=-238.16, cpos=[-31, -15], tl=1694, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:05] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63545, uuid='8eb5518f-1079-4392-945d-9702efec3ec9', l='ServerLevel[soapSMP_nether]', x=-489.94, y=132.00, z=-239.66, cpos=[-31, -15], tl=1147, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:08] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62948, uuid='46448b0e-bc21-4c2b-8753-c4f54edd8f9c', l='ServerLevel[soapSMP_nether]', x=-492.12, y=132.00, z=-240.59, cpos=[-31, -16], tl=2652, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:08] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63560, uuid='fc5fde38-ab08-4e2d-8f19-083b7fca52b5', l='ServerLevel[soapSMP_nether]', x=-493.45, y=132.00, z=-241.87, cpos=[-31, -16], tl=1143, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:09] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63023, uuid='204e4e23-2201-40fb-8973-8c768a942d5a', l='ServerLevel[soapSMP_nether]', x=-493.69, y=132.00, z=-240.30, cpos=[-31, -16], tl=2345, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:10] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63086, uuid='ab4287fc-88a4-4085-a203-322c808038f0', l='ServerLevel[soapSMP_nether]', x=-494.00, y=132.00, z=-237.16, cpos=[-31, -15], tl=2154, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:10] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63088, uuid='63f3e82a-3c81-4135-942e-1769fa0ceeea', l='ServerLevel[soapSMP_nether]', x=-493.35, y=132.00, z=-236.84, cpos=[-31, -15], tl=2154, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:10] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63308, uuid='9116ddb9-62af-4d0f-b61d-a3beb2346c15', l='ServerLevel[soapSMP_nether]', x=-492.51, y=132.00, z=-237.19, cpos=[-31, -15], tl=1928, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:10] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63140, uuid='14cd41da-5e98-4475-bc3f-c36708bcb87f', l='ServerLevel[soapSMP_nether]', x=-492.78, y=132.00, z=-237.72, cpos=[-31, -15], tl=2030, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:10] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63400, uuid='257a2a30-5242-4c4e-8ca7-47a66d04859a', l='ServerLevel[soapSMP_nether]', x=-494.95, y=132.00, z=-237.52, cpos=[-31, -15], tl=1760, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:10] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63083, uuid='8e4ca2d8-be62-48e4-ac7e-e704ce697ae1', l='ServerLevel[soapSMP_nether]', x=-494.66, y=132.00, z=-238.11, cpos=[-31, -15], tl=2158, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:12] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63129, uuid='fc0daf4a-2fbd-4c0b-ac82-12a6cb0fd38c', l='ServerLevel[soapSMP_nether]', x=-491.50, y=132.00, z=-238.09, cpos=[-31, -15], tl=2084, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63365, uuid='80c991cc-4e02-4309-a0bc-6825f53dc6fb', l='ServerLevel[soapSMP_nether]', x=-490.35, y=132.00, z=-239.94, cpos=[-31, -15], tl=1903, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62934, uuid='c8a55e06-59aa-4cba-8f69-975d5c8795d7', l='ServerLevel[soapSMP_nether]', x=-491.64, y=132.00, z=-241.00, cpos=[-31, -16], tl=2844, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63343, uuid='5c9cdb68-4ec8-4884-bef2-af2828766578', l='ServerLevel[soapSMP_nether]', x=-491.01, y=132.00, z=-238.89, cpos=[-31, -15], tl=1966, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63593, uuid='cfcb7b41-1f2c-43de-9b23-5edeac5c0286', l='ServerLevel[soapSMP_nether]', x=-490.26, y=132.00, z=-238.59, cpos=[-31, -15], tl=1068, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63608, uuid='604b3907-1a3a-4db2-b5c0-86bfa60fa89f', l='ServerLevel[soapSMP_nether]', x=-489.62, y=132.00, z=-238.62, cpos=[-31, -15], tl=960, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63413, uuid='557589c6-e739-4fa8-92dc-5a2e836ad6ee', l='ServerLevel[soapSMP_nether]', x=-489.90, y=132.33, z=-239.56, cpos=[-31, -15], tl=1817, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:15] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62936, uuid='8a43bd18-1b11-405d-ae69-006b4bdbdfa2', l='ServerLevel[soapSMP_nether]', x=-491.86, y=132.00, z=-242.06, cpos=[-31, -16], tl=2868, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:16] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63044, uuid='a9553461-2794-4d6e-bd91-904a20d562d0', l='ServerLevel[soapSMP_nether]', x=-489.52, y=132.00, z=-242.01, cpos=[-31, -16], tl=2414, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:16] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63501, uuid='37adbbef-cd5f-41cf-9bf0-77e03676f594', l='ServerLevel[soapSMP_nether]', x=-490.31, y=132.00, z=-241.36, cpos=[-31, -16], tl=1551, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:18] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63034, uuid='29fb299b-c391-44ea-b1dc-2e89fbb66fe2', l='ServerLevel[soapSMP_nether]', x=-495.07, y=132.00, z=-239.53, cpos=[-31, -15], tl=2496, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:20] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63311, uuid='bd727a3d-7a63-4823-9f3e-dd107349984a', l='ServerLevel[soapSMP_nether]', x=-493.32, y=132.00, z=-237.82, cpos=[-31, -15], tl=2123, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:22] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63097, uuid='ece548b7-7d53-4dfd-8a65-b63fca58eb15', l='ServerLevel[soapSMP_nether]', x=-495.02, y=132.00, z=-239.02, cpos=[-31, -15], tl=2376, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:22] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63074, uuid='13d64bfa-5624-4530-82b9-104421c39b54', l='ServerLevel[soapSMP_nether]', x=-494.11, y=132.00, z=-240.33, cpos=[-31, -16], tl=2439, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:22] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63512, uuid='6f21fe8d-dc04-41ce-8568-809a1e46f0b6', l='ServerLevel[soapSMP_nether]', x=-494.34, y=132.00, z=-239.02, cpos=[-31, -15], tl=1623, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:22] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63386, uuid='53d44c14-46e4-4661-aa6a-85c95ee3362b', l='ServerLevel[soapSMP_nether]', x=-495.81, y=132.00, z=-238.26, cpos=[-31, -15], tl=2023, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:23] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63072, uuid='d4cd8aa4-abfe-4175-80cf-929d3a9f0a63', l='ServerLevel[soapSMP_nether]', x=-495.64, y=132.00, z=-238.45, cpos=[-31, -15], tl=2451, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:24] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63610, uuid='8a7ab443-7140-40a6-8648-c64154e0c227', l='ServerLevel[soapSMP_nether]', x=-493.42, y=133.48, z=-238.79, cpos=[-31, -15], tl=1153, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:26] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63130, uuid='3905f753-8661-4bfc-9830-2ff7fdffe51f', l='ServerLevel[soapSMP_nether]', x=-493.13, y=132.00, z=-239.03, cpos=[-31, -15], tl=2357, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:26] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63592, uuid='b0cf520d-5ac5-4cb8-9158-d00f8b1dd669', l='ServerLevel[soapSMP_nether]', x=-493.34, y=132.00, z=-240.53, cpos=[-31, -16], tl=1298, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:26] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63309, uuid='983e432e-ad69-4c6c-8e2d-4c122a7b4eba', l='ServerLevel[soapSMP_nether]', x=-493.65, y=132.00, z=-238.48, cpos=[-31, -15], tl=2239, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:26] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/62924, uuid='855a8e80-b7d6-46d0-a6d1-25b0d6cfd9b1', l='ServerLevel[soapSMP_nether]', x=-494.20, y=132.00, z=-237.79, cpos=[-31, -15], tl=3095, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:26] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63486, uuid='fd0ef5df-e00a-4cde-b41d-bff6b9f250a3', l='ServerLevel[soapSMP_nether]', x=-494.31, y=132.00, z=-238.33, cpos=[-31, -15], tl=1776, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:26] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63547, uuid='b8fa8b87-f566-4508-ab6e-b73d9ce92924', l='ServerLevel[soapSMP_nether]', x=-493.01, y=132.00, z=-239.64, cpos=[-31, -15], tl=1551, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:27] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63556, uuid='4d829f7f-63ac-4e1c-9b0b-3b6c518064e1', l='ServerLevel[soapSMP_nether]', x=-492.24, y=132.00, z=-238.24, cpos=[-31, -15], tl=1520, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:27] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63572, uuid='0e0e60a2-7d02-439b-8cfd-afe8700acd82', l='ServerLevel[soapSMP_nether]', x=-492.87, y=132.00, z=-237.36, cpos=[-31, -15], tl=1453, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:28] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63124, uuid='5d7f72f7-5c09-452f-b987-d93d696a4cfc', l='ServerLevel[soapSMP_nether]', x=-491.12, y=132.00, z=-239.68, cpos=[-31, -15], tl=2406, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:28] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63611, uuid='8b51880d-1803-41d4-9088-a0c5af1d27a0', l='ServerLevel[soapSMP_nether]', x=-491.31, y=132.00, z=-238.96, cpos=[-31, -15], tl=1234, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:29] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63487, uuid='6091c614-dafb-4add-91ef-d56c655907a3', l='ServerLevel[soapSMP_nether]', x=-492.30, y=132.00, z=-238.11, cpos=[-31, -15], tl=1835, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:29] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/63374, uuid='272507b4-cf96-407f-95f6-da5a5a3a0b08', l='ServerLevel[soapSMP_nether]', x=-491.46, y=132.00, z=-238.66, cpos=[-31, -15], tl=2171, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[12:50:30] [Server thread/INFO]: SoapieTomato issued server command: /back
+[12:50:39] [Server thread/INFO]: SoapieTomato issued server command: /home mangrove
+[12:50:48] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[12:52:42] [User Authenticator #4/INFO]: UUID of player SirRabbit_ is 304e8bc0-d4d5-4167-a30c-17b99da53b6a
+[12:52:42] [Server thread/INFO]: SirRabbit_ joined the game
+[12:52:42] [Server thread/INFO]: SirRabbit_[/67.218.90.4:40812] logged in with entity id 65064 at ([soapSMP]-1450.376536373973, 100.9375, -792.8274911112297)
+[12:52:47] [Async Chat Thread - #15/INFO]: <LunaMaiden> o//
+[12:52:51] [Async Chat Thread - #15/INFO]: <SirRabbit_> o///
+[12:52:57] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:writable_book
+[12:52:57] [Server thread/INFO]: [SirRabbit_: Gave 1 [Book and Quill] to SirRabbit_]
+[12:53:02] [Async Chat Thread - #15/INFO]: <LunaMaiden> im in the middle of a little froglight adventure :#
+[12:53:05] [Async Chat Thread - #15/INFO]: <SirRabbit_> omg?
+[12:53:06] [Async Chat Thread - #15/INFO]: <LunaMaiden> makin a farm
+[12:53:09] [Async Chat Thread - #15/INFO]: <LunaMaiden> they so cute
+[12:53:10] [Async Chat Thread - #15/INFO]: <SirRabbit_> :OOO frog farm
+[12:54:06] [Server thread/INFO]: SoapieTomato issued server command: /home mangrove
+[12:54:10] [Async Chat Thread - #15/INFO]: <LunaMaiden> also omg dont sleep
+[12:54:16] [Async Chat Thread - #15/INFO]: <SirRabbit_> :O okiee
+[12:57:12] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:birch_chest_boat
+[12:57:12] [Server thread/INFO]: [SirRabbit_: Gave 1 [Birch Boat with Chest] to SirRabbit_]
+[12:57:27] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode creative
+[12:57:27] [Server thread/INFO]: [SirRabbit_: Set own game mode to Creative Mode]
+[12:58:14] [Server thread/INFO]: Azuresty issued server command: /phome
+[12:58:17] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[12:59:04] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[12:59:21] [Async Chat Thread - #17/INFO]: <SirRabbit_> ur wizard tower has nether reactor vibes
+[12:59:34] [Async Chat Thread - #17/INFO]: <LunaMaiden> haha I miss those so much
+[12:59:38] [Async Chat Thread - #17/INFO]: <SirRabbit_> god me too
+[12:59:39] [Async Chat Thread - #17/INFO]: <LunaMaiden> im tryin to make it be ruins
+[12:59:43] [Async Chat Thread - #17/INFO]: <SirRabbit_> ooooooooo
+[12:59:49] [Async Chat Thread - #17/INFO]: <LunaMaiden> and then a giant iron moon be rising out of it
+[12:59:51] [Async Chat Thread - #17/INFO]: <LunaMaiden> with her actual house
+[12:59:56] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode survival
+[12:59:56] [Server thread/INFO]: [SirRabbit_: Set own game mode to Survival Mode]
+[12:59:58] [Async Chat Thread - #17/INFO]: <SirRabbit_> :OOO
+[13:00:00] [Async Chat Thread - #17/INFO]: <SirRabbit_> thats sick
+[13:01:05] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[13:01:09] [Async Chat Thread - #19/INFO]: <LunaMaiden> woah thats crazy
+[13:01:11] [Async Chat Thread - #19/INFO]: <LunaMaiden> smeblets back
+[13:01:26] [Async Chat Thread - #19/INFO]: <SirRabbit_> o.o
+[13:01:39] [Async Chat Thread - #19/INFO]: <SirRabbit_> must have walked back ig
+[13:02:28] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[13:02:28] [Server thread/WARN]: SoapieTomato moved too quickly! 15.788081595235553,107.5,-452.60845733240785
+[13:03:54] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[13:04:16] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[13:04:57] [Server thread/INFO]: SoapieTomato issued server command: /home mangrove
+[13:05:14] [Server thread/INFO]: SirRabbit_ lost connection: Disconnected
+[13:05:14] [Server thread/INFO]: SirRabbit_ left the game
+[13:06:53] [Server thread/INFO]: (mcMMO) haashthetag has reached a Power level of 300!
+[13:07:00] [Async Chat Thread - #21/INFO]: <LunaMaiden> :OO
+[13:07:03] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[13:07:24] [Server thread/INFO]: Azuresty issued server command: /phome
+[13:07:26] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.mangrove
+[13:07:28] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[13:08:27] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[13:08:27] [Server thread/WARN]: SoapieTomato moved too quickly! 1304.5454632681653,-7.0,1309.8465020911708
+[13:08:51] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[13:08:51] [Server thread/WARN]: Azuresty moved too quickly! -57.448972321251404,7.0,-27.314153682312508
+[13:09:42] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[13:10:21] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[13:10:25] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[13:10:41] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[13:10:53] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[13:10:53] [Server thread/WARN]: SoapieTomato moved too quickly! -71.22116652641648,2.0,-193.12289695309425
+[13:14:31] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[13:15:15] [Server thread/INFO]: haashthetag issued server command: /home
+[13:15:20] [Server thread/INFO]: haashthetag issued server command: /huskhomes:edithome haashthetag.home
+[13:15:21] [Server thread/INFO]: haashthetag issued server command: /huskhomes:home haashthetag.home
+[13:15:36] [Server thread/INFO]: Named entity IronGolem['Iron Golem'/82662, uuid='2bd83265-dff5-489b-a433-162d6d95c20c', l='ServerLevel[soapSMP_nether]', x=-492.74, y=135.00, z=-239.29, cpos=[-31, -15], tl=19574, v=true] died: Iron Golem was slain by Magma Cube
+[13:17:07] [Server thread/INFO]: SoapieTomato was slain by Magma Cube
+[13:17:11] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:back
+[13:17:17] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83379, uuid='b237cb2c-e840-48e9-a319-9391cb966be8', l='ServerLevel[soapSMP_nether]', x=-496.29, y=135.92, z=-236.10, cpos=[-32, -15], tl=800, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:21] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83219, uuid='4608db82-6c81-43fa-a2dc-05d1f2fe3f55', l='ServerLevel[soapSMP_nether]', x=-493.23, y=135.00, z=-235.82, cpos=[-31, -15], tl=2143, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:24] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83199, uuid='aa5b2539-dc7e-45a9-b781-b88b24b172ba', l='ServerLevel[soapSMP_nether]', x=-493.17, y=135.00, z=-237.29, cpos=[-31, -15], tl=2366, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:30] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83331, uuid='bf0e3e18-3e4d-45a4-83d3-bd252b67ef2c', l='ServerLevel[soapSMP_nether]', x=-496.29, y=135.84, z=-240.13, cpos=[-32, -16], tl=1417, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:34] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83360, uuid='a8e4e5f9-a068-49ba-802b-a0c3d4cc391d', l='ServerLevel[soapSMP_nether]', x=-492.32, y=135.00, z=-242.28, cpos=[-31, -16], tl=1273, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:38] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83412, uuid='fe4e0f00-170d-4058-bdad-da8dd70c0399', l='ServerLevel[soapSMP_nether]', x=-491.40, y=136.00, z=-238.92, cpos=[-31, -15], tl=931, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:39] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83328, uuid='880a8df9-252d-4c12-9b04-17f434ada523', l='ServerLevel[soapSMP_nether]', x=-490.62, y=135.00, z=-241.60, cpos=[-31, -16], tl=1641, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:42] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83205, uuid='5ebb6b20-fbc1-4cbd-b7ef-58cf14f45718', l='ServerLevel[soapSMP_nether]', x=-490.72, y=135.00, z=-240.60, cpos=[-31, -16], tl=2651, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:49] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83669, uuid='0a32337c-1d91-4bee-8b90-fe5c9f887071', l='ServerLevel[soapSMP_nether]', x=-490.07, y=132.00, z=-237.62, cpos=[-31, -15], tl=472, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:51] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83668, uuid='5116cda6-8ae9-4b5d-8729-92424117d0ef', l='ServerLevel[soapSMP_nether]', x=-489.84, y=132.32, z=-237.72, cpos=[-31, -15], tl=518, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:52] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83385, uuid='f5cdd65d-4878-4c7a-8d0a-e59b431b7079', l='ServerLevel[soapSMP_nether]', x=-490.81, y=135.00, z=-236.06, cpos=[-31, -15], tl=1447, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:17:56] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83377, uuid='4d77079c-fd16-4e41-b8ad-95505a7ae26f', l='ServerLevel[soapSMP_nether]', x=-493.73, y=135.00, z=-236.89, cpos=[-31, -15], tl=1578, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:08] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83262, uuid='7d477045-6dca-4adb-80ac-45235fd6cb43', l='ServerLevel[soapSMP_nether]', x=-495.00, y=135.00, z=-236.44, cpos=[-31, -15], tl=2743, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:10] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83727, uuid='08cfa9fb-4ca1-4325-b1e6-97bb7ff38ca9', l='ServerLevel[soapSMP_nether]', x=-494.94, y=132.00, z=-236.41, cpos=[-31, -15], tl=616, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:11] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83741, uuid='4d50247a-ae8f-4978-9036-43b9df62379b', l='ServerLevel[soapSMP_nether]', x=-496.48, y=135.00, z=-237.12, cpos=[-32, -15], tl=629, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:12] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83670, uuid='dcbf6568-8fff-4056-bbcc-0a6502d39138', l='ServerLevel[soapSMP_nether]', x=-491.87, y=132.00, z=-236.61, cpos=[-31, -15], tl=929, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:12] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83728, uuid='60cf06d4-03fa-43dc-8740-3dabd40c71d2', l='ServerLevel[soapSMP_nether]', x=-493.82, y=135.00, z=-234.62, cpos=[-31, -15], tl=662, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:12] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83771, uuid='bf37d393-b528-4d53-b293-71d1da6fd331', l='ServerLevel[soapSMP_nether]', x=-493.69, y=132.00, z=-235.56, cpos=[-31, -15], tl=567, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:12] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83418, uuid='3ab3dd0e-ba2e-4137-962b-0300a729be7a', l='ServerLevel[soapSMP_nether]', x=-495.09, y=135.00, z=-237.34, cpos=[-31, -15], tl=1555, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83906, uuid='f8a00a0e-8990-4a97-8978-e721d93f5d53', l='ServerLevel[soapSMP_nether]', x=-493.87, y=132.00, z=-241.58, cpos=[-31, -16], tl=46, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83772, uuid='c93c2dd8-43f4-4763-99cc-70493f4c405c', l='ServerLevel[soapSMP_nether]', x=-493.59, y=132.00, z=-236.18, cpos=[-31, -15], tl=620, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83739, uuid='a0e48dee-abac-4304-bb74-a35320b444f9', l='ServerLevel[soapSMP_nether]', x=-495.38, y=135.00, z=-238.77, cpos=[-31, -15], tl=695, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:17] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83839, uuid='1f658fbf-365b-4717-9e95-5ea7b60be154', l='ServerLevel[soapSMP_nether]', x=-497.56, y=135.00, z=-242.70, cpos=[-32, -16], tl=405, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:17] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83693, uuid='3db4a88e-dccc-4f4d-83af-17564b699eeb', l='ServerLevel[soapSMP_nether]', x=-491.78, y=135.00, z=-241.68, cpos=[-31, -16], tl=924, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:17] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83903, uuid='1368ec21-8505-416d-91d1-2eb0cceb2b13', l='ServerLevel[soapSMP_nether]', x=-495.80, y=132.71, z=-242.46, cpos=[-31, -16], tl=100, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:17] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83740, uuid='e722103e-50f8-481a-a0ee-04862a2ba7e0', l='ServerLevel[soapSMP_nether]', x=-494.25, y=135.00, z=-242.95, cpos=[-31, -16], tl=749, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:21] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83909, uuid='ef25e416-39e3-4738-800d-3b0c231bb30f', l='ServerLevel[soapSMP_nether]', x=-493.69, y=132.00, z=-242.98, cpos=[-31, -16], tl=157, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:21] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83941, uuid='a3def4d8-755e-48b7-9876-ddc7eda8939d', l='ServerLevel[soapSMP_nether]', x=-490.98, y=132.00, z=-241.56, cpos=[-31, -16], tl=50, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:21] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83942, uuid='6326869f-787a-409b-a74b-be4c9830540b', l='ServerLevel[soapSMP_nether]', x=-490.15, y=132.00, z=-241.76, cpos=[-31, -16], tl=50, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:21] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83667, uuid='8e376054-93cf-4360-bca7-73869fbee190', l='ServerLevel[soapSMP_nether]', x=-493.06, y=132.00, z=-238.15, cpos=[-31, -15], tl=1106, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:21] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83410, uuid='7b6495d4-aa57-48cd-a4ad-3b7e2389b89f', l='ServerLevel[soapSMP_nether]', x=-490.78, y=135.00, z=-240.20, cpos=[-31, -16], tl=1790, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:24] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83818, uuid='2561d34f-71ac-4239-b120-d16a5d1d37df', l='ServerLevel[soapSMP_nether]', x=-491.24, y=135.00, z=-236.31, cpos=[-31, -15], tl=611, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:26] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83692, uuid='a80d484f-408b-4e1b-b96b-8abbcd8ddf39', l='ServerLevel[soapSMP_nether]', x=-493.18, y=135.00, z=-237.92, cpos=[-31, -15], tl=1098, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:27] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83386, uuid='1cfdab67-f623-4bc8-afd2-b487f8a70ce1', l='ServerLevel[soapSMP_nether]', x=-492.75, y=135.00, z=-235.58, cpos=[-31, -15], tl=2145, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:28] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83922, uuid='3c3f3d96-4a2a-493d-bc50-ddaa76d77391', l='ServerLevel[soapSMP_nether]', x=-492.32, y=132.00, z=-237.05, cpos=[-31, -15], tl=257, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:29] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83841, uuid='d96996e4-6000-4038-8535-dac4bc0e66e0', l='ServerLevel[soapSMP_nether]', x=-494.26, y=135.00, z=-237.16, cpos=[-31, -15], tl=639, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:31] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83691, uuid='28fb5da0-b793-49c8-abfe-02d778ed22bd', l='ServerLevel[soapSMP_nether]', x=-495.20, y=135.00, z=-239.18, cpos=[-31, -15], tl=1194, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:51] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83730, uuid='5352956a-a524-4002-aea3-6cbca834af20', l='ServerLevel[soapSMP_nether]', x=-490.99, y=132.00, z=-236.68, cpos=[-31, -15], tl=1451, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:53] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83157, uuid='a9139098-0151-4ada-9ed3-03c67adfebe4', l='ServerLevel[soapSMP_nether]', x=-492.29, y=133.55, z=-237.91, cpos=[-31, -15], tl=4328, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:53] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83163, uuid='bdc177c5-535b-4be6-a115-809e81810d1f', l='ServerLevel[soapSMP_nether]', x=-491.79, y=132.00, z=-238.45, cpos=[-31, -15], tl=4339, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:55] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83908, uuid='f79d45ab-05af-4010-971e-c09e6075c83e', l='ServerLevel[soapSMP_nether]', x=-493.23, y=132.00, z=-240.27, cpos=[-31, -16], tl=835, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:56] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83904, uuid='e248d2ec-c443-4a73-bc1d-1f28e2471859', l='ServerLevel[soapSMP_nether]', x=-491.67, y=132.00, z=-239.14, cpos=[-31, -15], tl=871, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:56] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83709, uuid='274578b5-875e-4dd9-b837-8d85c4c043c2', l='ServerLevel[soapSMP_nether]', x=-491.90, y=132.95, z=-241.18, cpos=[-31, -16], tl=1634, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:58] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83905, uuid='09be760f-afb7-4d27-9593-fe15fe21077e', l='ServerLevel[soapSMP_nether]', x=-493.40, y=132.00, z=-239.85, cpos=[-31, -15], tl=910, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:58] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83923, uuid='a32d2dd4-9795-4719-a1c7-def495f823ce', l='ServerLevel[soapSMP_nether]', x=-493.09, y=132.00, z=-239.84, cpos=[-31, -15], tl=852, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:59] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84041, uuid='db24fd77-ca74-433e-9534-6bf1e5fd79c0', l='ServerLevel[soapSMP_nether]', x=-494.81, y=132.00, z=-242.39, cpos=[-31, -16], tl=542, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:18:59] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83649, uuid='10a46586-26e4-41b6-8a29-26ec707015ae', l='ServerLevel[soapSMP_nether]', x=-493.75, y=132.00, z=-239.18, cpos=[-31, -15], tl=1950, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:00] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84000, uuid='f011062b-685c-434a-8c4f-fd0b0732cfb4', l='ServerLevel[soapSMP_nether]', x=-494.83, y=132.00, z=-241.87, cpos=[-31, -16], tl=658, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:01] [Server thread/INFO]: Named entity Slime['Slime'/84127, uuid='2431e83a-fac9-471e-9ec4-6e1145328af8', l='ServerLevel[soapSMP_nether]', x=-495.94, y=132.00, z=-236.98, cpos=[-31, -15], tl=39, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:01] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84005, uuid='1265e1a5-8de1-4296-af0c-78c3b81aa214', l='ServerLevel[soapSMP_nether]', x=-494.51, y=132.00, z=-237.53, cpos=[-31, -15], tl=670, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:03] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84020, uuid='99600be8-c90a-42a0-adaa-d5177d0fb774', l='ServerLevel[soapSMP_nether]', x=-495.26, y=132.00, z=-240.75, cpos=[-31, -16], tl=658, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:08] [Server thread/INFO]: Named entity Slime['Slime'/84097, uuid='be8211dd-684b-43d4-b0a8-18a035fb1f2f', l='ServerLevel[soapSMP_nether]', x=-495.64, y=132.00, z=-242.55, cpos=[-31, -16], tl=316, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:09] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84022, uuid='040707d8-1a01-48d3-8205-994ba135619a', l='ServerLevel[soapSMP_nether]', x=-496.74, y=132.00, z=-241.56, cpos=[-32, -16], tl=783, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:10] [Server thread/INFO]: Named entity Slime['Slime'/84096, uuid='987086cd-8ece-4eb1-9af0-437423418f1a', l='ServerLevel[soapSMP_nether]', x=-494.91, y=132.00, z=-241.69, cpos=[-31, -16], tl=347, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:10] [Server thread/INFO]: Named entity Slime['Slime'/84118, uuid='e091b76a-f796-4b58-ab16-add240de5930', l='ServerLevel[soapSMP_nether]', x=-496.29, y=132.00, z=-241.24, cpos=[-32, -16], tl=258, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:10] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84040, uuid='1700c8d0-318f-431c-9a99-3828533b63e0', l='ServerLevel[soapSMP_nether]', x=-494.19, y=132.00, z=-242.51, cpos=[-31, -16], tl=759, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:10] [Server thread/INFO]: Named entity Slime['Slime'/84117, uuid='f4c1e155-066e-45b8-9f38-8fbbe4a01790', l='ServerLevel[soapSMP_nether]', x=-495.39, y=132.00, z=-241.06, cpos=[-31, -16], tl=275, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:12] [Server thread/INFO]: Named entity Slime['Slime'/84143, uuid='525e2742-3aa9-4b2c-8bc6-463dedab15a7', l='ServerLevel[soapSMP_nether]', x=-496.73, y=132.00, z=-238.19, cpos=[-32, -15], tl=208, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:13] [Server thread/INFO]: Named entity Slime['Slime'/84144, uuid='d6003d1e-f50c-4e21-8d89-f797bd582950', l='ServerLevel[soapSMP_nether]', x=-496.07, y=132.00, z=-238.46, cpos=[-32, -15], tl=224, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:14] [Server thread/INFO]: Named entity Slime['Slime'/84196, uuid='8e8d7459-dd1c-4194-ba6d-41c6fb321aaa', l='ServerLevel[soapSMP_nether]', x=-495.68, y=132.00, z=-239.14, cpos=[-31, -15], tl=61, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:14] [Server thread/INFO]: Named entity Slime['Slime'/84195, uuid='f553143b-f516-4ad6-bdd7-b44af97d975c', l='ServerLevel[soapSMP_nether]', x=-495.00, y=133.17, z=-239.70, cpos=[-31, -15], tl=70, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:15] [Server thread/INFO]: Named entity Slime['Slime'/84194, uuid='cb6edc8f-badb-4e63-b66b-3b06ed1fdab7', l='ServerLevel[soapSMP_nether]', x=-495.87, y=132.00, z=-239.99, cpos=[-31, -15], tl=81, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:15] [Server thread/INFO]: Named entity Slime['Slime'/84197, uuid='f2577889-f71b-42c7-9bbe-ff1d44f5e49b', l='ServerLevel[soapSMP_nether]', x=-494.49, y=132.00, z=-238.82, cpos=[-31, -15], tl=81, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:16] [Server thread/INFO]: Named entity Slime['Slime'/84179, uuid='7ebbaea5-941a-4cbf-a5b4-ada70ef1cb28', l='ServerLevel[soapSMP_nether]', x=-493.91, y=132.00, z=-238.55, cpos=[-31, -15], tl=130, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:16] [Server thread/INFO]: Named entity Slime['Slime'/84202, uuid='928737b9-c3d1-411b-9fde-2eed825d1d85', l='ServerLevel[soapSMP_nether]', x=-494.39, y=132.00, z=-237.16, cpos=[-31, -15], tl=91, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:17] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84008, uuid='d13828ee-6f46-42d8-8f5e-6bb6d293ab37', l='ServerLevel[soapSMP_nether]', x=-495.38, y=132.00, z=-237.18, cpos=[-31, -15], tl=976, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:18] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84006, uuid='be86a3f5-aabb-49a7-af5d-fe0c6e2460cb', l='ServerLevel[soapSMP_nether]', x=-496.73, y=133.40, z=-236.59, cpos=[-32, -15], tl=1006, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:19] [Server thread/INFO]: Named entity Slime['Slime'/84204, uuid='6a4690d7-9220-4c39-81da-316a63a09f38', l='ServerLevel[soapSMP_nether]', x=-495.14, y=132.00, z=-236.53, cpos=[-31, -15], tl=146, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:20] [Server thread/INFO]: Named entity Slime['Slime'/84191, uuid='b2e57e74-d752-49c4-a437-73217b381880', l='ServerLevel[soapSMP_nether]', x=-493.90, y=132.00, z=-238.06, cpos=[-31, -15], tl=178, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:20] [Server thread/INFO]: Named entity Slime['Slime'/84180, uuid='fd80c3d5-83c3-4ee9-9623-3980274bcd37', l='ServerLevel[soapSMP_nether]', x=-493.88, y=132.00, z=-239.09, cpos=[-31, -15], tl=209, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:20] [Server thread/INFO]: Named entity Slime['Slime'/84193, uuid='8b0d5bf6-70f8-4b73-af44-018a8bd9f65b', l='ServerLevel[soapSMP_nether]', x=-493.40, y=132.00, z=-237.43, cpos=[-31, -15], tl=178, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:20] [Server thread/INFO]: Named entity Slime['Slime'/84203, uuid='f4157e24-a717-4c48-85e0-2eaa8b4b6488', l='ServerLevel[soapSMP_nether]', x=-494.69, y=132.00, z=-237.16, cpos=[-31, -15], tl=161, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:22] [Server thread/INFO]: Named entity Slime['Slime'/84192, uuid='740ee512-acbe-44ce-b4b5-086e9c08a21e', l='ServerLevel[soapSMP_nether]', x=-492.66, y=132.00, z=-238.89, cpos=[-31, -15], tl=231, v=true] died: Slime was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:23] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/83944, uuid='ca5fdab3-d2dc-4ed9-aa00-fd7645ce7c8a', l='ServerLevel[soapSMP_nether]', x=-488.86, y=132.00, z=-242.08, cpos=[-31, -16], tl=1305, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:26] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84019, uuid='92455804-6ca4-4a08-a55f-08b994ba8ca6', l='ServerLevel[soapSMP_nether]', x=-495.62, y=132.00, z=-240.73, cpos=[-31, -16], tl=1128, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:27] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/84007, uuid='4f1b565a-e7c0-44f1-9996-d4665d0ede92', l='ServerLevel[soapSMP_nether]', x=-495.69, y=132.00, z=-237.04, cpos=[-31, -15], tl=1190, v=true] died: Magma Cube was slain by SoapieTomato using [Lunar Edge ☾]
+[13:19:32] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[13:19:32] [Server thread/WARN]: SoapieTomato moved too quickly! 15.061202427493356,-4.0,-0.30460488839116806
+[13:19:55] [Server thread/INFO]: SoapieTomato issued server command: /tpa Azuresty
+[13:19:58] [Server thread/INFO]: Azuresty issued server command: /huskhomes:tpaccept SoapieTomato
+[13:20:10] [Server thread/INFO]: Azuresty issued server command: /spawn
+[13:20:10] [Server thread/WARN]: Azuresty moved too quickly! 1295.4996411199427,-10.0,1192.51908580108
+[13:20:12] [Server thread/INFO]: SoapieTomato issued server command: /back
+[13:20:17] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[13:20:29] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[13:20:45] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[13:20:59] [Server thread/INFO]: SoapieTomato issued server command: /back
+[13:21:39] [Server thread/INFO]: haashthetag issued server command: /spawn
+[13:22:20] [User Authenticator #5/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[13:22:20] [Server thread/INFO]: bwjr2 joined the game
+[13:22:20] [Server thread/INFO]: bwjr2[/67.218.90.4:26815] logged in with entity id 86259 at ([soapSMP]-1426.5805997132495, 116.0, -713.1335902878274)
+[13:22:23] [Async Chat Thread - #23/INFO]: <LunaMaiden> :OO
+[13:22:37] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[13:22:37] [Server thread/INFO]: bwjr2 left the game
+[13:22:39] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[13:23:03] [Server thread/INFO]: SoapieTomato issued server command: /back
+[13:23:21] [Server thread/INFO]: Azuresty issued server command: /HPOME
+[13:23:26] [Server thread/INFO]: Azuresty issued server command: /phome
+[13:23:29] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[13:24:49] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[13:24:54] [Server thread/INFO]: SoapieTomato issued server command: /back
+[13:25:29] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[13:25:29] [Server thread/WARN]: SoapieTomato moved too quickly! 17.121775603151264,-4.0,-0.7211176507762787
+[13:25:31] [User Authenticator #6/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[13:25:32] [Server thread/INFO]: bwjr2 joined the game
+[13:25:32] [Server thread/INFO]: bwjr2[/67.218.90.4:49670] logged in with entity id 89003 at ([soapSMP]-1426.5805997132495, 116.0, -713.1335902878274)
+[13:25:37] [Server thread/INFO]: haashthetag lost connection: Disconnected
+[13:25:37] [Server thread/INFO]: haashthetag left the game
+[13:25:54] [Server thread/WARN]: SoapieTomato moved wrongly!
+[13:29:39] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[13:30:06] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[13:31:10] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[13:31:16] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[13:32:23] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[13:32:23] [Server thread/WARN]: SoapieTomato moved too quickly! -236.6054141790097,-9.0,-130.0937629745028
+[13:32:41] [Async Chat Thread - #26/INFO]: <bwjr2> i hate how the wiki for mcmmo isnt complete
+[13:32:47] [Async Chat Thread - #27/INFO]: <LunaMaiden> oh yeah its funky
+[13:32:51] [Async Chat Thread - #27/INFO]: <LunaMaiden> I just try exploring it mostly ingame
+[13:32:55] [Async Chat Thread - #27/INFO]: <bwjr2> do you know the level cap for swords btw
+[13:33:02] [Async Chat Thread - #27/INFO]: <LunaMaiden> there isnt I believe
+[13:33:04] [Server thread/INFO]: SoapieTomato issued server command: /swords
+[13:33:07] [Async Chat Thread - #27/INFO]: <bwjr2> nonono
+[13:33:17] [Async Chat Thread - #27/INFO]: <LunaMaiden> but you do stop having effective levels after like 1000 or osmething maybe
+[13:33:18] [Async Chat Thread - #27/INFO]: <bwjr2> i mean like when it stops being useful to level up
+[13:33:24] [Async Chat Thread - #27/INFO]: <bwjr2> yeyeye thats what i meant
+[13:33:31] [Async Chat Thread - #27/INFO]: <LunaMaiden> ye no idea
+[13:33:37] [Async Chat Thread - #27/INFO]: <LunaMaiden> for mining its ltireally 20000
+[13:33:46] [Async Chat Thread - #27/INFO]: <bwjr2> jesus christ
+[13:33:56] [Async Chat Thread - #27/INFO]: <bwjr2> how much does it take to level it up
+[13:34:01] [Async Chat Thread - #27/INFO]: <bwjr2> like is it hard
+[13:34:01] [Async Chat Thread - #27/INFO]: <LunaMaiden> a ton
+[13:34:06] [Async Chat Thread - #27/INFO]: <LunaMaiden> well at that high levels
+[13:34:45] [Async Chat Thread - #27/INFO]: <bwjr2> is it even physically possible to reach 20000 mining
+[13:34:55] [Async Chat Thread - #27/INFO]: <LunaMaiden> a ton of mining
+[13:34:59] [Async Chat Thread - #27/INFO]: <LunaMaiden> like an abusrd amount
+[13:35:03] [Async Chat Thread - #27/INFO]: <LunaMaiden> the xp is expontential
+[13:35:06] [Async Chat Thread - #27/INFO]: <bwjr2> what the fuck
+[13:35:15] [Server thread/INFO]: SoapieTomato issued server command: /mining
+[13:35:27] [Async Chat Thread - #27/INFO]: <LunaMaiden> at my rank a level is like 25 times the xp for the first level
+[13:35:33] [Async Chat Thread - #27/INFO]: <Aze> phome
+[13:35:35] [Server thread/INFO]: Azuresty issued server command: /phome
+[13:35:38] [Server thread/INFO]: SoapieTomato issued server command: /home
+[13:35:40] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:edithome SoapieTomato.froglight
+[13:35:42] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:edithome SoapieTomato.froglight privacy
+[13:35:43] [Server thread/INFO]: Azuresty issued server command: /huskhomes:phome SoapieTomato.maiden
+[13:35:54] [Async Chat Thread - #27/INFO]: <bwjr2> i can one shot creepers now
+[13:35:57] [Async Chat Thread - #27/INFO]: <LunaMaiden> ooh banger
+[13:36:33] [Server thread/INFO]: bwjr2 issued server command: /trigger home add 7
+[13:36:33] [Server thread/INFO]: [bwjr2: Triggered [Home] (added 7 to value)]
+[13:36:44] [Async Chat Thread - #27/INFO]: <bwjr2> yo, festive chests?
+[13:36:53] [Async Chat Thread - #27/INFO]: <LunaMaiden> yeye christmas u pdate
+[13:37:16] [Async Chat Thread - #27/INFO]: <bwjr2> is there new content
+[13:38:42] [Async Chat Thread - #28/INFO]: <LunaMaiden> nawr nawr
+[13:38:45] [Async Chat Thread - #28/INFO]: <LunaMaiden> just the christmas reskin
+[13:38:49] [Async Chat Thread - #28/INFO]: <LunaMaiden> also finally ogt a frog farm
+[13:38:56] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[13:38:59] [Async Chat Thread - #29/INFO]: <bwjr2> what is a frog farm for
+[13:39:02] [Async Chat Thread - #29/INFO]: <LunaMaiden> got natural froglighjts
+[13:39:03] [Async Chat Thread - #29/INFO]: <bwjr2> is it to get frogs
+[13:39:19] [Async Chat Thread - #29/INFO]: <bwjr2> cause that would be slay
+[13:39:25] [Async Chat Thread - #29/INFO]: <bwjr2> you cant have enough frogs
+[13:39:28] [Async Chat Thread - #29/INFO]: <LunaMaiden> haha
+[13:39:34] [Async Chat Thread - #29/INFO]: <LunaMaiden> no we just bred a bunch of frogs for it
+[13:39:36] [Async Chat Thread - #29/INFO]: <bwjr2> frogs are important for vitality
+[13:39:55] [Async Chat Thread - #29/INFO]: <bwjr2> if you dont have enough frogs you will get cancer
+[13:40:12] [Async Chat Thread - #29/INFO]: <LunaMaiden> what does that mean lmao
+[13:40:21] [Async Chat Thread - #29/INFO]: <bwjr2> the supreme court
+[13:40:25] [Async Chat Thread - #29/INFO]: <LunaMaiden> so true
+[13:40:26] [Async Chat Thread - #29/INFO]: <bwjr2> wears robes to hide
+[13:40:29] [Async Chat Thread - #29/INFO]: <bwjr2> their octopus bodies
+[13:40:33] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[13:42:44] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[13:42:44] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[13:42:45] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[13:42:45] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[13:44:19] [Server thread/INFO]: Azuresty lost connection: Disconnected
+[13:44:19] [Server thread/INFO]: Azuresty left the game
+[13:45:56] [Server thread/INFO]: SoapieTomato issued server command: /weather clear
+[13:45:56] [Server thread/INFO]: [SoapieTomato: Set the weather to clear]
+[13:47:18] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[13:47:18] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[13:47:20] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[13:47:20] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[13:47:40] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[13:47:40] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[13:47:48] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[13:47:48] [Server thread/INFO]: SoapieTomato left the game
+[13:53:32] [Server thread/INFO]: (mcMMO) bwjr2 has reached a Power level of 1,500!
+[13:58:28] [Server thread/INFO]: bwjr2 issued server command: /acrobatics
+[13:58:59] [Server thread/INFO]: bwjr2 issued server command: /acrobatics ?
+[13:59:13] [Server thread/INFO]: bwjr2 issued server command: /acrobatics ? 2
+[13:59:36] [Server thread/INFO]: bwjr2 issued server command: /acrobatics ? 3
+[13:59:47] [Server thread/INFO]: bwjr2 issued server command: /acrobatics ? 2
+[14:07:12] [Server thread/INFO]: bwjr2 issued server command: /mcrank acrobatics
+[14:07:17] [Server thread/INFO]: bwjr2 issued server command: /mcrank bwjr2
+[14:07:23] [Server thread/INFO]: bwjr2 issued server command: /mcinfo
+[14:07:38] [Server thread/INFO]: bwjr2 issued server command: /mcmmo:mcsb
+[14:07:51] [Server thread/INFO]: bwjr2 issued server command: /mcmmo:mcstats
+[14:08:54] [Server thread/INFO]: bwjr2 issued server command: /mcmmo:mmoxpbar
+[14:09:12] [Server thread/INFO]: bwjr2 issued server command: /mcmmo:mctop
+[14:09:49] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[14:09:49] [Server thread/INFO]: bwjr2 left the game
+[15:54:12] [User Authenticator #7/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[15:54:13] [Server thread/INFO]: SoapieTomato joined the game
+[15:54:13] [Server thread/INFO]: SoapieTomato[/38.21.219.232:58412] logged in with entity id 104558 at ([soapSMP]-1815.576369081836, 71.5, -667.2633695701791)
+[15:58:08] [Server thread/INFO]: SoapieTomato issued server command: /home froglight
+[15:58:32] [Server thread/INFO]: SoapieTomato issued server command: /sethome froglightAFK
+[15:58:35] [Server thread/INFO]: SoapieTomato issued server command: /delhome froglight
+[15:58:40] [Server thread/INFO]: SoapieTomato issued server command: /phome
+[15:58:42] [Server thread/INFO]: SoapieTomato issued server command: /home
+[15:58:45] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:homelist 2
+[15:58:47] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:homelist 1
+[16:06:17] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[16:07:43] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 7
+[16:07:43] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 7 to value)]
+[16:08:01] [Server thread/INFO]: SoapieTomato issued server command: /mctop
+[16:08:49] [Server thread/INFO]: Named entity EnderMan['Enderman'/109059, uuid='9300e4fb-6718-45fa-a7c3-d1bf0f972262', l='ServerLevel[soapSMP_the_end]', x=234.70, y=1.00, z=-0.30, cpos=[14, -1], tl=239, v=true] died: Enderman was slain by SoapieTomato using [Lunar Edge ☾]
+[16:08:50] [Server thread/INFO]: Named entity EnderMan['Enderman'/109060, uuid='44adb189-3811-4f55-b50f-75dddc90f133', l='ServerLevel[soapSMP_the_end]', x=234.70, y=1.00, z=-0.70, cpos=[14, -1], tl=250, v=true] died: Enderman was slain by SoapieTomato using [Lunar Edge ☾]
+[16:08:50] [Server thread/INFO]: Named entity EnderMan['Enderman'/109036, uuid='8cdff0f5-3cb6-4da7-8cd2-2d54f580e015', l='ServerLevel[soapSMP_the_end]', x=234.70, y=1.00, z=-0.30, cpos=[14, -1], tl=258, v=true] died: Enderman was slain by SoapieTomato using [Lunar Edge ☾]
+[16:09:52] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[16:10:32] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[16:13:26] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[16:13:56] [Server thread/INFO]: SoapieTomato issued server command: /back
+[16:15:40] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[16:18:16] [Server thread/INFO]: (mcMMO) LunaMaiden has reached level 1,200 in MINING!
+[16:18:33] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[16:18:33] [Server thread/WARN]: SoapieTomato moved too quickly! -47.33590752185819,87.0,75.17000748932469
+[16:20:37] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[16:26:28] [Server thread/INFO]: SoapieTomato issued server command: /back
+[16:26:31] [Server thread/INFO]: SoapieTomato issued server command: /home luna
+[16:26:32] [Server thread/WARN]: SoapieTomato moved too quickly! 66.44432378599186,26.0,229.43531919914653
+[16:32:31] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[16:32:31] [Server thread/INFO]: SoapieTomato left the game
+[17:25:28] [User Authenticator #8/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[17:25:29] [Server thread/INFO]: bwjr joined the game
+[17:25:29] [Server thread/INFO]: bwjr[/67.218.90.4:20900] logged in with entity id 117495 at ([soapSMP]-1436.5577081435442, 110.48030168841619, -843.1102963600126)
+[17:25:49] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[17:25:49] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[17:26:49] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[17:26:49] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[17:26:59] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:diamond_hoe
+[17:26:59] [Server thread/INFO]: [bwjr: Gave 1 [Diamond Hoe] to bwjr]
+[17:27:51] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[17:27:51] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[17:32:03] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[17:32:03] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[17:32:05] [Server thread/INFO]: bwjr issued server command: /home
+[17:32:09] [Server thread/INFO]: bwjr issued server command: /home home
+[17:33:08] [Server thread/INFO]: bwjr issued server command: /back
+[17:36:02] [Server thread/INFO]: (mcMMO) ppr has reached level 100 in EXCAVATION!
+[17:37:52] [Server thread/INFO]: bwjr issued server command: /home
+[17:38:02] [Server thread/INFO]: bwjr issued server command: /home home
+[17:38:13] [Server thread/INFO]: bwjr issued server command: /huskhomes:edithome bwjr.home
+[17:38:19] [Server thread/INFO]: bwjr issued server command: /huskhomes:edithome bwjr.home rename 1
+[17:42:22] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[17:42:22] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[17:42:25] [Server thread/INFO]: bwjr issued server command: /time set day
+[17:42:25] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[17:42:44] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[17:42:44] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[17:44:47] [Server thread/INFO]: (mcMMO) ppr has reached a Power level of 700!
+[17:47:59] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[17:47:59] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[17:48:22] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[17:48:31] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[17:48:31] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[17:51:00] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[17:51:00] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[17:58:36] [Server thread/INFO]: bwjr issued server command: /time set day
+[17:58:36] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[18:13:01] [Server thread/INFO]: bwjr issued server command: /time set night
+[18:13:01] [Server thread/INFO]: [bwjr: Set the time to 13000]
+[18:13:05] [Server thread/INFO]: bwjr issued server command: /time set day
+[18:13:05] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[18:19:04] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[18:19:04] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[18:19:40] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[18:19:40] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[18:21:48] [Server thread/INFO]: bwjr lost connection: Disconnected
+[18:21:49] [Server thread/INFO]: bwjr left the game
+[20:42:19] [User Authenticator #9/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[20:42:19] [Server thread/INFO]: bwjr joined the game
+[20:42:20] [Server thread/INFO]: bwjr[/67.218.90.4:9615] logged in with entity id 129895 at ([soapSMP]-1369.011536096554, 108.86859856141189, -1243.9695445160944)
+[20:42:57] [User Authenticator #9/INFO]: UUID of player SirRabbit_ is 304e8bc0-d4d5-4167-a30c-17b99da53b6a
+[20:42:58] [Server thread/INFO]: SirRabbit_ joined the game
+[20:42:58] [Server thread/INFO]: SirRabbit_[/67.218.90.4:17829] logged in with entity id 130078 at ([soapSMP]-1409.5323189708533, 103.9375, -813.4309867893958)
+[20:43:08] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode creative
+[20:43:08] [Server thread/INFO]: [SirRabbit_: Set own game mode to Creative Mode]
+[20:43:46] [Server thread/INFO]: bwjr issued server command: /time set day
+[20:43:46] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[20:43:49] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode spectator
+[20:43:49] [Server thread/INFO]: [SirRabbit_: Set own game mode to Spectator Mode]
+[20:44:59] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode creative
+[20:44:59] [Server thread/INFO]: [SirRabbit_: Set own game mode to Creative Mode]
+[20:50:41] [Server thread/INFO]: SirRabbit_ issued server command: /home
+[20:50:43] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:edithome SirRabbit_.Aden
+[20:50:44] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:home SirRabbit_.Aden
+[20:55:21] [Server thread/INFO]: bwjr issued server command: /time set day
+[20:55:21] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[20:56:07] [Server thread/INFO]: bwjr issued server command: /tpa SirRabbit_
+[20:56:10] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:tpaccept bwjr
+[20:56:43] [Server thread/INFO]: SirRabbit_ issued server command: /trigger home set 9
+[20:56:43] [Server thread/INFO]: [SirRabbit_: Triggered [Home] (set value to 9)]
+[21:00:59] [Server thread/INFO]: SirRabbit_ issued server command: /home BirchHarbor
+[21:01:03] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:saddle
+[21:01:03] [Server thread/INFO]: [bwjr: Gave 1 [Saddle] to bwjr]
+[21:06:26] [Server thread/INFO]: SirRabbit_ issued server command: /home BirchHarbor
+[21:06:26] [Server thread/WARN]: SirRabbit_ moved too quickly! -118.57196182041395,-22.23747295257388,908.0338134271087
+[21:06:37] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr wheres bridgers house o.o
+[21:07:41] [Server thread/INFO]: SirRabbit_ issued server command: /tell bwjr wheres bridgers house o.o
+[21:07:53] [Server thread/INFO]: bwjr issued server command: /home 1
+[21:07:59] [Server thread/INFO]: bwjr issued server command: /back
+[21:08:38] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:saddle
+[21:08:38] [Server thread/INFO]: [bwjr: Gave 1 [Saddle] to bwjr]
+[21:09:01] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:lead
+[21:09:01] [Server thread/INFO]: [bwjr: Gave 1 [Lead] to bwjr]
+[21:10:23] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:lead
+[21:10:23] [Server thread/INFO]: [bwjr: Gave 1 [Lead] to bwjr]
+[21:10:28] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:saddle
+[21:10:28] [Server thread/INFO]: [bwjr: Gave 1 [Saddle] to bwjr]
+[21:13:22] [Server thread/INFO]: SirRabbit_ issued server command: /home
+[21:13:24] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:edithome SirRabbit_.Aden
+[21:13:25] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:home SirRabbit_.Aden
+[21:27:50] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:command_block
+[21:27:50] [Server thread/INFO]: [SirRabbit_: Gave 1 [Command Block] to SirRabbit_]
+[21:35:32] [Server thread/INFO]: bwjr issued server command: /home 1
+[21:40:28] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:structure_block
+[21:40:28] [Server thread/INFO]: [bwjr: Gave 1 [Structure Block] to bwjr]
+[21:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4175ms or 83 ticks behind
+[21:46:18] [Server thread/WARN]: SirRabbit_ moved too quickly! -2.218007622010191,-37.32304822948859,-1.1404071047722937
+[21:47:11] [Server thread/INFO]: Villager Villager['Villager'/157548, uuid='ea21bd31-65c8-4710-b542-90e677587d8e', l='ServerLevel[soapSMP]', x=-2122.87, y=69.22, z=-700.30, cpos=[-133, -44], tl=80127, v=true] died, message: 'Villager was slain by Zombie'
+[21:47:26] [Server thread/INFO]: bwjr issued server command: /tp -2123 69 -701
+[21:47:32] [Server thread/INFO]: bwjr issued server command: /time set day
+[21:47:32] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[21:48:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2574ms or 51 ticks behind
+[21:49:04] [Server thread/INFO]: bwjr issued server command: /home 1
+[21:50:18] [Server thread/INFO]: bwjr issued server command: /home 1
+[21:50:24] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[21:50:24] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[21:50:54] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[21:50:54] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[21:51:26] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[21:51:26] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[21:51:33] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[21:51:33] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[21:52:20] [Server thread/INFO]: SirRabbit_ lost connection: Disconnected
+[21:52:20] [Server thread/INFO]: SirRabbit_ left the game
+[21:52:31] [Server thread/INFO]: bwjr lost connection: Disconnected
+[21:52:31] [Server thread/INFO]: bwjr left the game
+[22:40:35] [User Authenticator #10/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[22:40:35] [Server thread/INFO]: bwjr joined the game
+[22:40:35] [Server thread/INFO]: bwjr[/67.218.90.4:46799] logged in with entity id 162888 at ([soapSMP]-1262.5062485877465, 24.200000047683716, -1297.9206382441023)
+[22:41:50] [User Authenticator #11/INFO]: UUID of player SirRabbit_ is 304e8bc0-d4d5-4167-a30c-17b99da53b6a
+[22:41:51] [Server thread/INFO]: SirRabbit_ joined the game
+[22:41:51] [Server thread/INFO]: SirRabbit_[/67.218.90.4:10584] logged in with entity id 163115 at ([soapSMP]-1304.862197039809, 183.49872160994514, -1328.3209629653516)
+[22:43:31] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[22:43:31] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[22:43:46] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[22:43:46] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[22:46:21] [Server thread/INFO]: bwjr issued server command: /fill -1219 28 -1271
+[22:46:35] [Server thread/INFO]: bwjr issued server command: /fill -1219 28 -1271 -1239 26 -1295 minecraft:stone
+[22:46:35] [Server thread/INFO]: [bwjr: Successfully filled 1501 block(s)]
+[22:50:40] [Server thread/INFO]: bwjr issued server command: /sethome acacia
+[23:10:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2515ms or 50 ticks behind
+[23:12:22] [Server thread/WARN]: SirRabbit_ moved too quickly! 26.781494185956944,4.310300753884789,-1.638766481897619
+[23:19:09] [Server thread/WARN]: SirRabbit_ moved too quickly! -3.410641459358203,10.078169154259598,-16.157926428088786
+[23:25:24] [Server thread/WARN]: SirRabbit_ moved too quickly! -12.105304315012063,-0.00377913615017178,-11.90657848330784
+[23:25:43] [Server thread/WARN]: SirRabbit_ moved too quickly! 24.62528658851261,11.287500493292441,14.656137380957034
+[23:31:15] [Server thread/WARN]: SirRabbit_ moved too quickly! -1.3787090120115408,-9.39591670915577,-21.377375337058993
+[23:34:09] [Server thread/INFO]: bwjr issued server command: /home 1
+[23:40:54] [Server thread/INFO]: Villager Villager['Farmer'/180994, uuid='7534008b-fc58-40a2-9a8e-3551d79a6b8a', l='ServerLevel[soapSMP]', x=-758.51, y=67.18, z=-2569.20, cpos=[-48, -161], tl=76717, v=true] died, message: 'Farmer was slain by Zombie'
+[23:41:02] [Server thread/INFO]: bwjr issued server command: /time set day
+[23:41:02] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[23:41:03] [Server thread/INFO]: Villager Villager['Farmer'/180976, uuid='fc6a99bb-0818-4bf9-9eae-4d840d833ee1', l='ServerLevel[soapSMP]', x=-830.70, y=63.00, z=-2552.08, cpos=[-52, -160], tl=80192, v=true] died, message: 'Farmer was slain by Zombie'
+[23:41:17] [Server thread/INFO]: Villager Villager['Villager'/180975, uuid='ef8aec79-b19f-4fbe-b8e6-4ae4ca6c1779', l='ServerLevel[soapSMP]', x=-827.46, y=63.00, z=-2537.26, cpos=[-52, -159], tl=80294, v=true] died, message: 'Villager was slain by Zombie'
+[23:41:25] [Server thread/INFO]: bwjr issued server command: /tp -759 67 -2570
+[23:41:25] [Server thread/WARN]: bwjr moved too quickly! 55.140229336965945,-7.0,-14.27986929437293
+[23:41:46] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[23:41:46] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[23:42:10] [Server thread/INFO]: bwjr issued server command: /tp -831 63 -2553
+[23:42:10] [Server thread/WARN]: bwjr moved too quickly! -67.68502492078017,-1.0,13.899239673052307
+[23:42:29] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[23:42:29] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[23:43:25] [Server thread/INFO]: SirRabbit_ issued server command: /trigger home set 4
+[23:43:25] [Server thread/INFO]: [SirRabbit_: Triggered [Home] (set value to 4)]
+[23:48:44] [Server thread/INFO]: SirRabbit_ lost connection: Timed out
+[23:48:44] [Server thread/INFO]: SirRabbit_ left the game
+[23:49:52] [Async Chat Thread - #39/INFO]: <ppr> 35
+[23:49:53] [User Authenticator #12/INFO]: UUID of player SirRabbit_ is 304e8bc0-d4d5-4167-a30c-17b99da53b6a
+[23:49:53] [Server thread/INFO]: SirRabbit_ joined the game
+[23:49:53] [Server thread/INFO]: SirRabbit_[/67.218.90.4:41768] logged in with entity id 185088 at ([soapSMP]-1216.4430849803152, 144.9375, -1276.8583314706016)
+[23:53:37] [Server thread/INFO]: bwjr issued server command: /time set day
+[23:53:37] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[23:59:15] [Server thread/INFO]: SirRabbit_ issued server command: /trigger home set 2
+[23:59:15] [Server thread/INFO]: [SirRabbit_: Triggered [Home] (set value to 2)]

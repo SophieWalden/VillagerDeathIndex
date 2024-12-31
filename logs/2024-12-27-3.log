@@ -1,0 +1,1169 @@
+[07:22:15] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 5.15.0-75-generic (amd64)
+[07:22:15] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-14-master@b746d9d (2024-12-11T21:22:39Z) for Minecraft 1.21.4
+[07:22:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:22:15] [ServerMain/WARN]: [org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper] Failed to get hostname, using 'localhost'
+java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1936) ~[?:?]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.getHostname(DiscriminatingNameMapper.java:90) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.<init>(DiscriminatingNameMapper.java:69) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NameMappers.discriminatingNameMapper(NameMappers.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.getManuallyCreatedNameMappers(NamedLockFactoryAdapterFactoryImpl.java:78) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.<init>(NamedLockFactoryAdapterFactoryImpl.java:107) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:159) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.DefaultSyncContextFactory.initService(DefaultSyncContextFactory.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultMetadataResolver.initService(DefaultMetadataResolver.java:123) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.apache.maven.repository.internal.DefaultVersionResolver.initService(DefaultVersionResolver.java:106) ~[maven-resolver-provider-3.9.6.jar:3.9.6]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.initService(DefaultRepositorySystem.java:158) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.bukkit.plugin.java.LibraryLoader.<init>(LibraryLoader.java:60) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.<clinit>(SpigotPluginProvider.java:38) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.<clinit>(PluginFileType.java:40) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:77) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1931) ~[?:?]
+	... 45 more
+[07:22:17] [ServerMain/WARN]: [org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper] Failed to get hostname, using 'localhost'
+java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1936) ~[?:?]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.getHostname(DiscriminatingNameMapper.java:90) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.<init>(DiscriminatingNameMapper.java:69) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NameMappers.discriminatingNameMapper(NameMappers.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.getManuallyCreatedNameMappers(NamedLockFactoryAdapterFactoryImpl.java:78) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.<init>(NamedLockFactoryAdapterFactoryImpl.java:107) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:159) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.DefaultSyncContextFactory.initService(DefaultSyncContextFactory.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultMetadataResolver.initService(DefaultMetadataResolver.java:123) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.apache.maven.repository.internal.DefaultVersionResolver.initService(DefaultVersionResolver.java:106) ~[maven-resolver-provider-3.9.6.jar:3.9.6]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.initService(DefaultRepositorySystem.java:158) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver.<init>(MavenLibraryResolver.java:73) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.PaperHuskHomesLoader.classloader(PaperHuskHomesLoader.java:44) ~[HuskHomes-Paper-4.8.3.jar:?]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:38) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:23) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.register(PluginFileType.java:72) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1931) ~[?:?]
+	... 47 more
+[07:22:17] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[07:22:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[07:22:17] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - HuskHomes (4.8.3)
+[07:22:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - ArmorPoser (1.1.0), BisectHosting (1.0.4), LuckPerms (5.4.150), NameColor (1.9), dynmap (3.7-beta-7-Dev), mcMMO (2.2.029-SNAPSHOT)
+[07:22:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:22:23] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[07:22:23] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 429.0ms
+[07:22:23] [ServerMain/INFO]: Found non-pack entry './soapSMP/datapacks/.DS_Store', ignoring
+[07:22:23] [ServerMain/ERROR]: Invalid directory entry: .DS_Store in ./soapSMP/datapacks/BlazeandCaves Advancements Pack 1.18.
+java.nio.file.NotDirectoryException: .DS_Store
+	at net.minecraft.server.packs.PathPackResources.getNamespaces(PathPackResources.java:108) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.lambda$new$0(MultiPackResourceManager.java:27) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:273) ~[?:?]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.<init>(MultiPackResourceManager.java:27) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:274) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:993) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:988) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:273) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:22:23] [ServerMain/ERROR]: Invalid directory entry: .DS_Store in ./soapSMP/datapacks/BlazeandCaves Advancements Pack 1.18.
+java.nio.file.NotDirectoryException: .DS_Store
+	at net.minecraft.server.packs.PathPackResources.getNamespaces(PathPackResources.java:108) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.<init>(MultiPackResourceManager.java:31) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:274) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:993) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:988) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:273) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:22:24] [ServerMain/ERROR]: Invalid path in pack: blazeandcave:tags/entity_type/overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S)_zombies.json, ignoring
+[07:22:25] [Worker-Main-1/ERROR]: Invalid path in pack: blazeandcave:predicate/in_the_overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S).json, ignoring
+[07:22:25] [Worker-Main-1/ERROR]: Invalid path in pack: blazeandcave:predicate/at_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:25] [Worker-Main-1/ERROR]: Invalid path in pack: multiplayer_sleep:predicate/overSoapie SMP (Main World)-2.json, ignoring
+[07:22:25] [Worker-Main-3/ERROR]: Couldn't parse data file 'armor_statues:random_pose' from 'armor_statues:loot_table/random_pose.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage': net.minecraft.world.level.storage.loot.LootTable@136e3be9]
+[07:22:25] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called more_mob_heads:entities/villager
+[07:22:25] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: blazeandcave:function/new_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/.DS_Store, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:26] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/nether/ride_strider_in_overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S)_lava.json, ignoring
+[07:22:26] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/adventure/trade_at_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:26] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/adventure/fall_from_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:26] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.json, ignoring
+[07:22:26] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.json, ignoring
+[07:22:26] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).json, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/trophy/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/trophy/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:26] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:26] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:adventure/do_you_want_to_trade' from 'blazeandcave:advancement/adventure/do_you_want_to_trade.json': DataResult.Error['Missing tag: 'blazeandcave:village' in 'minecraft:worldgen/structure' missed input: {"village":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"#blazeandcave:village"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}}}': Advancement[parent=Optional[minecraft:adventure/root], display=Optional[net.minecraft.advancements.DisplayInfo@539eef24], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@11f49665]], criteria={village=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@15366109, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@77646d57]]]}, requirements=[[village]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Do You Want to Trade?', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Do You Want to Trade?', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Find an NPC village', args=[]}[style={color=green}]]]]}]]}[style={color=green}]]]]
+[07:22:26] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:adventure/oh_look_it_dings' from 'blazeandcave:advancement/adventure/oh_look_it_dings.json': DataResult.Error['Missing tag: 'blazeandcave:village' in 'minecraft:worldgen/structure' missed input: {"bell":{"trigger":"minecraft:any_block_use","conditions":{"location":[{"condition":"minecraft:location_check","predicate":{"block":{"blocks":["minecraft:bell"]},"structures":"#blazeandcave:village"}}]}}}': Advancement[parent=Optional[blazeandcave:adventure/do_you_want_to_trade], display=Optional[net.minecraft.advancements.DisplayInfo@4e8d3dec], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@69088e12]], criteria={bell=Criterion[trigger=net.minecraft.advancements.critereon.AnyBlockInteractionTrigger@5be048fa, triggerInstance=TriggerInstance[player=Optional.empty, location=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@6c54da3c]]]}, requirements=[[bell]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Oh, look, it dings!', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Oh, look, it dings!', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Ring a bell in a village', args=[]}[style={color=green}]]]]}]]}[style={color=green}]]]]
+[07:22:26] [Worker-Main-8/ERROR]: Couldn't parse data file 'vanillatweaks:armored_elytra' from 'vanillatweaks:advancement/armored_elytra.json': DataResult.Error['Not a JSON object: 13522556 missed input: {"minecraft:custom_model_data":13522556}': Advancement[parent=Optional[vanillatweaks:root], display=Optional[net.minecraft.advancements.DisplayInfo@72ded159], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional.empty], criteria={tick=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@7c4d62d4, triggerInstance=TriggerInstance[player=Optional.empty]]}, requirements=[[tick]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[literal{Armored Elytra            }[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=literal{Armored Elytra            }[style={color=green}, siblings=[literal{
+}, empty[siblings=[literal{Drop}[style={color=green}], literal{ elytra and a chestplate above an anvil to merge them into one item.
+}[style={color=gold}], literal{Drop}[style={color=green}], literal{ the merged item above a grindstone to separate them again.
+}[style={color=gold}], literal{Enchantments}[style={color=green}], literal{ are kept safely between merging and separating.
+}[style={color=gold}], literal{Burning}[style={color=green}], literal{ netherite armored elytra will keep the chestplate but burn off the elytra.}[style={color=gold}]]]]]]}]]}[style={color=green}]]]]
+[07:22:27] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:end/void_walker' from 'blazeandcave:advancement/end/void_walker.json': DataResult.Error['Missing tag: 'blazeandcave:end_barrens' in 'minecraft:worldgen/biome'; Missing tag: 'blazeandcave:end_midlands' in 'minecraft:worldgen/biome' missed input: {"end_midlands":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_midlands"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}},"end_barrens":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_barrens"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}}}': Advancement[parent=Optional[minecraft:end/enter_end_gateway], display=Optional[net.minecraft.advancements.DisplayInfo@129b675b], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@1d25f3d2]], criteria={end_barrens=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@15366109, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@5a3c010b]]], the_end=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@15366109, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@1dbf1b02]]], small_end_islands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@15366109, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@54570651]]], end_midlands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@15366109, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@66ded46a]]], end_highlands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@15366109, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@5cd0b5e3]]]}, requirements=[[the_end], [small_end_islands], [end_highlands], [end_midlands], [end_barrens]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Void Walker', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Void Walker', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Explore every end biome', args=[]}[style={color=#75E1FF}]]]]}]]}[style={color=green}]]]]
+[07:22:29] [ServerMain/INFO]: Loaded 1609 recipes
+[07:22:29] [ServerMain/ERROR]: Failed to load function armor_statues:trigger/random_pose
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / armor_statues:random_pose] at position 116: ...andom_pose<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / armor_statues:random_pose] at position 116: ...andom_pose<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:29] [ServerMain/ERROR]: Failed to load function blazeandcave:one_second_timer
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 239: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / blazeandcave:third_line] at position 54: ...third_line<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 239: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / blazeandcave:third_line] at position 54: ...third_line<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:29] [ServerMain/ERROR]: Failed to load function multiplayer_sleep:start_sleeping
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / multiplayer_sleep:overworld] at position 48: ...:overworld<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / multiplayer_sleep:overworld] at position 48: ...:overworld<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:29] [ServerMain/ERROR]: Couldn't load advancements: [blazeandcave:adventure/retro_future_knight, minecraft:adventure/minecraft_trials_edition, blazeandcave:adventure/break_wind, blazeandcave:technical/branch2_end, blazeandcave:adventure/keys_to_success, blazeandcave:adventure/heres_johnny, blazeandcave:adventure/businessman, blazeandcave:adventure/workaholic, blazeandcave:adventure/your_daily_fix, blazeandcave:adventure/crazy_cat_lady, blazeandcave:adventure/core_keeper, blazeandcave:adventure/treasure_map, blazeandcave:adventure/filthy_stinkin_rich, blazeandcave:adventure/house_of_psychos, blazeandcave:end/dimension_penetration, minecraft:adventure/under_lock_and_key, minecraft:adventure/revaulting, blazeandcave:adventure/traveller, blazeandcave:adventure/guardian_destroyer, blazeandcave:adventure/the_tribal_villagers, minecraft:adventure/summon_iron_golem, blazeandcave:adventure/from_under_your_feet, blazeandcave:adventure/filthy_rich, blazeandcave:challenges/a_million_blocks_away, blazeandcave:adventure/all_chained_up, blazeandcave:adventure/knowledge_is_power, minecraft:adventure/totem_of_undying, minecraft:adventure/trade_at_world_height, blazeandcave:challenges/overwarden, minecraft:adventure/trade, blazeandcave:end/unending_hell, blazeandcave:adventure/ghostbuster, blazeandcave:adventure/monumental, blazeandcave:challenges/the_devils_distance, minecraft:adventure/blowback, minecraft:husbandry/complete_catalogue, blazeandcave:adventure/tricky_treasures, blazeandcave:adventure/rekt, blazeandcave:adventure/mapmaker, blazeandcave:adventure/omniscient, blazeandcave:adventure/rare_candy_shop, blazeandcave:adventure/breeze_suppressor, blazeandcave:adventure/hard_mode_activated, blazeandcave:adventure/nerds_never_die, blazeandcave:adventure/mapmakers_table, blazeandcave:technical/branch5_end, blazeandcave:adventure/village_settler, blazeandcave:adventure/master_trader, blazeandcave:adventure/wololo, blazeandcave:adventure/prime_specimen, blazeandcave:adventure/spear_fishing, blazeandcave:adventure/town_planner, blazeandcave:adventure/if_only_cats_grew_into_kittens, blazeandcave:adventure/sponge_miner, blazeandcave:challenges/immortal, blazeandcave:adventure/hey_you_two_should_kiss, blazeandcave:adventure/the_shielding, blazeandcave:challenges/farlander, blazeandcave:adventure/im_not_lost_anymore, blazeandcave:adventure/dry_spell, blazeandcave:adventure/murderer, blazeandcave:adventure/the_deep_end, blazeandcave:adventure/professional, blazeandcave:adventure/vault_hunter, blazeandcave:adventure/laser_sharks, blazeandcave:adventure/lilypad_hatter, blazeandcave:challenges/death_from_all, blazeandcave:adventure/you_are_the_pillager, blazeandcave:adventure/this_will_be_a_breeze, blazeandcave:adventure/map_room, minecraft:adventure/who_needs_rockets]
+[07:22:29] [ServerMain/INFO]: Loaded 2760 advancements
+[07:22:29] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[07:22:29] [Server thread/INFO]: Loading properties
+[07:22:29] [Server thread/INFO]: This server is running Paper version 1.21.4-14-master@b746d9d (2024-12-11T21:22:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[07:22:30] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:22:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:22:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:22:30] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[07:22:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:22:30] [Server thread/INFO]: Default game type: SURVIVAL
+[07:22:30] [Server thread/INFO]: Generating keypair
+[07:22:30] [Server thread/INFO]: Starting Minecraft server on 173.240.148.216:27000
+[07:22:30] [Server thread/INFO]: Using epoll channel type
+[07:22:30] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:22:30] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:22:31] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
+[07:22:31] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-beta-7-Dev
+[07:22:31] [Server thread/INFO]: [dynmap] version=1.21.4-14-b746d9d (MC: 1.21.4)
+[07:22:31] [Server thread/INFO]: [dynmap] Mod Support API available
+[07:22:31] [Server thread/INFO]: [NameColor] Loading server plugin NameColor v1.9
+[07:22:31] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.029-SNAPSHOT
+[07:22:31] [Server thread/INFO]: [BisectHosting] Loading server plugin BisectHosting v1.0.4
+[07:22:31] [Server thread/INFO]: [ArmorPoser] Loading server plugin ArmorPoser v1.1.0
+[07:22:31] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
+[07:22:31] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[07:22:31] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
+[07:22:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:22:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[07:22:32] [Server thread/INFO]:         __    
+[07:22:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
+[07:22:32] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:22:32] [Server thread/INFO]: 
+[07:22:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:22:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:22:33] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:22:33] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:22:33] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1449ms)
+[07:22:33] [Server thread/INFO]: Preparing level "soapSMP"
+[07:22:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:22:34] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:34] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:35] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:35] [Server thread/INFO]: Time elapsed: 1447 ms
+[07:22:35] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:22:35] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:36] [Server thread/INFO]: Time elapsed: 451 ms
+[07:22:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:22:36] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:36] [Server thread/INFO]: Time elapsed: 44 ms
+[07:22:36] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-7-Dev
+[07:22:36] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
+[07:22:36] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.150 for access control
+[07:22:37] [Server thread/INFO]: [dynmap] Extracted files upgraded
+[07:22:37] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[07:22:41] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[07:22:41] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[07:22:41] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[07:22:41] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[07:22:41] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[07:22:41] [Server thread/INFO]: [dynmap] Web server started on address 173.240.148.216:8123
+[07:22:41] [Server thread/INFO]: [dynmap] version 3.7-beta-7-Dev is enabled - core version 3.7-beta-7-Dev
+[07:22:41] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[07:22:41] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[07:22:41] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[07:22:41] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[07:22:41] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'soapSMP'.
+[07:22:41] [Server thread/INFO]: [dynmap] Loaded 3 pending tile renders for world 'soapSMP'
+[07:22:41] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'soapSMP_nether'.
+[07:22:41] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'soapSMP_the_end'.
+[07:22:42] [Server thread/INFO]: [dynmap] Enabled
+[07:22:42] [Server thread/INFO]: [NameColor] Enabling NameColor v1.9
+[07:22:42] [Server thread/INFO]: [NameColor] Essentials plugin not found, using Server mode
+[07:22:42] [Server thread/INFO]: [NameColor] Configuration found.
+[07:22:42] [Server thread/INFO]: [NameColor] NameColor version 1.9 enabled.
+[07:22:42] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.029-SNAPSHOT
+[07:22:43] [Server thread/INFO]: [mcMMO] Loaded 220 Alchemy potions, skipped 0.
+[07:22:44] [Server thread/INFO]: [BisectHosting] Enabling BisectHosting v1.0.4
+[07:22:44] [Server thread/INFO]: [ArmorPoser] Enabling ArmorPoser v1.1.0
+[07:22:44] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
+[07:22:44] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[07:22:44] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
+[07:22:45] [Server thread/INFO]: [spark] Starting background profiler...
+[07:22:45] [Server thread/INFO]: Done preparing level "soapSMP" (11.830s)
+[07:22:45] [Server thread/INFO]: Running delayed init tasks
+[07:22:45] [Server thread/INFO]: Done (31.964s)! For help, type "help"
+[07:22:46] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[07:22:46] [Dynmap Render Thread/WARN]: [dynmap] Resource assets/minecraft/textures/all.png for mod minecraft not found
+[07:22:50] [Craft Scheduler Thread - 3 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[09:14:36] [User Authenticator #0/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[09:14:37] [Server thread/INFO]: SoapieTomato joined the game
+[09:14:38] [Server thread/INFO]: SoapieTomato[/38.21.219.232:60381] logged in with entity id 1625 at ([soapSMP]-1801.713795146851, 156.0, -1252.9366274021254)
+[09:18:18] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[09:19:33] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[09:19:33] [Server thread/WARN]: SoapieTomato moved too quickly! -1277.027153702243,100.5625,-1781.9138729291974
+[09:19:51] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[09:19:51] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[09:28:10] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[09:28:10] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[09:30:06] [Server thread/WARN]: SoapieTomato moved wrongly!
+[09:30:06] [Server thread/WARN]: SoapieTomato moved wrongly!
+[09:30:33] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[09:30:33] [Server thread/WARN]: SoapieTomato moved too quickly! 1250.9454632443235,-97.5,1750.8728561474118
+[09:30:47] [Server thread/INFO]: SoapieTomato issued server command: /back
+[09:30:50] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[09:30:50] [Server thread/INFO]: SoapieTomato left the game
+[12:40:30] [User Authenticator #1/INFO]: UUID of player bug6124 is 984b0ffe-85d2-4750-b5a4-9f9a8a67d83f
+[12:40:31] [Server thread/INFO]: bug6124 joined the game
+[12:40:31] [Server thread/INFO]: bug6124[/45.46.54.161:50737] logged in with entity id 16490 at ([soapSMP]-1834.353335691957, 71.0, -679.5052943144345)
+[13:34:42] [Server thread/INFO]: (mcMMO) bug6124 has reached a Power level of 200!
+[14:03:16] [Server thread/INFO]: Villager Villager['Leatherworker'/17621, uuid='80476fba-9be9-4e43-8115-283b8590d2e8', l='ServerLevel[soapSMP]', x=-2100.40, y=73.00, z=-731.52, cpos=[-132, -46], tl=471275, v=true] died, message: 'Leatherworker was slain by Zombie'
+[14:14:45] [Server thread/INFO]: bug6124 lost connection: Disconnected
+[14:14:45] [Server thread/INFO]: bug6124 left the game
+[16:34:38] [User Authenticator #2/INFO]: UUID of player bug6124 is 984b0ffe-85d2-4750-b5a4-9f9a8a67d83f
+[16:34:38] [Server thread/INFO]: bug6124 joined the game
+[16:34:38] [Server thread/INFO]: bug6124[/45.46.54.161:50054] logged in with entity id 64527 at ([soapSMP]-2045.4717000098308, 71.0, -659.6975265624185)
+[17:04:59] [User Authenticator #3/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[17:04:59] [Server thread/INFO]: SoapieTomato joined the game
+[17:04:59] [Server thread/INFO]: SoapieTomato[/38.21.219.232:60941] logged in with entity id 101902 at ([soapSMP]-1807.699999988079, 162.5, -1296.020563249895)
+[17:07:26] [Server thread/INFO]: SoapieTomato issued server command: /forceload query
+[17:10:25] [Server thread/INFO]: Villager Villager['Leatherworker'/64631, uuid='c50afe38-64d5-4412-8b90-9782bc90f176', l='ServerLevel[soapSMP]', x=-2100.03, y=74.00, z=-705.36, cpos=[-132, -45], tl=536420, v=true] died, message: 'Leatherworker was shot by Pillager'
+[17:10:33] [Server thread/INFO]: SoapieTomato issued server command: /tp -2101 74 -706
+[17:10:36] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[17:10:36] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[17:12:23] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[17:13:38] [Server thread/INFO]: bug6124 lost connection: Disconnected
+[17:13:38] [Server thread/INFO]: bug6124 left the game
+[17:14:07] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[17:14:07] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[17:16:31] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[17:16:41] [Server thread/INFO]: SoapieTomato issued server command: /back
+[17:17:25] [Server thread/INFO]: (mcMMO) LunaMaiden has reached level 400 in ACROBATICS!
+[17:18:43] [Server thread/INFO]: SoapieTomato issued server command: /sethome temo
+[17:19:02] [Server thread/INFO]: SoapieTomato issued server command: /home temo
+[17:19:02] [Server thread/WARN]: SoapieTomato moved too quickly! 64.6507592541052,40.0625,27.931342268052617
+[17:19:49] [User Authenticator #4/INFO]: UUID of player bug6124 is 984b0ffe-85d2-4750-b5a4-9f9a8a67d83f
+[17:19:49] [Server thread/INFO]: bug6124 joined the game
+[17:19:49] [Server thread/INFO]: bug6124[/45.46.54.161:51165] logged in with entity id 120912 at ([soapSMP]-2048.758263118067, 73.0, -661.7534811724256)
+[17:21:50] [Server thread/INFO]: SoapieTomato issued server command: /home teemo
+[17:21:52] [Server thread/INFO]: SoapieTomato issued server command: /home temo
+[17:22:05] [Server thread/INFO]: SoapieTomato issued server command: /home temo
+[17:22:51] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[17:22:51] [Server thread/WARN]: SoapieTomato moved too quickly! -99.86804729591859,-29.0625,-73.43933336087036
+[17:23:06] [Server thread/INFO]: SoapieTomato issued server command: /home temo
+[17:23:06] [Server thread/WARN]: SoapieTomato moved too quickly! 70.8425274501858,40.0625,43.89867256559455
+[17:33:04] [Server thread/INFO]: SoapieTomato issued server command: /delhome temo
+[17:35:53] [User Authenticator #5/INFO]: UUID of player Azuresty is 51643251-0baf-455d-a7be-482a8a2d6913
+[17:35:53] [Server thread/INFO]: Azuresty joined the game
+[17:35:53] [Server thread/INFO]: Azuresty[/38.21.219.232:51717] logged in with entity id 142342 at ([soapSMP]-1795.237500011921, 164.0, -1296.7339535628603)
+[17:37:15] [Async Chat Thread - #7/INFO]: <Aze> open concept?
+[17:37:22] [Async Chat Thread - #7/INFO]: <bug6124> ?
+[17:37:43] [Async Chat Thread - #7/INFO]: <Aze> looks good
+[17:37:47] [Async Chat Thread - #7/INFO]: <bug6124> its a work in progreaa
+[17:41:39] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[17:42:03] [Server thread/INFO]: SoapieTomato issued server command: /back
+[17:43:55] [Server thread/INFO]: Azuresty issued server command: /home pale
+[17:44:32] [Server thread/INFO]: Azuresty issued server command: /back
+[17:45:02] [Server thread/INFO]: SoapieTomato issued server command: /back
+[17:45:18] [Server thread/INFO]: SoapieTomato issued server command: /back
+[17:51:31] [Server thread/INFO]: Azuresty issued server command: /home pale
+[17:52:13] [Server thread/INFO]: Azuresty issued server command: /back
+[17:54:15] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[17:54:16] [Server thread/WARN]: SoapieTomato moved too quickly! -29.906547790495097,-16.875,-180.82831987831707
+[17:55:42] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[17:56:06] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 10
+[17:56:06] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 10 to value)]
+[17:57:29] [Server thread/INFO]: SoapieTomato issued server command: /home harob
+[17:57:32] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[17:59:52] [Server thread/INFO]: SoapieTomato issued server command: /home spider
+[18:00:08] [Server thread/INFO]: SoapieTomato issued server command: /back
+[18:00:12] [Server thread/WARN]: SoapieTomato moved wrongly!
+[18:02:12] [Server thread/INFO]: Azuresty issued server command: /trigger
+[18:02:19] [Server thread/INFO]: Azuresty issued server command: /trigger home set 6
+[18:02:19] [Server thread/INFO]: [Azuresty: Triggered [Home] (set value to 6)]
+[18:02:22] [Server thread/INFO]: Azuresty issued server command: /trigger home set 5
+[18:02:22] [Server thread/INFO]: [Azuresty: Triggered [Home] (set value to 5)]
+[18:02:27] [Server thread/INFO]: Azuresty issued server command: /trigger home set 4
+[18:02:27] [Server thread/INFO]: [Azuresty: Triggered [Home] (set value to 4)]
+[18:02:27] [Server thread/INFO]: Azuresty left the confines of this world
+[18:02:55] [Server thread/INFO]: Azuresty issued server command: /trigger home set 3
+[18:02:55] [Server thread/INFO]: [Azuresty: Triggered [Home] (set value to 3)]
+[18:02:57] [Server thread/INFO]: Azuresty issued server command: /trigger home set 2
+[18:02:57] [Server thread/INFO]: [Azuresty: Triggered [Home] (set value to 2)]
+[18:03:06] [Server thread/INFO]: Azuresty issued server command: /home
+[18:03:12] [Server thread/INFO]: Azuresty issued server command: /huskhomes:edithome Azuresty.red
+[18:03:14] [Server thread/INFO]: Azuresty issued server command: /huskhomes:home Azuresty.red
+[18:04:25] [Server thread/INFO]: Azuresty issued server command: /back
+[18:04:36] [Server thread/INFO]: Azuresty issued server command: /phome harbor
+[18:04:37] [Server thread/INFO]: bug6124 was slain by Zombie
+[18:06:29] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i fininsh the painting!!
+[18:07:04] [Async Chat Thread - #9/INFO]: <Aze> OH NICE
+[18:07:08] [Async Chat Thread - #9/INFO]: <bug6124> its a bit ugly
+[18:07:11] [Async Chat Thread - #9/INFO]: <Aze> sheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeesh
+[18:07:16] [Async Chat Thread - #9/INFO]: <Aze> thats clean
+[18:07:19] [Async Chat Thread - #9/INFO]: <bug6124> huh
+[18:07:36] [Async Chat Thread - #9/INFO]: <bug6124> what do you meannnnnn
+[18:08:15] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty ill be right back im hungry lol
+[18:15:17] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[18:15:17] [Server thread/INFO]: SoapieTomato left the game
+[18:20:56] [Async Chat Thread - #10/INFO]: <bug6124> aze
+[18:21:01] [Async Chat Thread - #10/INFO]: <Aze> yo
+[18:21:07] [Async Chat Thread - #10/INFO]: <bug6124> love you
+[18:21:09] [Async Chat Thread - #10/INFO]: <bug6124> hehehe
+[18:21:17] [Async Chat Thread - #11/INFO]: <Aze> weirdp
+[18:21:22] [Async Chat Thread - #11/INFO]: <bug6124> yep
+[18:21:27] [Async Chat Thread - #11/INFO]: <bug6124> proud to be
+[18:24:25] [Async Chat Thread - #12/INFO]: <bug6124> bro
+[18:24:36] [Async Chat Thread - #12/INFO]: <bug6124> i just mad such a cute painting
+[18:25:00] [Async Chat Thread - #12/INFO]: <Aze> oki?
+[18:25:04] [Async Chat Thread - #12/INFO]: <bug6124> i cal it sad soda
+[18:25:07] [Async Chat Thread - #12/INFO]: <Aze> kinda slay
+[18:25:10] [Async Chat Thread - #12/INFO]: <Aze> sickt
+[18:25:15] [Async Chat Thread - #12/INFO]: <bug6124> lol
+[18:26:07] [Async Chat Thread - #12/INFO]: <bug6124> <3
+[18:26:14] [Async Chat Thread - #12/INFO]: <Aze> :(
+[18:26:24] [Async Chat Thread - #12/INFO]: <bug6124> whats wrong?
+[18:26:32] [Async Chat Thread - #12/INFO]: <bug6124> did you not like the painting
+[18:26:46] [Server thread/INFO]: bug6124 lost connection: Disconnected
+[18:26:46] [Server thread/INFO]: bug6124 left the game
+[18:32:00] [Server thread/INFO]: Azuresty lost connection: Disconnected
+[18:32:01] [Server thread/INFO]: Azuresty left the game
+[18:41:19] [User Authenticator #6/INFO]: UUID of player bug6124 is 984b0ffe-85d2-4750-b5a4-9f9a8a67d83f
+[18:41:20] [Server thread/INFO]: bug6124 joined the game
+[18:41:20] [Server thread/INFO]: bug6124[/45.46.54.161:53207] logged in with entity id 207610 at ([soapSMP]-2037.876959892545, 71.0, -645.336347941713)
+[19:15:38] [Server thread/INFO]: bug6124 lost connection: Disconnected
+[19:15:38] [Server thread/INFO]: bug6124 left the game
+[19:21:16] [User Authenticator #7/INFO]: UUID of player Azuresty is 51643251-0baf-455d-a7be-482a8a2d6913
+[19:21:16] [Server thread/INFO]: Azuresty joined the game
+[19:21:16] [Server thread/INFO]: Azuresty[/38.21.219.232:52120] logged in with entity id 247016 at ([soapSMP]-1872.35551574766, 74.9508241404645, -831.1654705500979)
+[19:22:26] [Server thread/INFO]: [WEB] Azuresty: jioijoi
+[19:22:39] [Async Chat Thread - #16/INFO]: <Aze> rtghareg
+[19:26:38] [User Authenticator #8/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[19:26:39] [Server thread/INFO]: SoapieTomato joined the game
+[19:26:39] [Server thread/INFO]: SoapieTomato[/38.21.219.232:63642] logged in with entity id 248743 at ([soapSMP]-1793.6139636419796, 72.0, -639.387996137739)
+[19:27:23] [Server thread/INFO]: (mcMMO) Aze has reached a Power level of 1,200!
+[19:32:48] [Server thread/INFO]: Azuresty issued server command: /home pale
+[19:33:47] [Server thread/INFO]: Azuresty issued server command: /back
+[19:35:15] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 14
+[19:35:15] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 14 to value)]
+[19:35:20] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[19:35:20] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[19:38:18] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[19:38:18] [Server thread/INFO]: SoapieTomato left the game
+[19:38:51] [Server thread/WARN]: Azuresty moved wrongly!
+[19:42:12] [Server thread/INFO]: Azuresty issued server command: /home pale
+[19:43:24] [Server thread/INFO]: Azuresty issued server command: /back
+[19:55:42] [User Authenticator #9/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[19:55:42] [Server thread/INFO]: SoapieTomato joined the game
+[19:55:42] [Server thread/INFO]: SoapieTomato[/38.21.219.232:63855] logged in with entity id 254000 at ([soapSMP]-1792.5024708900473, 72.0, -641.2178793910697)
+[20:02:20] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[20:03:40] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 14
+[20:03:40] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 14 to value)]
+[20:15:16] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[20:15:27] [Server thread/INFO]: SoapieTomato issued server command: /back
+[20:19:02] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[20:19:02] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[20:19:35] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[20:19:35] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[20:19:37] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[20:19:37] [Server thread/INFO]: SoapieTomato left the game
+[20:19:43] [User Authenticator #10/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[20:19:43] [Server thread/INFO]: SoapieTomato joined the game
+[20:19:43] [Server thread/INFO]: SoapieTomato[/38.21.219.232:64200] logged in with entity id 256843 at ([soapSMP]-1842.669477208256, 74.0, -676.78086619196)
+[20:25:39] [User Authenticator #11/INFO]: UUID of player raaadish is c9bad99a-7b97-4736-9693-f6697d7df3e2
+[20:25:41] [Server thread/INFO]: raaadish joined the game
+[20:25:41] [Server thread/INFO]: raaadish[/38.21.219.232:50389] logged in with entity id 258151 at ([soapSMP]-737.101714334789, 64.0, 916.5854576166992)
+[20:28:21] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[20:28:52] [Server thread/INFO]: SoapieTomato issued server command: /back
+[20:30:18] [Server thread/INFO]: Azuresty issued server command: /spawn
+[20:31:26] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[20:31:26] [Server thread/INFO]: SoapieTomato left the game
+[20:31:31] [User Authenticator #12/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[20:31:31] [Server thread/INFO]: SoapieTomato joined the game
+[20:31:32] [Server thread/INFO]: SoapieTomato[/38.21.219.232:64482] logged in with entity id 260632 at ([soapSMP]-1848.0138596995246, 72.0, -673.7868638798767)
+[20:32:29] [Server thread/INFO]: raaadish issued server command: /spawn
+[20:34:18] [Server thread/INFO]: raaadish issued server command: /tpa SoapieTomato
+[20:34:21] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:tpaccept raaadish
+[20:34:51] [Server thread/INFO]: raaadish issued server command: /home
+[20:35:03] [Server thread/INFO]: raaadish issued server command: /tpa SoapieTomato
+[20:35:05] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:tpaccept raaadish
+[20:35:11] [Server thread/INFO]: raaadish issued server command: /home
+[20:37:16] [Server thread/INFO]: raaadish issued server command: /tpa SoapieTomato
+[20:37:23] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:tpaccept raaadish
+[20:38:35] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[20:38:35] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[20:38:49] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar ts_KillCow
+[20:38:49] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Kill Cow]
+[20:40:16] [User Authenticator #13/INFO]: UUID of player haashthetag is 181bd98a-7afa-41cc-922b-acc4f388ab5a
+[20:40:16] [Server thread/INFO]: haashthetag joined the game
+[20:40:16] [Server thread/INFO]: haashthetag[/38.21.219.232:61396] logged in with entity id 264128 at ([soapSMP]-2560.5359695502525, 63.5, -769.3889692983292)
+[20:40:43] [Server thread/INFO]: haashthetag issued server command: /home home
+[20:40:48] [Server thread/INFO]: raaadish issued server command: /home
+[20:43:17] [Server thread/INFO]: haashthetag issued server command: /home water
+[20:43:22] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[20:43:22] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[20:43:30] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar ts_FishCaught
+[20:43:30] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Fish Caught]
+[20:48:21] [Server thread/INFO]: (mcMMO) raaadish has reached a Power level of 400!
+[20:49:14] [Server thread/INFO]: Azuresty was slain by Zombie
+[20:51:50] [Server thread/INFO]: haashthetag issued server command: /home home
+[20:52:04] [Server thread/INFO]: haashthetag issued server command: /back
+[20:53:12] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[20:53:12] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[20:53:22] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[20:53:22] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[20:56:11] [Server thread/INFO]: (mcMMO) raaadish has reached level 300 in MINING!
+[20:56:25] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[20:56:25] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[20:56:34] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[20:56:34] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[20:56:57] [Server thread/INFO]: SoapieTomato issued server command: /clear
+[20:56:57] [Server thread/INFO]: [SoapieTomato: Removed 522 item(s) from player SoapieTomato]
+[20:57:15] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[20:57:15] [Server thread/INFO]: SoapieTomato left the game
+[20:57:50] [User Authenticator #14/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[20:57:50] [Server thread/INFO]: SoapieTomato joined the game
+[20:57:50] [Server thread/INFO]: SoapieTomato[/38.21.219.232:64872] logged in with entity id 272423 at ([soapSMP]-1846.224600497544, 71.0, -672.849912464623)
+[20:57:57] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[20:58:01] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[20:58:01] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[20:58:10] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[20:58:10] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[20:59:04] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[20:59:04] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[20:59:25] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[20:59:25] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[20:59:34] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[20:59:34] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[20:59:36] [Server thread/INFO]: haashthetag issued server command: /home home
+[21:00:02] [Server thread/INFO]: Azuresty issued server command: /spawn
+[21:00:11] [Server thread/INFO]: haashthetag issued server command: /tpa raaadish
+[21:00:23] [Server thread/INFO]: raaadish issued server command: /huskhomes:tpaccept haashthetag
+[21:02:01] [Server thread/INFO]: Azuresty issued server command: /back
+[21:03:47] [User Authenticator #15/INFO]: UUID of player bug6124 is 984b0ffe-85d2-4750-b5a4-9f9a8a67d83f
+[21:03:48] [Server thread/INFO]: bug6124 joined the game
+[21:03:48] [Server thread/INFO]: bug6124[/45.46.54.161:50061] logged in with entity id 276949 at ([soapSMP]-2044.8842928823076, 71.0, -654.8132839491404)
+[21:05:24] [Async Chat Thread - #26/INFO]: <bug6124> i went random with that one lol
+[21:05:41] [Async Chat Thread - #26/INFO]: <Aze> these are all sop cool
+[21:05:46] [Server thread/INFO]: haashthetag was doomed to fall by Zombie
+[21:05:48] [Async Chat Thread - #26/INFO]: <bug6124> thanks
+[21:05:54] [Server thread/INFO]: haashthetag issued server command: /back
+[21:07:13] [Server thread/INFO]: haashthetag issued server command: /back
+[21:07:20] [Server thread/INFO]: haashthetag issued server command: /back
+[21:09:25] [Server thread/INFO]: haashthetag issued server command: /tpa
+[21:09:30] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[21:09:30] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[21:09:32] [Server thread/INFO]: haashthetag issued server command: /tpa raaadish
+[21:09:52] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[21:09:52] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[21:10:00] [Server thread/INFO]: raaadish issued server command: /huskhomes:tpaccept haashthetag
+[21:11:06] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty psst aze you want this
+[21:11:21] [Server thread/INFO]: Azuresty issued server command: /msg kaylee huh
+[21:11:28] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 huh
+[21:11:41] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 wherer
+[21:11:47] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty in my house
+[21:12:02] [Async Chat Thread - #28/INFO]: <Aze> ooo
+[21:12:05] [Async Chat Thread - #28/INFO]: <Aze> hats goood
+[21:12:08] [Server thread/INFO]: haashthetag issued server command: /back
+[21:12:10] [Server thread/INFO]: haashthetag issued server command: /back
+[21:12:12] [Server thread/INFO]: haashthetag issued server command: /home home
+[21:12:13] [Async Chat Thread - #28/INFO]: <Aze> but i dont need it rn
+[21:12:18] [Async Chat Thread - #28/INFO]: <bug6124> oh ok
+[21:12:48] [Server thread/INFO]: haashthetag issued server command: /back
+[21:13:37] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[21:13:37] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[21:13:47] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[21:13:47] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[21:13:59] [Server thread/INFO]: raaadish issued server command: /tpa haashthetag
+[21:14:02] [Server thread/INFO]: haashthetag issued server command: /huskhomes:tpaccept raaadish
+[21:14:29] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[21:14:29] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[21:14:32] [Server thread/INFO]: SoapieTomato issued server command: /home harobr
+[21:14:34] [Server thread/INFO]: SoapieTomato issued server command: /home harobr
+[21:14:36] [Server thread/WARN]: raaadish moved wrongly!
+[21:14:36] [Server thread/INFO]: SoapieTomato issued server command: /home harobr
+[21:14:38] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[21:14:43] [Server thread/INFO]: raaadish issued server command: /tpa haashthetag
+[21:14:44] [Server thread/INFO]: raaadish was slain by Warden
+[21:14:46] [Server thread/INFO]: haashthetag issued server command: /huskhomes:tpaccept raaadish
+[21:15:06] [Server thread/INFO]: raaadish issued server command: /tpa haashthetag
+[21:15:12] [Server thread/INFO]: haashthetag issued server command: /huskhomes:tpaccept raaadish
+[21:15:16] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[21:15:16] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[21:15:20] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[21:15:20] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[21:16:01] [User Authenticator #16/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[21:16:02] [Server thread/INFO]: bwjr2 joined the game
+[21:16:02] [Server thread/INFO]: bwjr2[/67.218.90.4:37897] logged in with entity id 283653 at ([soapSMP_the_end]231.85284463765586, 2.0, -0.4869955493514529)
+[21:16:02] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[21:16:02] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[21:16:05] [Async Chat Thread - #30/INFO]: <LunaMaiden> :OO
+[21:16:06] [Server thread/INFO]: bug6124 issued server command: /sethome
+[21:16:10] [Async Chat Thread - #30/INFO]: <bwjr2> hiiiiiiiiiiiiii
+[21:16:16] [Async Chat Thread - #30/INFO]: <bwjr2> theres like 5 people here
+[21:16:18] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[21:16:18] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[21:16:21] [Server thread/INFO]: bug6124 issued server command: /home
+[21:16:31] [Async Chat Thread - #31/INFO]: <LunaMaiden> yeye the besties are trying to fight the warden in the ancient city
+[21:16:42] [Async Chat Thread - #30/INFO]: <bwjr2> huhhuh
+[21:16:49] [Server thread/INFO]: raaadish was obliterated by a sonically-charged shriek
+[21:16:58] [Async Chat Thread - #30/INFO]: <bwjr2> get better
+[21:17:01] [Async Chat Thread - #31/INFO]: <bwjr2> but also rip
+[21:17:01] [Server thread/INFO]: raaadish issued server command: /tpa haashthetag
+[21:17:07] [Server thread/INFO]: haashthetag issued server command: /back
+[21:17:18] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty hey aze... can you help me get the pretty wings?
+[21:17:21] [Async Chat Thread - #30/INFO]: <bwjr2> the fallen comrade
+[21:17:31] [Server thread/INFO]: bwjr2 issued server command: /home Monastery
+[21:17:36] [Server thread/INFO]: raaadish issued server command: /home
+[21:17:40] [Async Chat Thread - #30/INFO]: <bwjr2> noooooooooo
+[21:17:49] [Async Chat Thread - #30/INFO]: <bwjr2> the chests arent christmasy anymore
+[21:17:54] [Async Chat Thread - #30/INFO]: <LunaMaiden> yeye riprip
+[21:18:31] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[21:18:31] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[21:18:37] [Async Chat Thread - #30/INFO]: <bwjr2> yo, i can have creativ? workin on monestary
+[21:18:38] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[21:18:38] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[21:18:43] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative bwjr2
+[21:18:43] [Server thread/INFO]: [SoapieTomato: Set bwjr2's game mode to Creative Mode]
+[21:20:14] [Server thread/INFO]: haashthetag issued server command: /home water
+[21:20:25] [Server thread/INFO]: haashthetag issued server command: /back
+[21:23:47] [Async Chat Thread - #32/INFO]: <LunaMaiden> time magic one sec
+[21:23:50] [Server thread/INFO]: SoapieTomato issued server command: /time set midnight
+[21:23:50] [Server thread/INFO]: [SoapieTomato: Set the time to 18000]
+[21:23:54] [Server thread/INFO]: SoapieTomato issued server command: /time set day
+[21:23:54] [Server thread/INFO]: [SoapieTomato: Set the time to 1000]
+[21:24:26] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[21:24:26] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[21:24:46] [Server thread/INFO]: Azuresty was slain by Spider
+[21:24:50] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[21:24:50] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[21:25:10] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[21:25:10] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[21:25:23] [Server thread/INFO]: raaadish issued server command: /mctop mining
+[21:26:39] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[21:26:39] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[21:27:11] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty yooo i got your favriot thinggggggggggg
+[21:27:18] [Server thread/INFO]: bug6124 issued server command: /home
+[21:27:47] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i left it in my mailbox for you
+[21:28:21] [Server thread/INFO]: haashthetag issued server command: /home water
+[21:28:22] [Server thread/INFO]: SoapieTomato issued server command: /time set night
+[21:28:22] [Server thread/INFO]: [SoapieTomato: Set the time to 13000]
+[21:28:27] [Server thread/INFO]: SoapieTomato issued server command: /time set midnight
+[21:28:27] [Server thread/INFO]: [SoapieTomato: Set the time to 18000]
+[21:28:31] [Server thread/INFO]: SoapieTomato issued server command: /time set day
+[21:28:31] [Server thread/INFO]: [SoapieTomato: Set the time to 1000]
+[21:28:35] [Server thread/INFO]: haashthetag issued server command: /back home
+[21:28:42] [Server thread/INFO]: haashthetag issued server command: /home home
+[21:29:09] [Server thread/INFO]: raaadish issued server command: /sethome mines
+[21:29:11] [Server thread/INFO]: raaadish issued server command: /home
+[21:29:16] [Server thread/INFO]: raaadish issued server command: /home
+[21:29:31] [Server thread/INFO]: raaadish issued server command: /spawn
+[21:29:44] [Server thread/INFO]: raaadish issued server command: /home
+[21:29:50] [Server thread/INFO]: raaadish issued server command: /home home
+[21:30:07] [Server thread/INFO]: haashthetag issued server command: /home water
+[21:30:40] [Server thread/INFO]: SoapieTomato issued server command: /mctop FISHING
+[21:30:49] [Server thread/INFO]: raaadish issued server command: /home mines
+[21:32:21] [Server thread/INFO]: Named entity ZombieVillager['Zombie Villager'/293825, uuid='facff4c6-a507-44eb-a43c-4e956a432a90', l='ServerLevel[soapSMP]', x=-647.94, y=21.00, z=1157.69, cpos=[-41, 72], tl=1788, v=true] died: Zombie Villager was shot by Skeleton
+[21:33:09] [Server thread/INFO]: Azuresty issued server command: /huskhomes:back
+[21:35:23] [Server thread/INFO]: raaadish issued server command: /home mines
+[21:36:20] [Server thread/INFO]: Named entity Skeleton['Skeleton'/297541, uuid='48e81d50-b01f-44c3-b5fd-7d942706e94d', l='ServerLevel[soapSMP]', x=-640.70, y=20.06, z=1156.30, cpos=[-41, 72], tl=1117, v=true] died: Skeleton was slain by Zombie
+[21:37:39] [Server thread/INFO]: (mcMMO) LunaMaiden has reached a Power level of 3,200!
+[21:37:55] [Server thread/INFO]: Named entity Skeleton['Skeleton'/299042, uuid='f44e1a30-97a9-4ab5-8851-95796173542a', l='ServerLevel[soapSMP]', x=-604.30, y=11.30, z=1179.70, cpos=[-38, 73], tl=687, v=true] died: Skeleton was slain by raaadish
+[21:38:16] [Server thread/INFO]: bug6124 tried to swim in lava to escape Zombie
+[21:38:40] [Server thread/INFO]: bug6124 issued server command: /home
+[21:40:00] [Server thread/INFO]: Azuresty issued server command: /homelist
+[21:40:06] [Server thread/INFO]: Azuresty issued server command: /huskhomes:edithome Azuresty.gravel
+[21:40:07] [Server thread/INFO]: Azuresty issued server command: /huskhomes:home Azuresty.gravel
+[21:40:22] [Server thread/INFO]: Azuresty issued server command: /back
+[21:40:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2540ms or 50 ticks behind
+[21:40:41] [Server thread/INFO]: bug6124 issued server command: /spawn
+[21:41:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
+[21:41:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2634ms or 52 ticks behind
+[21:42:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2540ms or 50 ticks behind
+[21:42:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2538ms or 50 ticks behind
+[21:42:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2683ms or 53 ticks behind
+[21:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2587ms or 51 ticks behind
+[21:43:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2553ms or 51 ticks behind
+[21:45:13] [Server thread/INFO]: (mcMMO) raaadish has reached a Power level of 500!
+[21:45:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2617ms or 52 ticks behind
+[21:46:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2536ms or 50 ticks behind
+[21:46:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2664ms or 53 ticks behind
+[21:46:34] [Server thread/INFO]: Azuresty issued server command: /home gravel
+[21:46:51] [Server thread/INFO]: Azuresty issued server command: /phome harbor
+[21:46:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2500ms or 50 ticks behind
+[21:47:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
+[21:47:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2531ms or 50 ticks behind
+[21:48:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2504ms or 50 ticks behind
+[21:48:14] [Async Chat Thread - #36/INFO]: <bwjr2> does using one block type generally work well for builds
+[21:48:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[21:48:41] [Async Chat Thread - #36/INFO]: <LunaMaiden> I mean I like having a palette wiht a couple different options but yeah you generally want to keep them in the same class
+[21:48:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2529ms or 50 ticks behind
+[21:48:57] [Async Chat Thread - #36/INFO]: <bwjr2> hm
+[21:49:08] [Async Chat Thread - #36/INFO]: <LunaMaiden> like for the moonlit harbor its mostly grey stones and spruce/dark oak woods
+[21:49:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2507ms or 50 ticks behind
+[21:49:15] [Server thread/INFO]: bug6124 issued server command: /home
+[21:49:20] [Async Chat Thread - #36/INFO]: <bwjr2> yeyeye
+[21:50:20] [Server thread/INFO]: bug6124 issued server command: /spawn
+[21:50:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
+[21:51:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2557ms or 51 ticks behind
+[21:51:01] [Server thread/INFO]: bug6124 issued server command: /home
+[21:53:26] [Server thread/INFO]: raaadish issued server command: /home
+[21:53:28] [Server thread/INFO]: raaadish issued server command: /home home
+[21:53:35] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[21:53:42] [Server thread/INFO]: SoapieTomato issued server command: /back
+[21:54:06] [Server thread/INFO]: raaadish lost connection: Disconnected
+[21:54:06] [Server thread/INFO]: raaadish left the game
+[21:55:10] [Server thread/INFO]: Azuresty issued server command: /home gravel
+[21:55:18] [Server thread/INFO]: Azuresty issued server command: /back
+[21:56:24] [Server thread/INFO]: Azuresty lost connection: Disconnected
+[21:56:24] [Server thread/INFO]: Azuresty left the game
+[21:56:39] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[21:56:45] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[21:56:45] [User Authenticator #17/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[21:56:46] [Server thread/INFO]: bwjr joined the game
+[21:56:46] [Server thread/INFO]: bwjr[/67.218.90.4:4487] logged in with entity id 319877 at ([soapSMP]-1409.898546146197, 102.5, -1180.1105404856696)
+[21:56:54] [Async Chat Thread - #38/INFO]: <LunaMaiden> :OO
+[21:56:56] [Server thread/INFO]: SoapieTomato issued server command: /back
+[21:57:02] [Async Chat Thread - #38/INFO]: <ppr> :OOOO
+[21:57:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2506ms or 50 ticks behind
+[21:57:17] [User Authenticator #17/INFO]: UUID of player Azuresty is 51643251-0baf-455d-a7be-482a8a2d6913
+[21:57:18] [Server thread/INFO]: Azuresty joined the game
+[21:57:18] [Server thread/INFO]: Azuresty[/38.21.219.232:59203] logged in with entity id 320418 at ([soapSMP]-1759.4728527688396, 57.0, -666.6999999880791)
+[21:57:49] [Server thread/INFO]: bug6124 issued server command: /spawn
+[21:57:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2501ms or 50 ticks behind
+[21:58:01] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[21:58:09] [Server thread/INFO]: bug6124 issued server command: /home
+[21:58:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2584ms or 51 ticks behind
+[21:58:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2520ms or 50 ticks behind
+[21:58:51] [Server thread/INFO]: bwjr issued server command: /spawn
+[21:58:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2508ms or 50 ticks behind
+[22:00:46] [Server thread/INFO]: Azuresty issued server command: /phome harbor
+[22:00:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2548ms or 50 ticks behind
+[22:02:08] [Server thread/INFO]: bug6124 issued server command: /spawn
+[22:02:10] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[22:02:10] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[22:02:55] [Server thread/INFO]: bug6124 issued server command: /home
+[22:02:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2509ms or 50 ticks behind
+[22:04:02] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty are you upset with me?
+[22:04:21] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 no no just cilling sorry my dad made some no bakes
+[22:04:25] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[22:04:25] [Server thread/INFO]: SoapieTomato left the game
+[22:04:39] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty oh ok
+[22:06:07] [Server thread/INFO]: bug6124 issued server command: /msg
+[22:06:20] [Server thread/INFO]: haashthetag issued server command: /trigger color
+[22:06:20] [Server thread/INFO]: [haashthetag: Triggered [Color]]
+[22:06:32] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty hey question how do you get tiptid and can you help me get it
+[22:06:42] [Server thread/INFO]: haashthetag issued server command: /trigger color set -16
+[22:06:42] [Server thread/INFO]: [haashthetag: Triggered [Color] (set value to -16)]
+[22:06:54] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 tiptid?
+[22:06:54] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty alsooooo can youcome over here hehehe
+[22:07:27] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty SHUSH... i bad at spelling
+[22:07:37] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i want riptide
+[22:07:51] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 oh ok
+[22:08:02] [Server thread/INFO]: bug6124 issued server command: /msg alsoooo i wnat it to thunder soon
+[22:08:17] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i also want it to thunder soon
+[22:08:34] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 could i get some food......
+[22:09:34] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty you have my trident...
+[22:10:59] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 you cant have riptide and loyaly on the same trident
+[22:11:13] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty awwww
+[22:11:23] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 i have 2
+[22:11:30] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty heyyy question
+[22:12:19] [Server thread/INFO]: bug6124 issued server command: /msg azurest could you help me with an elitra alsoooo i wnat fancy armor so i could use some help in the neather
+[22:12:20] [Server thread/INFO]: Azuresty issued server command: /msg bug6124
+[22:12:27] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 kaylee?
+[22:12:34] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty can you help me with the neather
+[22:12:36] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 could i get thosse back?
+[22:12:44] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 and suer
+[22:13:06] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty can you also help me with getting an elitra fancy
+[22:13:24] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty also i wnat fancy armor from the neather
+[22:13:26] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 to much choose one
+[22:13:53] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty hmmm how about the nether hansome
+[22:14:13] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty heheh
+[22:14:14] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 what do you need
+[22:14:23] [Server thread/INFO]: bug6124 issued server command: /msg the fancy ore
+[22:14:32] [Server thread/INFO]: Azuresty issued server command: /phome harbor
+[22:14:44] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty the fancy ore i just need help getting it
+[22:15:13] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 wdym fancy??????
+[22:15:31] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty you know the netherite
+[22:15:44] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 like the black armor
+[22:15:54] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty yesss
+[22:16:02] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty plssss azeeeeeee
+[22:16:51] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 you can tp to me jsut give one sec
+[22:17:15] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty yay thank you a bunch pookie :]
+[22:17:24] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty lol
+[22:18:13] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 tp
+[22:18:26] [Server thread/INFO]: bug6124 issued server command: /tpa Azuresty
+[22:18:58] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i sent it
+[22:19:00] [Server thread/INFO]: Azuresty issued server command: /huskhomes:tpaccept bug6124
+[22:22:22] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i miss you
+[22:22:35] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 i know :(
+[22:23:00] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i wish to call you :[
+[22:24:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2524ms or 50 ticks behind
+[22:24:45] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty how many peices do we need
+[22:24:57] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i have two
+[22:25:11] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 you need 4 for 1 ingot, i have 1
+[22:25:24] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty okie
+[22:25:32] [Server thread/INFO]: Azuresty issued server command: /tp
+[22:25:48] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty boo
+[22:25:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2521ms or 50 ticks behind
+[22:26:21] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 ned to repait my pic, you can coem if you like do /phome enderman
+[22:26:29] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[22:26:29] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[22:26:36] [Server thread/INFO]: Azuresty issued server command: /phome enderman
+[22:26:54] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty huhhh
+[22:27:12] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[22:27:12] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[22:27:14] [Server thread/INFO]: bug6124 issued server command: /home
+[22:27:19] [Server thread/INFO]: (mcMMO) Aze has reached level 200 in SWORDS!
+[22:27:20] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[22:27:20] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[22:27:57] [Server thread/INFO]: Azuresty issued server command: /back
+[22:28:05] [Server thread/INFO]: bug6124 issued server command: /phome enderman
+[22:28:08] [Server thread/INFO]: Azuresty issued server command: /phome harbor
+[22:28:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2534ms or 50 ticks behind
+[22:29:10] [Server thread/INFO]: DamPnutManFan (/67.218.90.4:5144) lost connection: Disconnected
+[22:29:17] [Server thread/INFO]: DamPnutManFan (/67.218.90.4:20433) lost connection: Disconnected
+[22:29:36] [Server thread/INFO]: DamPnutManFan (/67.218.90.4:31558) lost connection: Disconnected
+[22:29:37] [Server thread/INFO]: Azuresty issued server command: /tpa bug6124
+[22:29:45] [Server thread/INFO]: bug6124 issued server command: /huskhomes:tpaccept Azuresty
+[22:30:02] [Server thread/INFO]: Azuresty issued server command: /back
+[22:30:08] [Server thread/INFO]: Azuresty issued server command: /spawn
+[22:31:43] [Server thread/INFO]: bug6124 issued server command: /home
+[22:31:55] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty idk what to do now
+[22:32:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2629ms or 52 ticks behind
+[22:32:11] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 im mining again
+[22:32:22] [Server thread/INFO]: bug6124 issued server command: /tpa Azuresty
+[22:32:31] [Server thread/INFO]: Azuresty issued server command: /huskhomes:tpaccept bug6124
+[22:34:46] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 do your pic need repairs? does it have mending?
+[22:35:02] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty it doesnt
+[22:35:16] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty ;]
+[22:35:18] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 OOOOOOOOOFRFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA
+[22:36:50] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty ill stay in my shame hole...
+[22:37:01] [User Authenticator #18/INFO]: UUID of player DamPnutManFan is eaed2a6d-94fb-4a74-86a6-9ab5c8013f51
+[22:37:02] [Server thread/INFO]: DamPnutManFan joined the game
+[22:37:02] [Server thread/INFO]: DamPnutManFan[/67.218.90.4:43381] logged in with entity id 376817 at ([soapSMP]-613.110524929054, 77.0, 506.4087529077118)
+[22:37:29] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 i have 3 ingots
+[22:38:18] [Server thread/INFO]: Azuresty hit the ground too hard
+[22:38:22] [Server thread/INFO]: Azuresty issued server command: /huskhomes:back
+[22:38:47] [Server thread/INFO]: Azuresty issued server command: /home
+[22:38:52] [Server thread/INFO]: Azuresty issued server command: /huskhomes:edithome Azuresty.trident
+[22:38:54] [Server thread/INFO]: Azuresty issued server command: /huskhomes:home Azuresty.trident
+[22:39:12] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty ;[[[
+[22:39:21] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 im at your hosue, tho i dont have a bed
+[22:39:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2533ms or 50 ticks behind
+[22:39:29] [Server thread/INFO]: bug6124 issued server command: /HOME
+[22:39:37] [Server thread/INFO]: bug6124 issued server command: /home
+[22:39:47] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 tp to me
+[22:40:00] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty im already here
+[22:40:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2644ms or 52 ticks behind
+[22:40:56] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 fixed, thank you!
+[22:41:09] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty nicw
+[22:41:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2536ms or 50 ticks behind
+[22:41:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2614ms or 52 ticks behind
+[22:42:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2503ms or 50 ticks behind
+[22:42:21] [Server thread/INFO]: bug6124 issued server command: /tpa Azuresty
+[22:42:50] [Server thread/INFO]: bug6124 issued server command: /phome enderman
+[22:42:59] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 workin on it r
+[22:43:07] [Server thread/INFO]: haashthetag issued server command: /home water
+[22:43:15] [Server thread/INFO]: Azuresty issued server command: /phome harbor
+[22:43:19] [Server thread/INFO]: bug6124 issued server command: /home
+[22:43:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2588ms or 51 ticks behind
+[22:43:30] [Server thread/INFO]: haashthetag issued server command: /home home
+[22:43:33] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty ok just tell me when then
+[22:44:05] [Server thread/INFO]: Azuresty issued server command: /trigger home
+[22:44:05] [Server thread/INFO]: [Azuresty: Triggered [Home]]
+[22:44:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2520ms or 50 ticks behind
+[22:45:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2596ms or 51 ticks behind
+[22:45:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2615ms or 52 ticks behind
+[22:46:44] [Server thread/INFO]: haashthetag lost connection: Disconnected
+[22:46:44] [Server thread/INFO]: haashthetag left the game
+[22:47:03] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty .....
+[22:47:06] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 i can upgrade 3 things
+[22:47:14] [Async Chat Thread - #62/INFO]: <bug6124> okiw
+[22:47:31] [User Authenticator #19/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[22:47:32] [Server thread/INFO]: SoapieTomato joined the game
+[22:47:32] [Server thread/INFO]: SoapieTomato[/38.21.219.232:49806] logged in with entity id 404108 at ([soapSMP]-1817.6374736201847, 62.11076431274414, -563.3136113273258)
+[22:47:38] [Async Chat Thread - #62/INFO]: <LunaMaiden> o//
+[22:47:46] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty your cute
+[22:48:03] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 did you give me this unenchanted axe?
+[22:48:15] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 are you sure?
+[22:48:24] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty idk
+[22:48:45] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty id not just upgrade bootsies
+[22:48:54] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[22:49:12] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 you got an eylaytra?
+[22:49:32] [Async Chat Thread - #62/INFO]: <Aze> give the vhestplate back
+[22:49:45] [Async Chat Thread - #62/INFO]: <Aze> ill be back
+[22:49:46] [Server thread/INFO]: Azuresty issued server command: /spawn
+[22:49:52] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty okiw
+[22:50:04] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[22:50:49] [Server thread/INFO]: Azuresty issued server command: /phome enderman
+[22:50:52] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[22:50:52] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[22:51:06] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar ts_PlayTime
+[22:51:06] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Play Time]
+[22:51:34] [Server thread/INFO]: Azuresty issued server command: /phome maiden
+[22:51:42] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 tp to me
+[22:52:27] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[22:52:33] [Server thread/INFO]: SoapieTomato issued server command: /home harobr
+[22:52:35] [Server thread/INFO]: SoapieTomato issued server command: /home habor
+[22:52:38] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[22:52:47] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 throw them ontop oif it
+[22:52:58] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty i can do thatt
+[22:53:06] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[22:53:09] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 no no
+[22:53:15] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 like throw them
+[22:53:42] [Async Chat Thread - #66/INFO]: <Aze> it worked
+[22:53:57] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty
+[22:53:58] [Async Chat Thread - #66/INFO]: <Aze> your chestplate stats are now on your eylaytra/
+[22:54:27] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[22:54:50] [Server thread/INFO]: SoapieTomato issued server command: /back
+[22:56:15] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[22:56:55] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[22:57:00] [Async Chat Thread - #68/INFO]: <Aze> guess what it is
+[22:57:20] [Async Chat Thread - #68/INFO]: <bug6124> i dont want to i already see it...
+[22:57:35] [Async Chat Thread - #68/INFO]: <Aze> lmao
+[23:00:49] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty can i help...
+[23:01:10] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 do what you want : ^)
+[23:02:34] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[23:03:29] [Server thread/INFO]: bug6124 was impaled by Azuresty
+[23:03:35] [Server thread/INFO]: bug6124 issued server command: /huskhomes:back
+[23:03:35] [Async Chat Thread - #72/INFO]: <LunaMaiden> ayo?
+[23:03:38] [Async Chat Thread - #72/INFO]: <LunaMaiden> O.O
+[23:03:46] [Async Chat Thread - #72/INFO]: <Aze> didnt knwo you were that low
+[23:04:15] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[23:04:29] [Server thread/INFO]: bug6124 was slain by Azuresty using [♱♰FreeBird♰♱]
+[23:04:34] [Server thread/INFO]: bug6124 issued server command: /huskhomes:back
+[23:04:38] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[23:04:42] [Server thread/INFO]: bug6124 was slain by Azuresty using [♱♰FreeBird♰♱]
+[23:04:59] [Async Chat Thread - #74/INFO]: <Aze> i got allt he heads i needed thanky ou
+[23:05:53] [Server thread/INFO]: bug6124 lost connection: Disconnected
+[23:05:53] [Server thread/INFO]: bug6124 left the game
+[23:05:55] [User Authenticator #20/INFO]: UUID of player bug6124 is 984b0ffe-85d2-4750-b5a4-9f9a8a67d83f
+[23:05:55] [Server thread/INFO]: bug6124 joined the game
+[23:05:56] [Server thread/INFO]: bug6124[/45.46.54.161:53109] logged in with entity id 443487 at ([soapSMP]-1842.8368143031437, 74.0, -701.9414250473827)
+[23:06:36] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[23:07:00] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[23:07:09] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty azeeeeeeeeeeeee!!!!!!! helppp
+[23:07:19] [Server thread/INFO]: Azuresty issued server command: /tpa bug6124
+[23:07:25] [Server thread/INFO]: bug6124 issued server command: /huskhomes:tpaccept Azuresty
+[23:08:15] [Async Chat Thread - #78/INFO]: <bug6124> aze
+[23:08:36] [Async Chat Thread - #78/INFO]: <bug6124> why do you have a shrine of me
+[23:09:04] [Async Chat Thread - #78/INFO]: <Aze> its a secret
+[23:09:08] [Async Chat Thread - #78/INFO]: <bug6124> you got some explaining
+[23:09:57] [Async Chat Thread - #78/INFO]: <bug6124> wth is this placeeeeeeeeeeeee
+[23:10:10] [Async Chat Thread - #78/INFO]: <bug6124> why there a chest called cheese?!?!
+[23:10:12] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[23:10:12] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[23:10:42] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 no more talking about it
+[23:10:52] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 it a ssecret
+[23:10:52] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty why?
+[23:11:04] [Server thread/INFO]: Azuresty issued server command: /msg bug6124 its where i hide myt heads
+[23:11:59] [Server thread/INFO]: SoapieTomato issued server command: /give Azuresty minecraft:creaking_spawn_egg
+[23:11:59] [Server thread/INFO]: [SoapieTomato: Gave 1 [Creaking Spawn Egg] to Azuresty]
+[23:12:19] [Server thread/INFO]: Azuresty issued server command: /spawn
+[23:12:39] [Server thread/INFO]: SoapieTomato issued server command: /home harobr
+[23:12:41] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[23:13:14] [Server thread/INFO]: Azuresty issued server command: /back
+[23:13:46] [Server thread/INFO]: SoapieTomato issued server command: /give Azuresty minecraft:creaking_spawn_egg
+[23:13:46] [Server thread/INFO]: [SoapieTomato: Gave 1 [Creaking Spawn Egg] to Azuresty]
+[23:14:14] [Server thread/INFO]: Azuresty issued server command: /tpa bug6124
+[23:14:18] [Server thread/INFO]: bug6124 issued server command: /huskhomes:tpaccept Azuresty
+[23:14:26] [Async Chat Thread - #81/INFO]: <Aze> lmao
+[23:15:59] [Server thread/INFO]: SoapieTomato issued server command: /sethome oracle
+[23:16:03] [Async Chat Thread - #83/INFO]: <bug6124> aze can you grab me more paintings pls
+[23:16:12] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[23:16:27] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[23:16:34] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[23:17:45] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[23:18:25] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[23:19:00] [Server thread/INFO]: SoapieTomato issued server command: /home maiden
+[23:20:00] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[23:20:00] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[23:20:17] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[23:20:17] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[23:20:22] [Server thread/INFO]: Azuresty issued server command: /home gravel
+[23:20:30] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[23:20:30] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[23:20:33] [Server thread/INFO]: Azuresty issued server command: /back
+[23:21:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2557ms or 51 ticks behind
+[23:21:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2677ms or 53 ticks behind
+[23:22:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
+[23:22:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2613ms or 52 ticks behind
+[23:23:03] [Server thread/INFO]: bwjr issued server command: /fill -2218 63 -1045
+[23:23:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2510ms or 50 ticks behind
+[23:23:20] [Server thread/INFO]: bwjr issued server command: /fill -2218 63 -1045 -2150 63 -1096 minecraft:air
+[23:23:20] [Server thread/INFO]: [bwjr: Successfully filled 843 block(s)]
+[23:23:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2645ms or 52 ticks behind
+[23:23:32] [Server thread/INFO]: bwjr issued server command: /fill -2218 63 -1045 -2165 63 -1109 minecraft:air
+[23:23:32] [Server thread/INFO]: [bwjr: Successfully filled 381 block(s)]
+[23:23:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2510ms or 50 ticks behind
+[23:24:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2635ms or 52 ticks behind
+[23:24:34] [Async Chat Thread - #85/INFO]: <bug6124> aze
+[23:24:39] [Async Chat Thread - #85/INFO]: <Aze> yes?
+[23:24:41] [Async Chat Thread - #85/INFO]: <bug6124> ive made a master peice
+[23:24:51] [Async Chat Thread - #85/INFO]: <bug6124> lol
+[23:24:51] [Async Chat Thread - #85/INFO]: <Aze> img yes
+[23:24:58] [Async Chat Thread - #85/INFO]: <Aze> this is the defition of camp
+[23:25:23] [Server thread/INFO]: SoapieTomato issued server command: /home oracle
+[23:25:39] [Server thread/INFO]: bwjr issued server command: /fill -2150 62 -1064
+[23:25:50] [Server thread/INFO]: bwjr issued server command: /fill -2150 62 -1064 -2192 62 -1083 minecraft:sand
+[23:25:50] [Server thread/INFO]: [bwjr: Successfully filled 765 block(s)]
+[23:27:27] [Server thread/WARN]: SoapieTomato moved wrongly!
+[23:29:11] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[23:29:37] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[23:30:13] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[23:30:13] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[23:31:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2521ms or 50 ticks behind
+[23:32:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2522ms or 50 ticks behind
+[23:33:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2520ms or 50 ticks behind
+[23:33:44] [Server thread/INFO]: bwjr issued server command: /home
+[23:33:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2722ms or 54 ticks behind
+[23:33:47] [Server thread/INFO]: bwjr issued server command: /home 1
+[23:34:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3543ms or 70 ticks behind
+[23:34:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2846ms or 56 ticks behind
+[23:34:31] [Server thread/INFO]: bwjr issued server command: /back
+[23:34:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2833ms or 56 ticks behind
+[23:35:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2539ms or 50 ticks behind
+[23:35:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2566ms or 51 ticks behind
+[23:35:24] [Async Chat Thread - #87/INFO]: <bug6124> lmaooo
+[23:35:37] [Async Chat Thread - #87/INFO]: <bug6124> aze you gotta see this
+[23:35:54] [Async Chat Thread - #88/INFO]: <Aze> mc thonalds
+[23:36:01] [Async Chat Thread - #88/INFO]: <Aze> one sec
+[23:36:04] [Async Chat Thread - #88/INFO]: <bug6124> ok
+[23:36:05] [Async Chat Thread - #88/INFO]: <Aze> it cna be beete
+[23:36:08] [Async Chat Thread - #88/INFO]: <Aze> wantch
+[23:36:33] [Async Chat Thread - #88/INFO]: <bug6124> its perfect now
+[23:36:53] [Server thread/INFO]: SoapieTomato issued server command: /time set midnight
+[23:36:53] [Server thread/INFO]: [SoapieTomato: Set the time to 18000]
+[23:39:15] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[23:39:15] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[23:39:18] [Server thread/INFO]: SoapieTomato issued server command: /home australia
+[23:39:29] [Server thread/INFO]: SoapieTomato issued server command: /back
+[23:40:20] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[23:40:20] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[23:41:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2513ms or 50 ticks behind
+[23:42:43] [Server thread/INFO]: SoapieTomato issued server command: /time set midnight
+[23:42:43] [Server thread/INFO]: [SoapieTomato: Set the time to 18000]
+[23:42:49] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[23:42:49] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[23:42:53] [Server thread/INFO]: SoapieTomato issued server command: /time set day
+[23:42:53] [Server thread/INFO]: [SoapieTomato: Set the time to 1000]
+[23:43:01] [Async Chat Thread - #89/INFO]: <LunaMaiden> wait would anyone want to see the new Oracle in the harbor town?
+[23:43:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2546ms or 50 ticks behind
+[23:43:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2536ms or 50 ticks behind
+[23:43:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2532ms or 50 ticks behind
+[23:44:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2634ms or 52 ticks behind
+[23:44:38] [Server thread/INFO]: SoapieTomato issued server command: /home oracle
+[23:45:39] [Server thread/INFO]: bug6124 issued server command: /msg Azuresty ok i think its fully donw
+[23:45:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2548ms or 50 ticks behind
+[23:45:56] [Async Chat Thread - #92/INFO]: <Aze> very cute
+[23:46:01] [Server thread/INFO]: SoapieTomato issued server command: /home harbor
+[23:46:05] [Async Chat Thread - #92/INFO]: <Aze> needs seats and shit
+[23:46:14] [Async Chat Thread - #92/INFO]: <bug6124> i agree
+[23:46:28] [Async Chat Thread - #92/INFO]: <ppr> new oracle??
+[23:46:32] [Server thread/INFO]: bwjr issued server command: /tpa SoapieTomato
+[23:46:37] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:tpaccept bwjr
+[23:46:40] [Async Chat Thread - #92/INFO]: <LunaMaiden> yeye
+[23:46:43] [Async Chat Thread - #92/INFO]: <LunaMaiden> wait the moon door
+[23:46:48] [Server thread/INFO]: SoapieTomato issued server command: /time set midnight
+[23:46:48] [Server thread/INFO]: [SoapieTomato: Set the time to 18000]
+[23:46:54] [Async Chat Thread - #92/INFO]: <Aze> hwat
+[23:46:57] [Async Chat Thread - #92/INFO]: <ppr> lmao
+[23:46:59] [Async Chat Thread - #92/INFO]: <ppr> i love
+[23:47:01] [Async Chat Thread - #92/INFO]: <LunaMaiden> he knows all
+[23:47:08] [Async Chat Thread - #92/INFO]: <LunaMaiden> you can ask him for advice
+[23:47:10] [Async Chat Thread - #92/INFO]: <ppr> the ghost of hamlet's father
+[23:47:14] [Async Chat Thread - #92/INFO]: <LunaMaiden> haha the lore
+[23:47:51] [Async Chat Thread - #92/INFO]: <LunaMaiden> but yes michael will be answering advice only at night :3
+[23:48:06] [Async Chat Thread - #92/INFO]: <ppr> this is beautiful
+[23:48:09] [Async Chat Thread - #92/INFO]: <LunaMaiden> tyty <3
+[23:48:15] [Async Chat Thread - #92/INFO]: <LunaMaiden> do you wanna see something Sarah will love?
+[23:48:23] [Async Chat Thread - #92/INFO]: <ppr> yeye
+[23:48:47] [Async Chat Thread - #92/INFO]: <ppr> lmao
+[23:48:51] [Async Chat Thread - #92/INFO]: <ppr> she will love
+[23:48:52] [Async Chat Thread - #92/INFO]: <LunaMaiden> hello welcome to McDonalds
+[23:48:58] [Async Chat Thread - #92/INFO]: <ppr> u have chicken nuggets?
+[23:48:58] [Async Chat Thread - #92/INFO]: <LunaMaiden> yeye gotta make some burgerves
+[23:49:03] [Async Chat Thread - #91/INFO]: <LunaMaiden> rip rip not yet
+[23:49:07] [Async Chat Thread - #91/INFO]: <LunaMaiden> gotta install the deep fryer
+[23:49:08] [Async Chat Thread - #91/INFO]: <Aze> we need an interior
+[23:49:08] [Async Chat Thread - #91/INFO]: <LunaMaiden> and overcook
+[23:49:22] [Async Chat Thread - #91/INFO]: <LunaMaiden> oh yeah gyro built this with composter walls rip
+[23:49:29] [Async Chat Thread - #91/INFO]: <LunaMaiden> makin a horse drivethrough
+[23:49:38] [Async Chat Thread - #91/INFO]: <ppr> i love composter walls
+[23:50:30] [Server thread/INFO]: bug6124 lost connection: Disconnected
+[23:50:31] [Server thread/INFO]: bug6124 left the game
+[23:50:42] [Async Chat Thread - #93/INFO]: <ppr> where's the horse drivethru?
+[23:50:51] [Async Chat Thread - #93/INFO]: <LunaMaiden> right aroudn on the side
+[23:50:57] [Async Chat Thread - #93/INFO]: <LunaMaiden> theres a sign thats gonna be covred with a menu
+[23:51:15] [Async Chat Thread - #93/INFO]: <Aze> emerson, could you do the insisdes?
+[23:51:28] [Server thread/INFO]: bwjr issued server command: /tpa SoapieTomato
+[23:51:30] [Server thread/INFO]: SoapieTomato issued server command: /huskhomes:tpaccept bwjr
+[23:51:32] [Async Chat Thread - #93/INFO]: <ppr> for the wash?
+[23:51:41] [Async Chat Thread - #93/INFO]: <Aze> for the mc d's
+[23:51:47] [Async Chat Thread - #93/INFO]: <ppr> ohhh
+[23:51:55] [Async Chat Thread - #93/INFO]: <ppr> i can try :O
+[23:52:02] [Async Chat Thread - #93/INFO]: <Aze> blesh thank you <3
+[23:52:07] [Async Chat Thread - #93/INFO]: <Aze> bless*
+[23:52:08] [Async Chat Thread - #93/INFO]: <ppr> okie okie
+[23:52:13] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[23:52:13] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[23:52:15] [Server thread/INFO]: bwjr issued server command: /home
+[23:52:18] [Server thread/INFO]: bwjr issued server command: /home 1
+[23:52:25] [Server thread/INFO]: SoapieTomato issued server command: /tell bwjr (you can use creative lmao)
+[23:52:36] [Server thread/INFO]: bwjr issued server command: /w SoapieTomato lol thanks
+[23:52:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2524ms or 50 ticks behind
+[23:52:38] [Server thread/INFO]: bwjr issued server command: /back
+[23:52:42] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[23:52:42] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]

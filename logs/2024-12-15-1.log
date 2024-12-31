@@ -1,0 +1,195 @@
+[00:02:11] [Server thread/INFO]: SoapieTomato issued server command: /trigger spawn
+[00:02:11] [Server thread/INFO]: [SoapieTomato: Triggered [Spawn]]
+[00:03:40] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[00:03:44] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[00:03:44] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[00:04:23] [Server thread/INFO]: SoapieTomato issued server command: /trigger spawn
+[00:04:23] [Server thread/INFO]: [SoapieTomato: Triggered [Spawn]]
+[00:05:28] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 5
+[00:05:28] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 5 to value)]
+[00:05:32] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[00:05:32] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[00:05:43] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[00:05:43] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[00:06:20] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 7
+[00:06:20] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 7 to value)]
+[00:07:25] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[00:07:25] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[00:07:28] [Server thread/INFO]: SoapieTomato issued server command: /trigger sapwn
+[00:07:30] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[00:07:30] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[00:07:33] [Server thread/INFO]: SoapieTomato issued server command: /home
+[00:07:57] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[00:07:57] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[00:08:03] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 9
+[00:08:03] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 9 to value)]
+[00:08:08] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 7
+[00:08:08] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 7 to value)]
+[00:08:37] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[00:08:37] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[00:08:40] [Server thread/INFO]: SoapieTomato issued server command: /home
+[00:09:41] [Server thread/INFO]: SoapieTomato issued server command: /trigger spawn
+[00:09:41] [Server thread/INFO]: [SoapieTomato: Triggered [Spawn]]
+[00:09:56] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[00:09:56] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[00:10:05] [Server thread/INFO]: SoapieTomato issued server command: /trigger sethome add 12
+[00:10:05] [Server thread/INFO]: [SoapieTomato: Triggered [Set Home] (added 12 to value)]
+[00:12:20] [Server thread/INFO]: Azuresty issued server command: /fishing
+[00:12:26] [Server thread/INFO]: SoapieTomato issued server command: /MCTOP FISHING
+[00:12:28] [Server thread/INFO]: SoapieTomato issued server command: /mctop FISHING
+[00:14:29] [Server thread/INFO]: (mcMMO) Aze has reached a Power level of 300!
+[00:14:40] [Server thread/INFO]: SoapieTomato issued server command: /mctop
+[00:15:22] [Server thread/INFO]: SoapieTomato issued server command: /mining
+[00:19:21] [Server thread/INFO]: SoapieTomato issued server command: /party
+[00:19:30] [Server thread/INFO]: SoapieTomato issued server command: /party create fishingFucks
+[00:19:37] [Server thread/INFO]: SoapieTomato issued server command: /party invite Azuresty
+[00:19:42] [Server thread/INFO]: SoapieTomato issued server command: /party ?
+[00:19:46] [Server thread/INFO]: Azuresty issued server command: /party ACCEPT
+[00:19:46] [Server thread/INFO]: SoapieTomato issued server command: /party XPSHARE
+[00:19:48] [Server thread/INFO]: SoapieTomato issued server command: /party XPSHARE
+[00:19:50] [Server thread/INFO]: SoapieTomato issued server command: /party
+[00:20:29] [Server thread/INFO]: (mcMMO) LunaMaiden has reached a Power level of 1,700!
+[00:21:59] [Server thread/INFO]: SoapieTomato issued server command: /party
+[00:22:10] [Server thread/INFO]: SoapieTomato issued server command: /party ?
+[00:22:32] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[00:25:23] [Server thread/INFO]: SoapieTomato issued server command: /party
+[00:25:38] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[00:28:49] [Server thread/INFO]: SoapieTomato issued server command: /party XPSHARE
+[00:28:51] [Server thread/INFO]: SoapieTomato issued server command: /party
+[00:28:52] [Server thread/INFO]: SoapieTomato issued server command: /party XPSHARE
+[00:28:56] [Server thread/INFO]: SoapieTomato issued server command: /party XPSHARE equal
+[00:30:16] [Server thread/INFO]: SoapieTomato issued server command: /party ?
+[00:32:05] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[00:35:38] [Server thread/INFO]: Azuresty issued server command: /party ACCEPT
+[00:35:41] [Server thread/INFO]: Azuresty issued server command: /fishing
+[00:48:05] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[00:49:23] [Server thread/INFO]: SoapieTomato issued server command: /mctop
+[00:52:59] [Server thread/INFO]: (mcMMO) LunaMaiden has reached level 100 in FISHING!
+[00:53:07] [Server thread/INFO]: Azuresty issued server command: /fishing
+[00:53:18] [Server thread/INFO]: SoapieTomato issued server command: /mcstats
+[00:53:27] [Server thread/INFO]: SoapieTomato issued server command: /taming
+[00:54:47] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[00:56:07] [Server thread/INFO]: SoapieTomato issued server command: /party
+[00:56:14] [Server thread/INFO]: SoapieTomato issued server command: /party TELEPORT
+[00:56:21] [Server thread/INFO]: SoapieTomato issued server command: /pchat test
+[00:56:21] [Server thread/INFO]: [SPY-fishingFucks] LunaMaiden → test
+[00:58:01] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[00:58:25] [Server thread/INFO]: Azuresty issued server command: /fishing
+[01:00:59] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[01:00:59] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[01:01:06] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[01:01:06] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[01:02:25] [Server thread/INFO]: SoapieTomato issued server command: /salvage
+[01:02:38] [Server thread/INFO]: SoapieTomato issued server command: /repair
+[01:03:20] [Server thread/INFO]: (mcMMO) Aze has reached level 100 in FISHING!
+[01:15:43] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[01:15:51] [Server thread/INFO]: Azuresty issued server command: /fishing
+[01:24:23] [Server thread/INFO]: (mcMMO) Aze has reached a Power level of 400!
+[01:29:43] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[01:38:09] [Server thread/INFO]: SoapieTomato issued server command: /fishing ?
+[01:38:12] [Server thread/INFO]: SoapieTomato issued server command: /fishing ? 2
+[01:38:13] [Server thread/INFO]: SoapieTomato issued server command: /fishing ? 3
+[01:38:15] [Server thread/INFO]: SoapieTomato issued server command: /fishing ? 4
+[01:38:16] [Server thread/INFO]: SoapieTomato issued server command: /fishing ? 5
+[01:39:37] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[01:40:06] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[01:40:06] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[01:40:13] [Server thread/INFO]: SoapieTomato issued server command: /trigger back
+[01:40:13] [Server thread/INFO]: [SoapieTomato: Triggered [Back]]
+[01:46:33] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar ts_FishCaught
+[01:46:33] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Fish Caught]
+[01:47:19] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar ts_PlayTime
+[01:47:19] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Play Time]
+[02:02:31] [Server thread/INFO]: (mcMMO) LunaMaiden has reached level 200 in FISHING!
+[02:02:51] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[02:13:31] [Server thread/INFO]: (mcMMO) LunaMaiden has reached a Power level of 1,900!
+[02:19:11] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[02:28:31] [User Authenticator #7/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[02:28:31] [Server thread/INFO]: SoapieTomato lost connection: You logged in from another location
+[02:28:31] [Server thread/INFO]: SoapieTomato left the game
+[02:28:32] [Server thread/INFO]: SoapieTomato joined the game
+[02:28:32] [Server thread/INFO]: SoapieTomato[/207.5.148.5:32785] logged in with entity id 363492 at ([soapSMP]-1868.1146495914377, 63.4375, -489.0251237007031)
+[02:30:24] [Server thread/INFO]: (mcMMO) Aze has reached level 200 in FISHING!
+[02:43:11] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[03:01:58] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar ts_FishCaught
+[03:01:58] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Fish Caught]
+[03:02:13] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar ts_PlayTime
+[03:02:13] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Play Time]
+[03:07:04] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar TimePlayed
+[03:07:04] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Time Played]
+[03:07:16] [Server thread/INFO]: SoapieTomato issued server command: /scoreboard objectives setdisplay sidebar ts_PlayTime
+[03:07:16] [Server thread/INFO]: [SoapieTomato: Set display slot sidebar to show objective Play Time]
+[03:17:23] [Server thread/INFO]: (mcMMO) Aze has reached a Power level of 500!
+[03:17:48] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[03:21:25] [Server thread/INFO]: SoapieTomato issued server command: /salvage
+[03:23:13] [Async Chat Thread - #54/INFO]: <LunaMaiden> are you alive
+[03:23:24] [Async Chat Thread - #54/INFO]: <Aze> yeah?
+[03:23:27] [Async Chat Thread - #54/INFO]: <Aze> hello>
+[03:23:41] [Async Chat Thread - #54/INFO]: <Aze> idk tierd as dukc
+[03:23:46] [Async Chat Thread - #54/INFO]: <Aze> can her yo
+[03:23:55] [Async Chat Thread - #54/INFO]: <LunaMaiden> oh lmao
+[03:24:03] [Async Chat Thread - #54/INFO]: <LunaMaiden> didnt know if you were broken lmao
+[03:24:06] [Async Chat Thread - #54/INFO]: <LunaMaiden> you can go to bed if you want
+[03:46:29] [Server thread/INFO]: SoapieTomato issued server command: /trigger home
+[03:46:29] [Server thread/INFO]: [SoapieTomato: Triggered [Home]]
+[04:04:04] [Server thread/INFO]: Azuresty lost connection: Disconnected
+[04:04:04] [Server thread/INFO]: Azuresty left the game
+[04:05:07] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[04:05:07] [Server thread/INFO]: SoapieTomato left the game
+[04:05:08] [User Authenticator #8/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[04:05:09] [Server thread/INFO]: SoapieTomato joined the game
+[04:05:09] [Server thread/INFO]: SoapieTomato[/207.5.148.5:50659] logged in with entity id 374960 at ([soapSMP]-1821.4403120451573, 57.0, -845.6439896283432)
+[04:05:57] [Server thread/INFO]: SoapieTomato issued server command: /mctop
+[04:06:04] [Server thread/INFO]: SoapieTomato issued server command: /mctop FISHING
+[04:06:06] [Server thread/INFO]: SoapieTomato issued server command: /fishing
+[04:06:15] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[04:06:15] [Server thread/INFO]: SoapieTomato left the game
+[06:51:46] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:06:46] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:16:46] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:20:47] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:21:49] [Server thread/INFO]: Stopping the server
+[07:21:49] [Server thread/INFO]: Stopping server
+[07:21:49] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
+[07:21:49] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:21:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:21:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:21:49] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:21:49] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:21:49] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:21:49] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:21:49] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:21:49] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:21:49] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:21:49] [Server thread/INFO]: [NameColor] Disabled.
+[07:21:49] [Server thread/INFO]: Saving players
+[07:21:49] [Server thread/INFO]: Saving worlds
+[07:21:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Saved 5 block chunks, 290 entity chunks, 0 poi chunks in world 'soapSMP' in 0.13s
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:21:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 22 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:21:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:21:49] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:21:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:21:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:21:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:21:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:21:49] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:21:49] [Server thread/INFO]: All I/O tasks to complete
+[07:21:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:21:49] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

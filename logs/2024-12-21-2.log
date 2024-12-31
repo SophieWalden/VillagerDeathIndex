@@ -1,0 +1,560 @@
+[07:22:00] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 5.15.0-75-generic (amd64)
+[07:22:00] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-14-master@b746d9d (2024-12-11T21:22:39Z) for Minecraft 1.21.4
+[07:22:00] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:22:01] [ServerMain/WARN]: [org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper] Failed to get hostname, using 'localhost'
+java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1936) ~[?:?]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.getHostname(DiscriminatingNameMapper.java:90) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.<init>(DiscriminatingNameMapper.java:69) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NameMappers.discriminatingNameMapper(NameMappers.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.getManuallyCreatedNameMappers(NamedLockFactoryAdapterFactoryImpl.java:78) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.<init>(NamedLockFactoryAdapterFactoryImpl.java:107) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:159) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.DefaultSyncContextFactory.initService(DefaultSyncContextFactory.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultMetadataResolver.initService(DefaultMetadataResolver.java:123) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.apache.maven.repository.internal.DefaultVersionResolver.initService(DefaultVersionResolver.java:106) ~[maven-resolver-provider-3.9.6.jar:3.9.6]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.initService(DefaultRepositorySystem.java:158) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.bukkit.plugin.java.LibraryLoader.<init>(LibraryLoader.java:60) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.<clinit>(SpigotPluginProvider.java:38) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.<clinit>(PluginFileType.java:40) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:77) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1931) ~[?:?]
+	... 45 more
+[07:22:02] [ServerMain/WARN]: [org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper] Failed to get hostname, using 'localhost'
+java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1936) ~[?:?]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.getHostname(DiscriminatingNameMapper.java:90) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.<init>(DiscriminatingNameMapper.java:69) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NameMappers.discriminatingNameMapper(NameMappers.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.getManuallyCreatedNameMappers(NamedLockFactoryAdapterFactoryImpl.java:78) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.<init>(NamedLockFactoryAdapterFactoryImpl.java:107) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:159) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.DefaultSyncContextFactory.initService(DefaultSyncContextFactory.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultMetadataResolver.initService(DefaultMetadataResolver.java:123) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.apache.maven.repository.internal.DefaultVersionResolver.initService(DefaultVersionResolver.java:106) ~[maven-resolver-provider-3.9.6.jar:3.9.6]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.initService(DefaultRepositorySystem.java:158) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at io.papermc.paper.plugin.loader.library.impl.MavenLibraryResolver.<init>(MavenLibraryResolver.java:73) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at HuskHomes-Paper-4.8.3.jar/net.william278.huskhomes.PaperHuskHomesLoader.classloader(PaperHuskHomesLoader.java:44) ~[HuskHomes-Paper-4.8.3.jar:?]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:38) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.build(PaperPluginProviderFactory.java:23) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.register(PluginFileType.java:72) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1931) ~[?:?]
+	... 47 more
+[07:22:03] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+java.lang.RuntimeException: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Directory 'plugins/.paper-remapped/mc-paint-1.5.0.jar' does not contain a paper-plugin.yml or plugin.yml! Could not determine plugin type, cannot load a plugin from it!
+	... 10 more
+[07:22:03] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[07:22:03] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - HuskHomes (4.8.3)
+[07:22:03] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+ - ArmorPoser (1.1.0), BisectHosting (1.0.4), LuckPerms (5.4.150), NameColor (1.9), dynmap (3.7-beta-7-Dev), mcMMO (2.2.029-SNAPSHOT)
+[07:22:08] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:22:08] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[07:22:08] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 413.7ms
+[07:22:08] [ServerMain/INFO]: Found non-pack entry './soapSMP/datapacks/.DS_Store', ignoring
+[07:22:09] [ServerMain/ERROR]: Invalid directory entry: .DS_Store in ./soapSMP/datapacks/BlazeandCaves Advancements Pack 1.18.
+java.nio.file.NotDirectoryException: .DS_Store
+	at net.minecraft.server.packs.PathPackResources.getNamespaces(PathPackResources.java:108) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.lambda$new$0(MultiPackResourceManager.java:27) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:273) ~[?:?]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[?:?]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[?:?]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[?:?]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.<init>(MultiPackResourceManager.java:27) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:274) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:993) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:988) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:273) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:22:09] [ServerMain/ERROR]: Invalid directory entry: .DS_Store in ./soapSMP/datapacks/BlazeandCaves Advancements Pack 1.18.
+java.nio.file.NotDirectoryException: .DS_Store
+	at net.minecraft.server.packs.PathPackResources.getNamespaces(PathPackResources.java:108) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.packs.resources.MultiPackResourceManager.<init>(MultiPackResourceManager.java:31) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader$PackConfig.createResourceManager(WorldLoader.java:96) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.WorldLoader.load(WorldLoader.java:36) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:274) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:993) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.Util.blockUntilDone(Util.java:988) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:273) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:22:09] [ServerMain/ERROR]: Invalid path in pack: blazeandcave:tags/entity_type/overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S)_zombies.json, ignoring
+[07:22:10] [Worker-Main-1/ERROR]: Invalid path in pack: blazeandcave:predicate/in_the_overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S).json, ignoring
+[07:22:10] [Worker-Main-1/ERROR]: Invalid path in pack: blazeandcave:predicate/at_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:10] [Worker-Main-1/ERROR]: Invalid path in pack: multiplayer_sleep:predicate/overSoapie SMP (Main World)-2.json, ignoring
+[07:22:10] [Worker-Main-3/ERROR]: Couldn't parse data file 'minecraft:entities/creeper' from 'minecraft:loot_table/entities/creeper.json': DataResult.Error['Failed to parse either. First: Failed to get element infinite_music_discs:dontplaymustnotplay; Second: Cannot parse as key without registry; Not a JSON object: 6 missed input: {"minecraft:custom_model_data":6,"minecraft:jukebox_playable":{"song":"infinite_music_discs:dontplaymustnotplay"}}; Failed to parse either. First: Failed to get element infinite_music_discs:heavenandhell; Second: Cannot parse as key without registry; Not a JSON object: 5 missed input: {"minecraft:custom_model_data":5,"minecraft:jukebox_playable":{"song":"infinite_music_discs:heavenandhell"}}; Failed to parse either. First: Failed to get element infinite_music_discs:onedaymore; Second: Cannot parse as key without registry; Not a JSON object: 4 missed input: {"minecraft:custom_model_data":4,"minecraft:jukebox_playable":{"song":"infinite_music_discs:onedaymore"}}; Failed to parse either. First: Failed to get element infinite_music_discs:pianoman; Second: Cannot parse as key without registry; Not a JSON object: 3 missed input: {"minecraft:custom_model_data":3,"minecraft:jukebox_playable":{"song":"infinite_music_discs:pianoman"}}; Failed to parse either. First: Failed to get element infinite_music_discs:pitterpatter; Second: Cannot parse as key without registry; Not a JSON object: 2 missed input: {"minecraft:custom_model_data":2,"minecraft:jukebox_playable":{"song":"infinite_music_discs:pitterpatter"}}; Failed to parse either. First: Failed to get element infinite_music_discs:redstoneeleavtor; Second: Cannot parse as key without registry; Not a JSON object: 1 missed input: {"minecraft:custom_model_data":1,"minecraft:jukebox_playable":{"song":"infinite_music_discs:redstoneeleavtor"}}': net.minecraft.world.level.storage.loot.LootTable@6cae3582]
+[07:22:10] [Worker-Main-3/ERROR]: Couldn't parse data file 'armor_statues:random_pose' from 'armor_statues:loot_table/random_pose.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: minecraft:generic.attack_damage': net.minecraft.world.level.storage.loot.LootTable@49649b95]
+[07:22:10] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called more_mob_heads:entities/villager
+[07:22:10] [Worker-Main-4/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: blazeandcave:function/new_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/.DS_Store, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/exp/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/reward/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/trophy/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/trophy/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:11] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/nether/ride_strider_in_overSoapie SMP (Soapie SMP (Soapie SMP (Soapie S)_lava.json, ignoring
+[07:22:11] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/adventure/trade_at_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:11] [Worker-Main-8/ERROR]: Invalid path in pack: minecraft:advancement/adventure/fall_from_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_height.json, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.mcfunction, ignoring
+[07:22:11] [Worker-Main-7/ERROR]: Invalid path in pack: bacap_rewards:function/msg/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).mcfunction, ignoring
+[07:22:11] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/challenges/explorer_of_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)s.json, ignoring
+[07:22:11] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/challenges/the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S)_is_ending.json, ignoring
+[07:22:11] [Worker-Main-8/ERROR]: Invalid path in pack: blazeandcave:advancement/biomes/top_of_the_Soapie SMP (Soapie SMP (Soapie SMP (Soapie S).json, ignoring
+[07:22:11] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:adventure/do_you_want_to_trade' from 'blazeandcave:advancement/adventure/do_you_want_to_trade.json': DataResult.Error['Missing tag: 'blazeandcave:village' in 'minecraft:worldgen/structure' missed input: {"village":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"structures":"#blazeandcave:village"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}}}': Advancement[parent=Optional[minecraft:adventure/root], display=Optional[net.minecraft.advancements.DisplayInfo@4fec61cd], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@419c86aa]], criteria={village=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@2b52b91a]]]}, requirements=[[village]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Do You Want to Trade?', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Do You Want to Trade?', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Find an NPC village', args=[]}[style={color=green}]]]]}]]}[style={color=green}]]]]
+[07:22:11] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:adventure/oh_look_it_dings' from 'blazeandcave:advancement/adventure/oh_look_it_dings.json': DataResult.Error['Missing tag: 'blazeandcave:village' in 'minecraft:worldgen/structure' missed input: {"bell":{"trigger":"minecraft:any_block_use","conditions":{"location":[{"condition":"minecraft:location_check","predicate":{"block":{"blocks":["minecraft:bell"]},"structures":"#blazeandcave:village"}}]}}}': Advancement[parent=Optional[blazeandcave:adventure/do_you_want_to_trade], display=Optional[net.minecraft.advancements.DisplayInfo@5be59ac], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@84d6c59]], criteria={bell=Criterion[trigger=net.minecraft.advancements.critereon.AnyBlockInteractionTrigger@503b7690, triggerInstance=TriggerInstance[player=Optional.empty, location=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@29f66fd6]]]}, requirements=[[bell]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Oh, look, it dings!', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Oh, look, it dings!', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Ring a bell in a village', args=[]}[style={color=green}]]]]}]]}[style={color=green}]]]]
+[07:22:11] [Worker-Main-8/ERROR]: Couldn't parse data file 'vanillatweaks:armored_elytra' from 'vanillatweaks:advancement/armored_elytra.json': DataResult.Error['Not a JSON object: 13522556 missed input: {"minecraft:custom_model_data":13522556}': Advancement[parent=Optional[vanillatweaks:root], display=Optional[net.minecraft.advancements.DisplayInfo@222375a7], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional.empty], criteria={tick=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@867d6e3, triggerInstance=TriggerInstance[player=Optional.empty]]}, requirements=[[tick]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[literal{Armored Elytra            }[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=literal{Armored Elytra            }[style={color=green}, siblings=[literal{
+}, empty[siblings=[literal{Drop}[style={color=green}], literal{ elytra and a chestplate above an anvil to merge them into one item.
+}[style={color=gold}], literal{Drop}[style={color=green}], literal{ the merged item above a grindstone to separate them again.
+}[style={color=gold}], literal{Enchantments}[style={color=green}], literal{ are kept safely between merging and separating.
+}[style={color=gold}], literal{Burning}[style={color=green}], literal{ netherite armored elytra will keep the chestplate but burn off the elytra.}[style={color=gold}]]]]]]}]]}[style={color=green}]]]]
+[07:22:12] [Worker-Main-8/ERROR]: Couldn't parse data file 'blazeandcave:end/void_walker' from 'blazeandcave:advancement/end/void_walker.json': DataResult.Error['Missing tag: 'blazeandcave:end_barrens' in 'minecraft:worldgen/biome'; Missing tag: 'blazeandcave:end_midlands' in 'minecraft:worldgen/biome' missed input: {"end_midlands":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_midlands"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}},"end_barrens":{"trigger":"minecraft:location","conditions":{"player":[{"condition":"minecraft:entity_properties","entity":"this","predicate":{"location":{"biomes":"#blazeandcave:end_barrens"}}},{"condition":"minecraft:inverted","term":{"condition":"minecraft:entity_properties","entity":"this","predicate":{"type_specific":{"type":"player","gamemode":["spectator"]}}}}]}}}': Advancement[parent=Optional[minecraft:end/enter_end_gateway], display=Optional[net.minecraft.advancements.DisplayInfo@3945f264], rewards=AdvancementRewards[experience=0, loot=[], recipes=[], function=Optional[net.minecraft.commands.CacheableFunction@3a612f64]], criteria={end_barrens=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@7c15aaea]]], end_highlands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@486af]]], end_midlands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@16448219]]], small_end_islands=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@25ed85ba]]], the_end=Criterion[trigger=net.minecraft.advancements.critereon.PlayerTrigger@4944e286, triggerInstance=TriggerInstance[player=Optional[net.minecraft.advancements.critereon.ContextAwarePredicate@747e3917]]]}, requirements=[[the_end], [small_end_islands], [end_highlands], [end_midlands], [end_barrens]], sendsTelemetryEvent=false, name=Optional[translation{key='chat.square_brackets', args=[translation{key='Void Walker', args=[]}[style={hoverEvent=TypedHoverEvent[action=<action show_text>, value=translation{key='Void Walker', args=[]}[style={color=green}, siblings=[literal{
+}, translation{key='Explore every end biome', args=[]}[style={color=#75E1FF}]]]]}]]}[style={color=green}]]]]
+[07:22:14] [ServerMain/INFO]: Loaded 1609 recipes
+[07:22:14] [ServerMain/ERROR]: Failed to load function armor_statues:trigger/random_pose
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / armor_statues:random_pose] at position 116: ...andom_pose<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 11: Failed to parse structure: Failed to get element ResourceKey[minecraft:loot_table / armor_statues:random_pose] at position 116: ...andom_pose<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:14] [ServerMain/ERROR]: Failed to load function blazeandcave:one_second_timer
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 239: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / blazeandcave:third_line] at position 54: ...third_line<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 239: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / blazeandcave:third_line] at position 54: ...third_line<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:14] [ServerMain/ERROR]: Failed to load function multiplayer_sleep:start_sleeping
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / multiplayer_sleep:overworld] at position 48: ...:overworld<--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Failed to parse structure: Failed to get element ResourceKey[minecraft:predicate / multiplayer_sleep:overworld] at position 48: ...:overworld<--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:92) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[07:22:14] [ServerMain/ERROR]: Couldn't load advancements: [blazeandcave:adventure/retro_future_knight, minecraft:adventure/minecraft_trials_edition, blazeandcave:adventure/break_wind, blazeandcave:technical/branch2_end, blazeandcave:adventure/keys_to_success, blazeandcave:adventure/heres_johnny, blazeandcave:adventure/businessman, blazeandcave:adventure/workaholic, blazeandcave:adventure/your_daily_fix, blazeandcave:adventure/crazy_cat_lady, blazeandcave:adventure/core_keeper, blazeandcave:adventure/treasure_map, blazeandcave:adventure/filthy_stinkin_rich, blazeandcave:adventure/house_of_psychos, blazeandcave:end/dimension_penetration, minecraft:adventure/under_lock_and_key, minecraft:adventure/revaulting, blazeandcave:adventure/traveller, blazeandcave:adventure/guardian_destroyer, blazeandcave:adventure/the_tribal_villagers, minecraft:adventure/summon_iron_golem, blazeandcave:adventure/from_under_your_feet, blazeandcave:adventure/filthy_rich, blazeandcave:challenges/a_million_blocks_away, blazeandcave:adventure/all_chained_up, blazeandcave:adventure/knowledge_is_power, minecraft:adventure/totem_of_undying, minecraft:adventure/trade_at_world_height, blazeandcave:challenges/overwarden, minecraft:adventure/trade, blazeandcave:end/unending_hell, blazeandcave:adventure/ghostbuster, blazeandcave:adventure/monumental, blazeandcave:challenges/the_devils_distance, minecraft:adventure/blowback, minecraft:husbandry/complete_catalogue, blazeandcave:adventure/tricky_treasures, blazeandcave:adventure/rekt, blazeandcave:adventure/mapmaker, blazeandcave:adventure/omniscient, blazeandcave:adventure/rare_candy_shop, blazeandcave:adventure/breeze_suppressor, blazeandcave:adventure/hard_mode_activated, blazeandcave:adventure/nerds_never_die, blazeandcave:adventure/mapmakers_table, blazeandcave:technical/branch5_end, blazeandcave:adventure/village_settler, blazeandcave:adventure/master_trader, blazeandcave:adventure/wololo, blazeandcave:adventure/prime_specimen, blazeandcave:adventure/spear_fishing, blazeandcave:adventure/town_planner, blazeandcave:adventure/if_only_cats_grew_into_kittens, blazeandcave:adventure/sponge_miner, blazeandcave:challenges/immortal, blazeandcave:adventure/hey_you_two_should_kiss, blazeandcave:adventure/the_shielding, blazeandcave:challenges/farlander, blazeandcave:adventure/im_not_lost_anymore, blazeandcave:adventure/dry_spell, blazeandcave:adventure/murderer, blazeandcave:adventure/the_deep_end, blazeandcave:adventure/professional, blazeandcave:adventure/vault_hunter, blazeandcave:adventure/laser_sharks, blazeandcave:adventure/lilypad_hatter, blazeandcave:challenges/death_from_all, blazeandcave:adventure/you_are_the_pillager, blazeandcave:adventure/this_will_be_a_breeze, blazeandcave:adventure/map_room, minecraft:adventure/who_needs_rockets]
+[07:22:14] [ServerMain/INFO]: Loaded 2760 advancements
+[07:22:14] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[07:22:14] [Server thread/INFO]: Loading properties
+[07:22:14] [Server thread/INFO]: This server is running Paper version 1.21.4-14-master@b746d9d (2024-12-11T21:22:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[07:22:15] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:22:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:22:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:22:15] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[07:22:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[07:22:15] [Server thread/INFO]: Default game type: SURVIVAL
+[07:22:15] [Server thread/INFO]: Generating keypair
+[07:22:15] [Server thread/INFO]: Starting Minecraft server on 173.240.148.216:27000
+[07:22:15] [Server thread/INFO]: Using epoll channel type
+[07:22:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:22:15] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[07:22:16] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.150
+[07:22:16] [Server thread/INFO]: [dynmap] Loading server plugin dynmap v3.7-beta-7-Dev
+[07:22:16] [Server thread/INFO]: [dynmap] version=1.21.4-14-b746d9d (MC: 1.21.4)
+[07:22:16] [Server thread/INFO]: [dynmap] Mod Support API available
+[07:22:16] [Server thread/INFO]: [NameColor] Loading server plugin NameColor v1.9
+[07:22:16] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.029-SNAPSHOT
+[07:22:16] [Server thread/INFO]: [BisectHosting] Loading server plugin BisectHosting v1.0.4
+[07:22:16] [Server thread/INFO]: [ArmorPoser] Loading server plugin ArmorPoser v1.1.0
+[07:22:16] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.8.3
+[07:22:16] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[07:22:16] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.8.3
+[07:22:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:22:16] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.150
+[07:22:17] [Server thread/INFO]:         __    
+[07:22:17] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.150
+[07:22:17] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:22:17] [Server thread/INFO]: 
+[07:22:17] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:22:17] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:22:18] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:22:18] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:22:18] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1511ms)
+[07:22:18] [Server thread/INFO]: Preparing level "soapSMP"
+[07:22:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:22:19] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:20] [Server thread/INFO]: Preparing spawn area: 2%
+[07:22:20] [Server thread/INFO]: Preparing spawn area: 2%
+[07:22:20] [Server thread/INFO]: Time elapsed: 1322 ms
+[07:22:20] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:22:20] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:21] [Server thread/INFO]: Time elapsed: 523 ms
+[07:22:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:22:21] [Server thread/INFO]: Preparing spawn area: 0%
+[07:22:21] [Server thread/INFO]: Time elapsed: 72 ms
+[07:22:21] [Server thread/INFO]: [dynmap] Enabling dynmap v3.7-beta-7-Dev
+[07:22:21] [Server thread/INFO]: [dynmap] Added 21 custom biome mappings
+[07:22:21] [Server thread/INFO]: [dynmap] Using LuckPerms 5.4.150 for access control
+[07:22:22] [Server thread/INFO]: [dynmap] Extracted files upgraded
+[07:22:22] [Server thread/INFO]: [dynmap] Mod Support processing completed
+[07:22:26] [Server thread/INFO]: [dynmap] Loaded 27 shaders.
+[07:22:26] [Server thread/INFO]: [dynmap] Loaded 83 perspectives.
+[07:22:26] [Server thread/INFO]: [dynmap] Loaded 22 lightings.
+[07:22:26] [Server thread/INFO]: [dynmap] Starting enter/exit processing
+[07:22:26] [Dynmap Render Thread/INFO]: [dynmap] Finish marker initialization
+[07:22:27] [Server thread/INFO]: [dynmap] Web server started on address 173.240.148.216:8123
+[07:22:27] [Server thread/INFO]: [dynmap] version 3.7-beta-7-Dev is enabled - core version 3.7-beta-7-Dev
+[07:22:27] [Server thread/INFO]: [dynmap] For support, visit our Discord at https://discord.gg/s3rd5qn
+[07:22:27] [Server thread/INFO]: [dynmap] For news, visit https://reddit.com/r/Dynmap or follow https://universeodon.com/@dynmap
+[07:22:27] [Server thread/INFO]: [dynmap] To report or track bugs, visit https://github.com/webbukkit/dynmap/issues
+[07:22:27] [Server thread/INFO]: [dynmap] If you'd like to donate, please visit https://www.patreon.com/dynmap or https://ko-fi.com/michaelprimm
+[07:22:27] [Server thread/INFO]: [dynmap] Loaded 3 maps of world 'soapSMP'.
+[07:22:27] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'soapSMP_nether'.
+[07:22:27] [Server thread/INFO]: [dynmap] Loaded 2 maps of world 'soapSMP_the_end'.
+[07:22:27] [Server thread/INFO]: [dynmap] Enabled
+[07:22:27] [Server thread/INFO]: [NameColor] Enabling NameColor v1.9
+[07:22:27] [Server thread/INFO]: [NameColor] Essentials plugin not found, using Server mode
+[07:22:27] [Server thread/INFO]: [NameColor] Configuration found.
+[07:22:27] [Server thread/INFO]: [NameColor] NameColor version 1.9 enabled.
+[07:22:27] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.029-SNAPSHOT
+[07:22:28] [Server thread/INFO]: [mcMMO] Loaded 220 Alchemy potions, skipped 0.
+[07:22:29] [Server thread/INFO]: [BisectHosting] Enabling BisectHosting v1.0.4
+[07:22:29] [Server thread/INFO]: [ArmorPoser] Enabling ArmorPoser v1.1.0
+[07:22:29] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.8.3
+[07:22:30] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[07:22:30] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.8.3
+[07:22:30] [Server thread/INFO]: [spark] Starting background profiler...
+[07:22:30] [Server thread/INFO]: Done preparing level "soapSMP" (12.398s)
+[07:22:30] [Server thread/INFO]: Running delayed init tasks
+[07:22:30] [Server thread/INFO]: Done (31.924s)! For help, type "help"
+[07:22:35] [Craft Scheduler Thread - 3 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[07:23:33] [Dynmap Render Thread/INFO]: [dynmap] Loading default resource pack
+[07:23:33] [Dynmap Render Thread/WARN]: [dynmap] Resource assets/minecraft/textures/all.png for mod minecraft not found
+[11:20:11] [User Authenticator #0/INFO]: UUID of player SirRabbit_ is 304e8bc0-d4d5-4167-a30c-17b99da53b6a
+[11:20:13] [Server thread/INFO]: SirRabbit_ joined the game
+[11:20:13] [Server thread/INFO]: SirRabbit_[/67.218.90.4:5005] logged in with entity id 1087 at ([soapSMP]-1811.8180772110293, 49.0, -655.6557534481483)
+[11:20:52] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode spectator
+[11:20:52] [Server thread/INFO]: [SirRabbit_: Set own game mode to Spectator Mode]
+[11:21:22] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode survival
+[11:21:22] [Server thread/INFO]: [SirRabbit_: Set own game mode to Survival Mode]
+[11:21:41] [Server thread/INFO]: SirRabbit_ issued server command: /time set night
+[11:21:41] [Server thread/INFO]: [SirRabbit_: Set the time to 13000]
+[11:22:33] [Server thread/INFO]: SirRabbit_ issued server command: /time set day
+[11:22:33] [Server thread/INFO]: [SirRabbit_: Set the time to 1000]
+[11:35:46] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode creative
+[11:35:46] [Server thread/INFO]: [SirRabbit_: Set own game mode to Creative Mode]
+[11:37:49] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode survival
+[11:37:49] [Server thread/INFO]: [SirRabbit_: Set own game mode to Survival Mode]
+[11:50:21] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:stonecutter
+[11:50:21] [Server thread/INFO]: [SirRabbit_: Gave 1 [Stonecutter] to SirRabbit_]
+[12:10:59] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:writable_book
+[12:10:59] [Server thread/INFO]: [SirRabbit_: Gave 1 [Book and Quill] to SirRabbit_]
+[12:20:02] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:bee_spawn_egg 20
+[12:20:02] [Server thread/INFO]: [SirRabbit_: Gave 20 [Bee Spawn Egg] to SirRabbit_]
+[12:20:23] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode creative
+[12:20:23] [Server thread/INFO]: [SirRabbit_: Set own game mode to Creative Mode]
+[12:35:50] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode survival
+[12:35:50] [Server thread/INFO]: [SirRabbit_: Set own game mode to Survival Mode]
+[12:55:30] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:bone_meal 20
+[12:55:30] [Server thread/INFO]: [SirRabbit_: Gave 20 [Bone Meal] to SirRabbit_]
+[13:03:44] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode spectator
+[13:03:44] [Server thread/INFO]: [SirRabbit_: Set own game mode to Spectator Mode]
+[13:04:18] [Server thread/INFO]: SirRabbit_ issued server command: /phomes
+[13:04:21] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:phome SirRabbit_.BirchHarbor
+[13:05:42] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode survival
+[13:05:42] [Server thread/INFO]: [SirRabbit_: Set own game mode to Survival Mode]
+[13:06:31] [Server thread/INFO]: SirRabbit_ issued server command: /home
+[13:06:36] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:edithome SirRabbit_.Aden
+[13:06:37] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:home SirRabbit_.Aden
+[13:07:04] [Server thread/INFO]: SirRabbit_ issued server command: /back
+[13:07:04] [Server thread/WARN]: SirRabbit_ moved too quickly! 883.5116722847235,-14.0,1162.9530451297362
+[13:07:34] [Server thread/INFO]: SirRabbit_ issued server command: /back
+[13:07:39] [Server thread/INFO]: SirRabbit_ issued server command: /back
+[13:07:46] [Server thread/INFO]: SirRabbit_ issued server command: /home
+[13:07:47] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:edithome SirRabbit_.Aden
+[13:07:50] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:home SirRabbit_.Aden
+[13:07:57] [Server thread/INFO]: SirRabbit_ issued server command: /back
+[13:07:57] [Server thread/WARN]: SirRabbit_ moved too quickly! 827.9495972145795,-36.9375,1273.776977727237
+[13:09:50] [Server thread/INFO]: SirRabbit_ issued server command: /home
+[13:09:53] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:edithome SirRabbit_.Aden
+[13:09:54] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:home SirRabbit_.Aden
+[13:09:54] [Server thread/WARN]: SirRabbit_ moved too quickly! -841.623831246461,29.9375,-1270.7067622114428
+[13:10:00] [Server thread/INFO]: SirRabbit_ issued server command: /back
+[13:10:24] [Server thread/INFO]: SirRabbit_ lost connection: Disconnected
+[13:10:24] [Server thread/INFO]: SirRabbit_ left the game
+[16:42:11] [User Authenticator #1/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[16:42:11] [Server thread/INFO]: bwjr2 joined the game
+[16:42:12] [Server thread/INFO]: bwjr2[/67.218.90.4:46852] logged in with entity id 21547 at ([soapSMP]-2079.4544812713552, 195.65513115014988, 4.420540910324242)
+[17:00:43] [Server thread/INFO]: [WEB] bwjr2: regen
+[17:04:05] [Server thread/INFO]: Villager Villager['Villager'/34625, uuid='70ec7e2b-2523-4e02-986b-d3dd919c4ab8', l='ServerLevel[soapSMP]', x=-4719.72, y=78.56, z=178.37, cpos=[-295, 11], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[18:01:29] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[18:01:29] [Server thread/INFO]: bwjr2 left the game
+[18:15:40] [User Authenticator #2/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[18:15:40] [Server thread/INFO]: bwjr2 joined the game
+[18:15:40] [Server thread/INFO]: bwjr2[/67.218.90.4:58385] logged in with entity id 66401 at ([soapSMP]-3518.4051781509347, 97.95879817202626, 2235.6386058081357)
+[18:27:17] [Server thread/INFO]: bwjr2 issued server command: /swords
+[18:27:29] [Server thread/INFO]: bwjr2 issued server command: /mmoinfo CounterAttack
+[18:27:36] [Server thread/INFO]: bwjr2 issued server command: /mmoinfo Rupture
+[18:28:04] [User Authenticator #3/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[18:28:05] [Server thread/INFO]: bwjr joined the game
+[18:28:05] [Server thread/INFO]: bwjr[/67.218.90.4:6355] logged in with entity id 69454 at ([soapSMP]-1323.6152247430616, 73.0, -1076.677118368397)
+[18:28:28] [Async Chat Thread - #4/INFO]: <ppr> i don't have headphones, n fin is gonna nap i think
+[18:28:34] [Async Chat Thread - #4/INFO]: <ppr> ok if we just talk on here?
+[18:28:39] [Async Chat Thread - #4/INFO]: <bwjr2> ye
+[18:28:46] [Async Chat Thread - #4/INFO]: <bwjr2> can u survival me
+[18:28:51] [Server thread/INFO]: bwjr issued server command: /gamemode survival bwjr2
+[18:28:51] [Server thread/INFO]: [bwjr: Set bwjr2's game mode to Survival Mode]
+[18:33:56] [Async Chat Thread - #5/INFO]: <ppr> oh?
+[18:34:07] [Async Chat Thread - #5/INFO]: <bwjr2> rabbit killing
+[18:34:09] [Async Chat Thread - #5/INFO]: <ppr> rabbit slaughter???
+[18:34:10] [Async Chat Thread - #5/INFO]: <bwjr2> i needed food
+[18:34:15] [Async Chat Thread - #5/INFO]: <ppr> ah ic
+[18:34:30] [Async Chat Thread - #5/INFO]: <bwjr2> im sorry
+[18:34:43] [Async Chat Thread - #5/INFO]: <ppr> it's all good
+[18:34:47] [Async Chat Thread - #5/INFO]: <bwjr2> i can not stand the blood that lies in my soul, on my hands
+[18:35:06] [Async Chat Thread - #5/INFO]: <ppr> it's our chicken murder instints
+[18:38:01] [Server thread/INFO]: bwjr lost connection: Disconnected
+[18:38:01] [Server thread/INFO]: bwjr left the game
+[18:38:03] [User Authenticator #4/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[18:38:04] [Server thread/INFO]: bwjr joined the game
+[18:38:04] [Server thread/INFO]: bwjr[/67.218.90.4:43914] logged in with entity id 72939 at ([soapSMP]-1287.6438808907155, 69.0, -1124.6335168824587)
+[18:45:56] [Server thread/INFO]: bwjr lost connection: Disconnected
+[18:45:56] [Server thread/INFO]: bwjr left the game
+[18:46:57] [User Authenticator #5/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[18:46:58] [Server thread/INFO]: bwjr joined the game
+[18:46:58] [Server thread/INFO]: bwjr[/67.218.90.4:25201] logged in with entity id 75106 at ([soapSMP]-1290.4934213635274, 69.1190015990599, -1124.437922243798)
+[19:09:17] [Server thread/INFO]: bwjr2 issued server command: /trigger home add 21
+[19:09:17] [Server thread/INFO]: [bwjr2: Triggered [Home] (added 21 to value)]
+[19:09:22] [Server thread/INFO]: bwjr2 issued server command: /trigger home add 22
+[19:09:22] [Server thread/INFO]: [bwjr2: Triggered [Home] (added 22 to value)]
+[19:09:27] [Server thread/INFO]: bwjr2 issued server command: /trigger home add 29
+[19:09:27] [Server thread/INFO]: [bwjr2: Triggered [Home] (added 29 to value)]
+[19:09:27] [Server thread/INFO]: bwjr2 left the confines of this world
+[19:09:31] [Async Chat Thread - #9/INFO]: <ppr> what r u up to :O
+[19:09:47] [Async Chat Thread - #9/INFO]: <bwjr2> not that much
+[19:09:51] [Async Chat Thread - #9/INFO]: <bwjr2> trying to get goat horn
+[19:09:59] [Async Chat Thread - #9/INFO]: <ppr> sick
+[19:10:23] [Async Chat Thread - #9/INFO]: <bwjr2> uh
+[19:10:26] [Async Chat Thread - #9/INFO]: <bwjr2> im glitched
+[19:10:28] [Async Chat Thread - #9/INFO]: <bwjr2> rejoining
+[19:10:31] [Async Chat Thread - #9/INFO]: <ppr> oh?
+[19:10:31] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[19:10:31] [Server thread/INFO]: bwjr2 left the game
+[19:10:35] [User Authenticator #6/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[19:10:35] [Server thread/INFO]: bwjr2 joined the game
+[19:10:35] [Server thread/INFO]: bwjr2[/67.218.90.4:29482] logged in with entity id 84023 at ([soapSMP]-551.9168462579601, 65.0, 448.85101793769724)
+[19:10:42] [Async Chat Thread - #10/INFO]: <ppr> welcome back
+[19:10:47] [Async Chat Thread - #10/INFO]: <bwjr2> i cant open chests
+[19:10:58] [Async Chat Thread - #10/INFO]: <ppr> eyo??
+[19:10:59] [Async Chat Thread - #10/INFO]: <bwjr2> ima go check if its because im using fabric and not java
+[19:11:01] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[19:11:01] [Server thread/INFO]: bwjr2 left the game
+[19:11:47] [User Authenticator #7/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[19:11:47] [Server thread/INFO]: bwjr2 joined the game
+[19:11:47] [Server thread/INFO]: bwjr2[/67.218.90.4:29734] logged in with entity id 84338 at ([soapSMP]-555.2487348094095, 65.0, 456.18261788289624)
+[19:11:56] [Async Chat Thread - #10/INFO]: <bwjr2> no?
+[19:12:15] [Async Chat Thread - #10/INFO]: <ppr> idk how to help tbh :(
+[19:12:15] [Async Chat Thread - #10/INFO]: <bwjr2> it seems to only be happening right at spawn
+[19:12:29] [Async Chat Thread - #10/INFO]: <ppr> is it cause u left the boundaries of the world???
+[19:12:35] [Async Chat Thread - #10/INFO]: <bwjr2> might be so
+[19:12:56] [Async Chat Thread - #10/INFO]: <bwjr2> wait that showed up for you
+[19:13:00] [Async Chat Thread - #10/INFO]: <ppr> yee
+[19:13:14] [Async Chat Thread - #10/INFO]: <ppr> how'd u do that?
+[19:13:35] [Async Chat Thread - #10/INFO]: <bwjr2> i just teleported to one of my homes...
+[19:13:41] [Async Chat Thread - #10/INFO]: <ppr> oof
+[19:13:57] [Async Chat Thread - #10/INFO]: <bwjr2> i go back to fabric
+[19:14:00] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[19:14:00] [Server thread/INFO]: bwjr2 left the game
+[19:14:21] [Server thread/INFO]: [WEB] bwjr2: feqkdqwd
+[19:14:27] [Async Chat Thread - #10/INFO]: <ppr> ?
+[19:14:48] [Server thread/INFO]: [WEB] bwjr2: hello
+[19:14:57] [Async Chat Thread - #10/INFO]: <ppr> why r u web bwjr3?
+[19:15:11] [Server thread/INFO]: [WEB] bwjr2: cause im just like that
+[19:15:26] [Async Chat Thread - #10/INFO]: <ppr> oh, fair enough
+[19:15:41] [Server thread/INFO]: [WEB] bwjr2: i see your connecting your base to the path
+[19:15:55] [Async Chat Thread - #10/INFO]: <ppr> yeah, fin's workin on it i think
+[19:16:30] [Server thread/INFO]: [WEB] bwjr2: this website reminds me of life360
+[19:16:40] [Async Chat Thread - #10/INFO]: <ppr> what is it?
+[19:17:15] [Server thread/INFO]: [WEB] bwjr2: check discord??????????
+[19:17:25] [Async Chat Thread - #10/INFO]: <ppr> oh is this the map thingy?
+[19:17:34] [Server thread/INFO]: [WEB] bwjr2: yes
+[19:17:42] [Async Chat Thread - #10/INFO]: <ppr> ah ic
+[19:17:46] [User Authenticator #8/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[19:17:46] [Server thread/INFO]: bwjr2 joined the game
+[19:17:46] [Server thread/INFO]: bwjr2[/67.218.90.4:42529] logged in with entity id 85393 at ([soapSMP]-564.9814787078251, 65.0, 466.6358873591681)
+[19:18:00] [Async Chat Thread - #10/INFO]: <bwjr2> what does ic mean
+[19:18:08] [Async Chat Thread - #10/INFO]: <ppr> i see
+[19:18:28] [Server thread/INFO]: bwjr2 issued server command: /trigger home add 1
+[19:18:28] [Server thread/INFO]: [bwjr2: Triggered [Home] (added 1 to value)]
+[19:18:38] [Async Chat Thread - #10/INFO]: <bwjr2> coolcoolcool
+[19:18:40] [Async Chat Thread - #10/INFO]: <bwjr2> ahhhhhhhhhhhh
+[19:18:42] [Async Chat Thread - #10/INFO]: <bwjr2> the wtc
+[19:18:56] [Async Chat Thread - #10/INFO]: <ppr> wtc?
+[19:19:04] [Async Chat Thread - #10/INFO]: <bwjr2> world trade center
+[19:19:11] [Async Chat Thread - #10/INFO]: <ppr> is gone
+[19:19:12] [Server thread/INFO]: bwjr2 issued server command: /trigger home add 7
+[19:19:12] [Server thread/INFO]: [bwjr2: Triggered [Home] (added 7 to value)]
+[19:19:16] [Async Chat Thread - #10/INFO]: <bwjr2> damn
+[19:19:28] [Async Chat Thread - #10/INFO]: <bwjr2> that statement actually sounds really edgy in context-
+[19:19:29] [Async Chat Thread - #10/INFO]: <ppr> did u need to trade for smth?
+[19:19:38] [Async Chat Thread - #10/INFO]: <bwjr2> no i just wanted to get to you
+[19:19:53] [Async Chat Thread - #10/INFO]: <ppr> ?
+[19:19:58] [Async Chat Thread - #10/INFO]: <bwjr2> (what do you mean i didnt think to use /tpa)
+[19:20:03] [Server thread/INFO]: bwjr2 issued server command: /tpa bwjr
+[19:20:07] [Async Chat Thread - #10/INFO]: <ppr> lmaooo
+[19:20:09] [Server thread/INFO]: bwjr issued server command: /huskhomes:tpaccept bwjr2
+[19:20:16] [Async Chat Thread - #10/INFO]: <bwjr2> yooooooooo
+[19:20:22] [Async Chat Thread - #10/INFO]: <ppr> cave society
+[19:20:23] [Async Chat Thread - #10/INFO]: <bwjr2> lookin great
+[19:20:27] [Async Chat Thread - #10/INFO]: <ppr> thx thx
+[19:23:19] [Async Chat Thread - #11/INFO]: <ppr> lol
+[19:23:23] [Async Chat Thread - #11/INFO]: <bwjr2> the achievement thingy gave it to me
+[19:23:24] [Async Chat Thread - #12/INFO]: <ppr> what'd u get this for?
+[19:23:31] [Async Chat Thread - #12/INFO]: <bwjr2> wait
+[19:23:38] [Async Chat Thread - #12/INFO]: <bwjr2> we should have a museum for these
+[19:23:38] [Async Chat Thread - #12/INFO]: <ppr> ?
+[19:23:41] [Async Chat Thread - #12/INFO]: <ppr> omg
+[19:23:44] [Async Chat Thread - #12/INFO]: <ppr> so tru
+[19:23:48] [Async Chat Thread - #12/INFO]: <bwjr2> sadly i think some of them are lost to time
+[19:24:00] [Async Chat Thread - #12/INFO]: <ppr> yeah
+[19:24:06] [Async Chat Thread - #12/INFO]: <bwjr2> since i accidentally threw away some of them
+[19:24:14] [Async Chat Thread - #12/INFO]: <bwjr2> cause they cluttered my inventory
+[19:24:24] [Async Chat Thread - #12/INFO]: <ppr> no one but sophie can get the accivement for surviing the first night lol
+[19:24:31] [Async Chat Thread - #12/INFO]: <ppr> so fair, me too
+[19:24:32] [Async Chat Thread - #12/INFO]: <bwjr2> lolll
+[19:24:42] [Async Chat Thread - #12/INFO]: <ppr> hold on, imma be afk for a sec
+[19:28:48] [Server thread/INFO]: bwjr2 issued server command: /spawn
+[19:28:48] [Server thread/WARN]: bwjr2 moved too quickly! 750.4427222192129,-9.0,1561.3527316230716
+[19:29:39] [Server thread/INFO]: bwjr2 issued server command: /trigger home add 29
+[19:29:39] [Server thread/INFO]: [bwjr2: Triggered [Home] (added 29 to value)]
+[19:29:39] [Server thread/INFO]: bwjr2 left the confines of this world
+[19:38:50] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[19:38:50] [Server thread/INFO]: bwjr2 left the game
+[19:40:15] [Server thread/INFO]: bwjr lost connection: Disconnected
+[19:40:15] [Server thread/INFO]: bwjr left the game
+[23:27:01] [User Authenticator #9/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[23:27:02] [Server thread/INFO]: SoapieTomato joined the game
+[23:27:02] [Server thread/INFO]: SoapieTomato[/38.21.219.232:53332] logged in with entity id 96163 at ([soapSMP]-1811.0626555269414, 51.0, -660.2465990708365)
+[23:27:17] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[23:27:17] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[23:44:25] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[23:44:25] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[23:44:26] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[23:44:26] [Server thread/INFO]: SoapieTomato left the game

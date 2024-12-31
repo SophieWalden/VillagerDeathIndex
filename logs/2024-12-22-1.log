@@ -1,0 +1,199 @@
+[00:28:43] [User Authenticator #10/INFO]: UUID of player bwjr2 is 746ce996-e72b-45fa-bf59-1b0c69bcd1ab
+[00:28:43] [Server thread/INFO]: bwjr2 joined the game
+[00:28:43] [Server thread/INFO]: bwjr2[/67.218.90.4:48066] logged in with entity id 97967 at ([soapSMP]-548.1112918412205, 64.0, -2395.495413081754)
+[00:34:16] [Server thread/INFO]: Named entity Pillager['Pillager'/103823, uuid='86db9e86-8597-4c43-8faf-5b2ef8893191', l='ServerLevel[soapSMP]', x=-1277.83, y=64.00, z=-2230.50, cpos=[-80, -140], tl=558, v=true] died: Pillager was shot by Pillager
+[00:41:54] [User Authenticator #11/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[00:41:55] [Server thread/INFO]: bwjr joined the game
+[00:41:55] [Server thread/INFO]: bwjr[/67.218.90.4:14336] logged in with entity id 105934 at ([soapSMP]-1288.8212702006394, 70.0, -1117.0353924995875)
+[00:41:59] [Async Chat Thread - #16/INFO]: <bwjr2> omg hi
+[00:42:06] [Async Chat Thread - #16/INFO]: <ppr> howdy pardner
+[00:42:40] [User Authenticator #11/INFO]: UUID of player SirRabbit_ is 304e8bc0-d4d5-4167-a30c-17b99da53b6a
+[00:42:41] [Server thread/INFO]: SirRabbit_ joined the game
+[00:42:41] [Server thread/INFO]: SirRabbit_[/67.218.90.4:19205] logged in with entity id 107399 at ([soapSMP]-598.4643924962419, 72.0, 474.978547195422)
+[00:42:47] [Async Chat Thread - #16/INFO]: <bwjr2> o///
+[00:42:51] [Async Chat Thread - #16/INFO]: <Rabbit> o//////////////
+[00:47:02] [Server thread/INFO]: Named entity Pillager['Pillager'/111262, uuid='56cf0f48-9bab-4605-984c-d29fbb472853', l='ServerLevel[soapSMP]', x=-1261.30, y=63.00, z=-2211.70, cpos=[-79, -139], tl=658, v=true] died: Pillager was shot by Pillager
+[00:48:33] [Server thread/INFO]: bwjr issued server command: /fill -1309 87 -1126
+[00:48:45] [Server thread/INFO]: bwjr issued server command: /fill -1309 87 -1126 -1305 81 -1122 minecraft:stone
+[00:48:45] [Server thread/INFO]: [bwjr: Successfully filled 148 block(s)]
+[00:51:53] [Server thread/INFO]: SirRabbit_ issued server command: /trigger home
+[00:51:53] [Server thread/INFO]: [SirRabbit_: Triggered [Home]]
+[00:52:29] [Server thread/INFO]: SirRabbit_ issued server command: /gamemode creative
+[00:52:29] [Server thread/INFO]: [SirRabbit_: Set own game mode to Creative Mode]
+[00:52:51] [Server thread/INFO]: SirRabbit_ issued server command: /give SirRabbit_ minecraft:structure_block
+[00:52:51] [Server thread/INFO]: [SirRabbit_: Gave 1 [Structure Block] to SirRabbit_]
+[00:57:57] [Server thread/INFO]: Villager Villager['Villager'/117245, uuid='eccbb3d7-e6ca-4a49-b20b-913077218f4f', l='ServerLevel[soapSMP]', x=-768.65, y=63.75, z=-2530.01, cpos=[-49, -159], tl=73135, v=true] died, message: 'Villager was slain by Zombie'
+[00:58:08] [Server thread/INFO]: SirRabbit_ issued server command: /tp -769 63 -2531
+[00:58:30] [Server thread/INFO]: SirRabbit_ issued server command: /home
+[00:58:32] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:edithome SirRabbit_.Aden
+[00:58:33] [Server thread/INFO]: SirRabbit_ issued server command: /huskhomes:home SirRabbit_.Aden
+[01:01:00] [Server thread/INFO]: SirRabbit_ lost connection: Timed out
+[01:01:00] [Server thread/INFO]: SirRabbit_ left the game
+[01:03:55] [User Authenticator #12/INFO]: UUID of player SirRabbit_ is 304e8bc0-d4d5-4167-a30c-17b99da53b6a
+[01:03:56] [Server thread/INFO]: SirRabbit_ joined the game
+[01:03:56] [Server thread/INFO]: SirRabbit_[/67.218.90.4:51088] logged in with entity id 120994 at ([soapSMP]-1504.9678946503236, 79.0, -795.3739031074467)
+[01:04:03] [Server thread/INFO]: bwjr issued server command: /gamemode creative bwjr2
+[01:04:03] [Server thread/INFO]: [bwjr: Set bwjr2's game mode to Creative Mode]
+[01:12:02] [Server thread/INFO]: [WEB] SirRabbit_: wefwefwewf
+[01:12:08] [Async Chat Thread - #18/INFO]: <Rabbit> ??
+[01:12:10] [Async Chat Thread - #18/INFO]: <Rabbit> sophie??
+[01:12:13] [Server thread/INFO]: [WEB] SirRabbit_: hello hello
+[01:12:16] [Async Chat Thread - #18/INFO]: <Rabbit> omg its me
+[01:12:18] [Async Chat Thread - #18/INFO]: <Rabbit> my alter ego
+[01:12:21] [Async Chat Thread - #18/INFO]: <Rabbit> sir rabbit
+[01:12:37] [Server thread/INFO]: [WEB] SirRabbit_: hello hello
+[01:12:45] [Async Chat Thread - #18/INFO]: <Rabbit> heloo
+[01:13:05] [Server thread/INFO]: [WEB] SirRabbit_: hello my name is Eltron
+[01:13:11] [Async Chat Thread - #18/INFO]: <Rabbit> nice to meet u
+[01:13:21] [Server thread/INFO]: [WEB] SirRabbit_: where do you live
+[01:13:27] [Async Chat Thread - #18/INFO]: <Rabbit> in a tree <3
+[01:13:31] [Server thread/INFO]: [WEB] SirRabbit_: what is your ip address
+[01:13:33] [Async Chat Thread - #18/INFO]: <ppr> do u want my social security number?
+[01:13:34] [Async Chat Thread - #18/INFO]: <Rabbit> 5
+[01:13:38] [Server thread/INFO]: [WEB] SirRabbit_: yes
+[01:13:58] [Server thread/INFO]: [WEB] SirRabbit_: alr
+[01:14:01] [Async Chat Thread - #18/INFO]: <ppr> 634wow920
+[01:14:07] [Server thread/INFO]: [WEB] SirRabbit_: wow thx
+[01:14:21] [Async Chat Thread - #18/INFO]: <ppr> omg sure, don't steal my identity too much <3
+[01:14:30] [Server thread/INFO]: [WEB] SirRabbit_: <3333333333333333
+[01:14:58] [Server thread/INFO]: [WEB] SirRabbit_: i totally wont sell your personal information to Elon Musk
+[01:15:03] [Async Chat Thread - #18/INFO]: <Rabbit> wait why him
+[01:15:06] [Async Chat Thread - #18/INFO]: <Rabbit> go sell it to like
+[01:15:11] [Async Chat Thread - #19/INFO]: <Rabbit> an unhousd person
+[01:15:14] [Async Chat Thread - #19/INFO]: <Rabbit> they can use my bad credit lol
+[01:15:15] [Server thread/INFO]: [WEB] SirRabbit_: i work for apartheid
+[01:15:28] [Server thread/INFO]: [WEB] SirRabbit_: apartheid elonmuskica
+[01:27:00] [Server thread/INFO]: bwjr issued server command: /home
+[01:27:03] [Server thread/INFO]: bwjr issued server command: /huskhomes:edithome bwjr.home
+[01:27:05] [Server thread/INFO]: bwjr issued server command: /huskhomes:home bwjr.home
+[01:27:42] [Server thread/INFO]: bwjr issued server command: /back
+[01:28:39] [Server thread/INFO]: SirRabbit_ issued server command: /nick SirRabbit_ Aida
+[01:28:49] [Server thread/INFO]: SirRabbit_ issued server command: /nickname Aida
+[01:28:56] [Server thread/INFO]: SirRabbit_ issued server command: /nickname Rabbit
+[01:29:07] [Server thread/INFO]: SirRabbit_ issued server command: /test
+[01:29:09] [Async Chat Thread - #20/INFO]: <Rabbit> test
+[01:29:30] [Server thread/INFO]: SirRabbit_ issued server command: /namecolor:nickname Rabbit
+[01:29:31] [Server thread/INFO]: [WEB] SirRabbit_: test? you confuse me very much?
+[01:29:39] [Async Chat Thread - #20/INFO]: <Rabbit> why am i not green :<
+[01:29:41] [Async Chat Thread - #20/INFO]: <Rabbit> i used to be
+[01:29:42] [Server thread/INFO]: [WEB] SirRabbit_: what do you mean by this word "test?"
+[01:29:49] [Server thread/INFO]: [WEB] SirRabbit_: what are you testing
+[01:29:55] [Async Chat Thread - #20/INFO]: <Rabbit> im tesing ma name
+[01:30:01] [Server thread/INFO]: [WEB] SirRabbit_: nononono
+[01:30:10] [Server thread/INFO]: [WEB] SirRabbit_: i think your testing something more
+[01:30:15] [Server thread/INFO]: [WEB] SirRabbit_: ...
+[01:30:17] [Async Chat Thread - #20/INFO]: <Rabbit> testing the fabric of the world
+[01:30:28] [Server thread/INFO]: [WEB] SirRabbit_: are you testing the fabric of your inner soul?
+[01:30:36] [Async Chat Thread - #20/INFO]: <Rabbit> isnt that all we ever do?
+[01:30:40] [Server thread/INFO]: [WEB] SirRabbit_: is that the purpose of your quest?
+[01:30:47] [Server thread/INFO]: [WEB] SirRabbit_: hmmmmm
+[01:30:49] [Async Chat Thread - #20/INFO]: <Rabbit> i cant even hope to know
+[01:31:01] [Server thread/INFO]: [WEB] SirRabbit_: that is the question of ages
+[01:31:58] [Server thread/INFO]: SirRabbit_ issued server command: /nickname clear
+[01:32:12] [Server thread/INFO]: SirRabbit_ issued server command: /nick SirRabbit_ SirRabbit_ SirRabbit_
+[01:32:16] [Server thread/INFO]: SirRabbit_ issued server command: /help
+[01:32:30] [Server thread/INFO]: SirRabbit_ issued server command: /a
+[01:32:38] [Async Chat Thread - #22/INFO]: (A) clear → NameColor
+[01:33:01] [Server thread/INFO]: SirRabbit_ issued server command: /namecolor green
+[01:38:33] [Async Chat Thread - #24/INFO]: (A) SirRabbit_ → o///
+[01:38:34] [Async Chat Thread - #24/INFO]: (A) SirRabbit_ → betime
+[01:38:49] [Server thread/INFO]: SirRabbit_ issued server command: /achat
+[01:38:53] [Async Chat Thread - #24/INFO]: <SirRabbit_> o///
+[01:38:57] [Async Chat Thread - #24/INFO]: <SirRabbit_> bedtime <3
+[01:38:59] [Server thread/INFO]: SirRabbit_ lost connection: Disconnected
+[01:38:59] [Server thread/INFO]: SirRabbit_ left the game
+[01:38:59] [Server thread/INFO]: bwjr issued server command: /time set night
+[01:38:59] [Server thread/INFO]: [bwjr: Set the time to 13000]
+[01:40:40] [Async Chat Thread - #27/INFO]: <bwjr2> survival?
+[01:40:50] [Server thread/INFO]: bwjr issued server command: /gamemode survival bwjr2
+[01:40:50] [Server thread/INFO]: [bwjr: Set bwjr2's game mode to Survival Mode]
+[01:41:22] [Server thread/INFO]: bwjr issued server command: /time set night
+[01:41:22] [Server thread/INFO]: [bwjr: Set the time to 13000]
+[01:42:31] [Server thread/INFO]: bwjr issued server command: /time set day
+[01:42:31] [Server thread/INFO]: [bwjr: Set the time to 1000]
+[01:42:59] [Server thread/INFO]: bwjr issued server command: /tpa bwjr2
+[01:43:02] [Server thread/INFO]: bwjr2 issued server command: /huskhomes:tpaccept bwjr
+[01:49:22] [Server thread/INFO]: (mcMMO) bwjr2 has reached a Power level of 900!
+[01:50:12] [Server thread/INFO]: bwjr2 issued server command: /excavation
+[01:51:27] [Server thread/INFO]: bwjr issued server command: /effect give bwjr minecraft:speed infinite
+[01:51:27] [Server thread/INFO]: [bwjr: Applied effect Speed to bwjr]
+[02:00:33] [Server thread/INFO]: bwjr2 issued server command: /trigger home add 5
+[02:00:33] [Server thread/INFO]: [bwjr2: Triggered [Home] (added 5 to value)]
+[02:01:28] [Server thread/INFO]: bwjr2 issued server command: /trigger back
+[02:01:28] [Server thread/INFO]: [bwjr2: Triggered [Back]]
+[02:04:39] [Server thread/INFO]: bwjr issued server command: /sethome Hobbit House
+[02:08:27] [Server thread/INFO]: bwjr issued server command: /home
+[02:08:31] [Server thread/INFO]: bwjr issued server command: /home home
+[02:09:18] [Server thread/INFO]: bwjr issued server command: /back
+[02:12:50] [Server thread/INFO]: (mcMMO) bwjr2 has reached level 100 in EXCAVATION!
+[02:12:52] [Async Chat Thread - #29/INFO]: <ppr> the zoomed out maps take so long to fill in :(
+[02:17:02] [Server thread/INFO]: bwjr issued server command: /spawn
+[02:23:19] [Server thread/INFO]: bwjr2 issued server command: /mcmmo:mcscoreboard
+[02:23:59] [Server thread/INFO]: bwjr issued server command: /give bwjr minecraft:structure_block
+[02:23:59] [Server thread/INFO]: [bwjr: Gave 1 [Structure Block] to bwjr]
+[02:26:23] [Server thread/WARN]: bwjr moved too quickly! -9.241308217356163,3.9387245965748434,0.9233146193728317
+[02:28:09] [Async Chat Thread - #30/INFO]: <ppr> alright I think I need to go to sleep :O
+[02:28:19] [Async Chat Thread - #30/INFO]: <bwjr2> gn!!!!!!!! :D
+[02:28:24] [Async Chat Thread - #30/INFO]: <ppr> See u tomorrow <3
+[02:28:28] [Async Chat Thread - #30/INFO]: <bwjr2> <33333333333333
+[02:28:29] [Async Chat Thread - #30/INFO]: <ppr> gn!!
+[02:28:30] [Server thread/INFO]: bwjr lost connection: Disconnected
+[02:28:30] [Server thread/INFO]: bwjr left the game
+[02:50:10] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[02:50:10] [Server thread/INFO]: bwjr2 left the game
+[06:51:51] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:06:51] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:16:52] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:20:55] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:21:57] [Server thread/INFO]: Stopping the server
+[07:21:58] [Server thread/INFO]: Stopping server
+[07:21:58] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:21:58] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:21:58] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:21:58] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:21:58] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:21:58] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:21:58] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:21:58] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:21:58] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:21:58] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:21:58] [Server thread/INFO]: [NameColor] Disabled.
+[07:21:58] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:21:58] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:21:58] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:21:59] [Server thread/INFO]: [dynmap] Disabled
+[07:21:59] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:21:59] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:21:59] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:21:59] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:21:59] [Server thread/INFO]: Saving players
+[07:21:59] [Server thread/INFO]: Saving worlds
+[07:21:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:21:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:21:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:21:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:22:01] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 401 entity chunks, 1 poi chunks in world 'soapSMP' in 2.11s
+[07:22:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:22:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:22:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.07s
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:22:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.16s
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:22:04] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:22:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:22:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:22:04] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:22:04] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:22:05] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:22:05] [Server thread/INFO]: All I/O tasks to complete
+[07:22:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:22:05] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

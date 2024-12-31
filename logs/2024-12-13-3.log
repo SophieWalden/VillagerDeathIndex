@@ -1,0 +1,671 @@
+[01:17:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Linux 5.15.0-75-generic (amd64)
+[01:17:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.4-14-master@b746d9d (2024-12-11T21:22:39Z) for Minecraft 1.21.4
+[01:17:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:17:34] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/BisectHosting-bukkit-1.6+.jar'...
+[01:17:35] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/BisectHosting-bukkit-1.6+.jar' in 889ms.
+[01:17:35] [ServerMain/WARN]: [org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper] Failed to get hostname, using 'localhost'
+java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1936) ~[?:?]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.getHostname(DiscriminatingNameMapper.java:90) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.DiscriminatingNameMapper.<init>(DiscriminatingNameMapper.java:69) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NameMappers.discriminatingNameMapper(NameMappers.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.getManuallyCreatedNameMappers(NamedLockFactoryAdapterFactoryImpl.java:78) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.named.NamedLockFactoryAdapterFactoryImpl.<init>(NamedLockFactoryAdapterFactoryImpl.java:107) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:159) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.synccontext.DefaultSyncContextFactory.initService(DefaultSyncContextFactory.java:68) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultMetadataResolver.initService(DefaultMetadataResolver.java:123) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.apache.maven.repository.internal.DefaultVersionResolver.initService(DefaultVersionResolver.java:106) ~[maven-resolver-provider-3.9.6.jar:3.9.6]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.initService(DefaultRepositorySystem.java:158) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.newInstance(DefaultServiceLocator.java:163) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstances(DefaultServiceLocator.java:140) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator$Entry.getInstance(DefaultServiceLocator.java:130) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.eclipse.aether.impl.DefaultServiceLocator.getService(DefaultServiceLocator.java:271) ~[maven-resolver-impl-1.9.18.jar:1.9.18]
+	at org.bukkit.plugin.java.LibraryLoader.<init>(LibraryLoader.java:60) ~[paper-api-1.21.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.provider.type.spigot.SpigotPluginProvider.<clinit>(SpigotPluginProvider.java:38) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.<clinit>(PluginFileType.java:40) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:77) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:52) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:17) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:15) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:113) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.Main.main(Main.java:125) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.net.UnknownHostException: a7d1b4f2-34d0-4e31-ad29-895355b97a40: Name or service not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method) ~[?:?]
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Inet6AddressImpl.java:52) ~[?:?]
+	at java.base/java.net.InetAddress$PlatformResolver.lookupByName(InetAddress.java:1211) ~[?:?]
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1828) ~[?:?]
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:1139) ~[?:?]
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1818) ~[?:?]
+	at java.base/java.net.InetAddress.getLocalHost(InetAddress.java:1931) ~[?:?]
+	... 45 more
+[01:17:36] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[01:17:36] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+ - BisectHosting (1.0.4), mcMMO (2.2.029-SNAPSHOT)
+[01:17:41] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:17:43] [ServerMain/INFO]: Loaded 1370 recipes
+[01:17:43] [ServerMain/INFO]: Loaded 1481 advancements
+[01:17:43] [ServerMain/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[01:17:44] [ServerMain/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 367.4ms
+[01:17:44] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[01:17:44] [Server thread/INFO]: Loading properties
+[01:17:44] [Server thread/INFO]: This server is running Paper version 1.21.4-14-master@b746d9d (2024-12-11T21:22:39Z) (Implementing API version 1.21.4-R0.1-SNAPSHOT)
+[01:17:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:17:45] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:17:45] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:17:45] [Server thread/INFO]: [MoonriseCommon] Paper is using 8 worker threads, 1 I/O threads
+[01:17:45] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[01:17:46] [Server thread/INFO]: Default game type: SURVIVAL
+[01:17:46] [Server thread/INFO]: Generating keypair
+[01:17:46] [Server thread/INFO]: Starting Minecraft server on 173.240.148.216:27000
+[01:17:46] [Server thread/INFO]: Using epoll channel type
+[01:17:46] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:17:46] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[01:17:46] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.2.029-SNAPSHOT
+[01:17:46] [Server thread/INFO]: [BisectHosting] Loading server plugin BisectHosting v1.0.4
+[01:17:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:17:46] [Server thread/INFO]: Preparing level "world"
+[01:17:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:17:47] [Server thread/INFO]: Preparing spawn area: 0%
+[01:17:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:17:48] [Server thread/INFO]: Time elapsed: 983 ms
+[01:17:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:17:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:17:48] [Server thread/INFO]: Time elapsed: 125 ms
+[01:17:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:17:48] [Server thread/INFO]: Preparing spawn area: 0%
+[01:17:48] [Server thread/INFO]: Time elapsed: 77 ms
+[01:17:48] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.2.029-SNAPSHOT
+[01:17:49] [Server thread/INFO]: [mcMMO] Loaded 220 Alchemy potions, skipped 0.
+[01:17:51] [Server thread/INFO]: [BisectHosting] Enabling BisectHosting v1.0.4
+[01:17:51] [Server thread/INFO]: [spark] Starting background profiler...
+[01:17:51] [Server thread/INFO]: Done preparing level "world" (5.041s)
+[01:17:51] [Server thread/INFO]: Running delayed init tasks
+[01:17:51] [Server thread/INFO]: Done (18.565s)! For help, type "help"
+[03:42:51] [Dimension-Data-IO-Worker-1/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:42:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level9184852343499949773.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:47:51] [Dimension-Data-IO-Worker-4/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:47:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level11857783372020758098.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:52:51] [Dimension-Data-IO-Worker-3/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:52:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level6183898296624471090.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:57:51] [Dimension-Data-IO-Worker-2/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[03:57:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level7705562742531421916.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:02:51] [Dimension-Data-IO-Worker-1/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:02:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level8275748034944042023.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:07:51] [Dimension-Data-IO-Worker-4/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:07:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level12825500259458639922.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:12:51] [Dimension-Data-IO-Worker-3/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:12:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level2932954120211523450.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:17:51] [Dimension-Data-IO-Worker-2/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:17:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level9642857195065665348.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:22:51] [Dimension-Data-IO-Worker-1/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:22:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level6701561610461355547.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:27:51] [Dimension-Data-IO-Worker-4/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:27:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level18427188527408449533.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:32:51] [Dimension-Data-IO-Worker-3/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:32:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level10288265888283140011.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:37:51] [Dimension-Data-IO-Worker-2/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:37:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level9710908659952972244.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:42:51] [Dimension-Data-IO-Worker-1/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:42:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level1965189851764984388.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:47:51] [Dimension-Data-IO-Worker-4/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:47:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level11255728368964235020.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:52:51] [Dimension-Data-IO-Worker-3/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:52:51] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level16324402521838853826.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.saveIncrementally(ServerLevel.java:1387) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1688) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1331) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:55:27] [Server thread/INFO]: Stopping the server
+[04:55:27] [Server thread/INFO]: Stopping server
+[04:55:27] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[04:55:27] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[04:55:27] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[04:55:28] [Server thread/INFO]: Saving players
+[04:55:28] [Server thread/INFO]: Saving worlds
+[04:55:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04:55:28] [Dimension-Data-IO-Worker-2/ERROR]: Could not save data to raids.dat
+java.nio.file.NoSuchFileException: ./world/data/raids.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:482) ~[?:?]
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:227) ~[?:?]
+	at net.minecraft.nbt.NbtIo.writeCompressed(NbtIo.java:168) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.tryWrite(DimensionDataStorage.java:181) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.DimensionDataStorage.lambda$scheduleSave$3(DimensionDataStorage.java:163) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 33 entity chunks, 0 poi chunks in world 'world' in 0.04s
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[04:55:28] [Server thread/ERROR]: Failed to save level ./world
+java.nio.file.NoSuchFileException: ./world/level8125181072902713126.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?]
+	at java.base/java.nio.file.Files.createFile(Files.java:657) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.create(TempFileHelper.java:136) ~[?:?]
+	at java.base/java.nio.file.TempFileHelper.createTempFile(TempFileHelper.java:159) ~[?:?]
+	at java.base/java.nio.file.Files.createTempFile(Files.java:878) ~[?:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveLevelData(LevelStorageSource.java:615) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.saveDataTag(LevelStorageSource.java:608) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.level.ServerLevel.save(ServerLevel.java:1431) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.saveAllChunks(MinecraftServer.java:981) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1104) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:793) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1399) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:341) ~[paper-1.21.4.jar:1.21.4-14-b746d9d]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[04:55:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[04:55:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[04:55:28] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[04:55:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04:55:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04:55:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04:55:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04:55:28] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[04:55:28] [Server thread/INFO]: All I/O tasks to complete
+[04:55:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[04:55:28] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

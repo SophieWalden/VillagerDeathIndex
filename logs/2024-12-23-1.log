@@ -1,0 +1,182 @@
+[00:03:49] [Server thread/INFO]: bwjr issued server command: /home
+[00:03:52] [Server thread/INFO]: bwjr issued server command: /huskhomes:edithome bwjr.home
+[00:03:54] [Server thread/INFO]: bwjr issued server command: /huskhomes:home bwjr.home
+[00:07:01] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:07:01] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:07:22] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:07:22] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:07:27] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:07:27] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:07:49] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:07:49] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:08:10] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:08:10] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:08:28] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:08:28] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:08:59] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:08:59] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:09:08] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:09:08] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:13:24] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:13:24] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:13:39] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:13:39] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:14:01] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:14:01] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:14:10] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:14:10] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:14:18] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:14:18] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:15:02] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:15:02] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:15:55] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:15:55] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:16:41] [Server thread/INFO]: bwjr issued server command: /forceload add -1200 -1318
+[00:16:45] [Server thread/INFO]: bwjr issued server command: /forceload add -1200 -1318 -1200 -1318
+[00:16:53] [Server thread/INFO]: bwjr issued server command: /forceload add -1200 -1318
+[00:17:09] [Server thread/INFO]: bwjr issued server command: /forceload add -1200 -1318 -1173 -1348
+[00:17:49] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:17:49] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:17:56] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:17:56] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:18:17] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:18:17] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:18:39] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:18:39] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:18:43] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:18:43] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:18:48] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:18:48] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:20:25] [Server thread/INFO]: bwjr issued server command: /forceload add -1170 -1354
+[00:20:29] [Server thread/INFO]: bwjr issued server command: /forceload add -1170 -1354
+[00:20:36] [Server thread/INFO]: bwjr issued server command: /forceload add -1170 -1354 -1204 -1356
+[00:20:42] [Server thread/INFO]: bwjr issued server command: /forceload query
+[00:23:47] [Server thread/INFO]: bwjr issued server command: /forceload add -1170 -1314
+[00:24:17] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:24:17] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:24:22] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:24:22] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:24:29] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:24:29] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:24:45] [Server thread/INFO]: bwjr issued server command: /forceload add -1170 -1314
+[00:24:49] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:24:49] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:25:08] [Server thread/INFO]: bwjr issued server command: /forceload add ~ ~
+[00:25:08] [Server thread/INFO]: [bwjr: Marked chunk [-74, -87] in minecraft:overworld to be force loaded]
+[00:26:13] [Server thread/INFO]: bwjr issued server command: /forceload add -1245 -1390
+[00:26:13] [Server thread/INFO]: [bwjr: Marked chunk [-78, -87] in minecraft:overworld to be force loaded]
+[00:26:32] [Server thread/INFO]: bwjr issued server command: /forceload add -1245 -1390 -1170 -1314
+[00:26:32] [Server thread/INFO]: [bwjr: Marked 5 chunks in minecraft:overworld from [-78, -87] to [-74, -83] to be force loaded]
+[00:31:24] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:31:24] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:46:11] [Server thread/INFO]: bwjr issued server command: /home studio
+[02:34:11] [Server thread/INFO]: Named entity SnowGolem['Bov'/27359, uuid='814867b8-01ff-4a35-8308-d762baa570be', l='ServerLevel[soapSMP]', x=-1266.65, y=180.00, z=-1350.65, cpos=[-80, -85], tl=2179826, v=true] died: Bov was slain by Zombie
+[02:50:40] [Server thread/INFO]: bwjr issued server command: /spawn
+[02:51:54] [Server thread/INFO]: bwjr lost connection: Disconnected
+[02:51:54] [Server thread/INFO]: bwjr left the game
+[02:53:48] [User Authenticator #17/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[02:53:49] [Server thread/INFO]: bwjr joined the game
+[02:53:49] [Server thread/INFO]: bwjr[/67.218.90.4:58303] logged in with entity id 761866 at ([soapSMP]-610.4920874494044, 68.0, 506.0947906986243)
+[02:59:11] [Server thread/INFO]: bwjr issued server command: /back
+[03:02:51] [Server thread/INFO]: bwjr issued server command: /fill -1291 156 -1354
+[03:04:10] [Server thread/INFO]: bwjr issued server command: /fill -1291 151 -1364
+[03:04:27] [Server thread/INFO]: bwjr issued server command: /fill -1291 151 -1364 -1286 151 -1363 minecraft:air
+[03:04:27] [Server thread/INFO]: [bwjr: Successfully filled 7 block(s)]
+[03:04:38] [Server thread/INFO]: bwjr issued server command: /fill -1286 151 -1363
+[03:04:54] [Server thread/INFO]: bwjr issued server command: /fill -1286 151 -1363 -1291 156 -1354 minecraft:air
+[03:04:54] [Server thread/INFO]: [bwjr: Successfully filled 235 block(s)]
+[03:05:04] [Server thread/INFO]: bwjr issued server command: /fill -1291 151 -1364
+[03:05:11] [Server thread/INFO]: bwjr issued server command: /fill -1291 151 -1364 -1286 156 -1364 minecraft:snow_block
+[03:05:11] [Server thread/INFO]: [bwjr: Successfully filled 36 block(s)]
+[03:05:20] [Server thread/INFO]: bwjr issued server command: /fill -1291 151 -1353
+[03:05:28] [Server thread/INFO]: bwjr issued server command: /fill -1291 151 -1353 -1286 156 -1353 minecraft:snow_block
+[03:05:28] [Server thread/INFO]: [bwjr: Successfully filled 36 block(s)]
+[03:05:44] [Server thread/INFO]: bwjr issued server command: /fill -1285 151 -1363
+[03:05:54] [Server thread/INFO]: bwjr issued server command: /fill -1285 151 -1363 -1285 156 -1354 air
+[03:05:54] [Server thread/INFO]: [bwjr: Successfully filled 60 block(s)]
+[03:06:22] [Server thread/INFO]: bwjr issued server command: /fill -1284 156 -1363
+[03:06:54] [Server thread/INFO]: bwjr issued server command: /fill -1284 156 -1363 -1277 151 -1355 minecraft:air
+[03:06:54] [Server thread/INFO]: [bwjr: Successfully filled 412 block(s)]
+[03:07:25] [Server thread/INFO]: bwjr issued server command: /fill -1278 156 -1364
+[03:07:33] [Server thread/INFO]: bwjr issued server command: /fill -1278 156 -1364 -1284 151 -1364 minecraft:snow_block
+[03:07:33] [Server thread/INFO]: [bwjr: Successfully filled 40 block(s)]
+[03:10:42] [Server thread/INFO]: bwjr issued server command: /fill -1284 156 -1354
+[03:10:48] [Server thread/INFO]: bwjr issued server command: /fill -1284 156 -1354 -1277 151 -1354 minecraft:air
+[03:10:48] [Server thread/INFO]: [bwjr: Successfully filled 48 block(s)]
+[03:11:22] [Server thread/INFO]: bwjr issued server command: /fill -1284 151 -1353
+[03:11:31] [Server thread/INFO]: bwjr issued server command: /fill -1284 151 -1353 -1278 156 -1353 minecraft:snow_block
+[03:11:31] [Server thread/INFO]: [bwjr: Successfully filled 40 block(s)]
+[03:15:07] [Server thread/INFO]: bwjr issued server command: /fill -1291 150 -1355
+[03:15:18] [Server thread/INFO]: bwjr issued server command: /fill -1291 150 -1355 -1286 150 -1362 minecraft:spruce_planks
+[03:15:18] [Server thread/INFO]: [bwjr: Successfully filled 47 block(s)]
+[03:15:25] [Server thread/INFO]: bwjr issued server command: /fill -1284 150 -1362
+[03:15:37] [Server thread/INFO]: bwjr issued server command: /fill -1284 150 -1362 -1278 150 -1355 minecraft:spruce_planks
+[03:15:37] [Server thread/INFO]: [bwjr: Successfully filled 56 block(s)]
+[03:16:38] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[03:16:38] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[03:16:58] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[03:16:58] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[03:18:54] [Server thread/INFO]: bwjr issued server command: /fill -1277 151 -1364
+[03:19:55] [Server thread/INFO]: bwjr issued server command: /fill -1277 151 -1364 -1285 154 -1370 minecraft:air
+[03:19:55] [Server thread/INFO]: [bwjr: Successfully filled 208 block(s)]
+[03:20:09] [Server thread/INFO]: bwjr issued server command: /fill -1284 155 -1365
+[03:20:35] [Server thread/INFO]: bwjr issued server command: /fill -1284 155 -1365 -1277 155 -1371 minecraft:air
+[03:20:35] [Server thread/INFO]: [bwjr: Successfully filled 38 block(s)]
+[03:23:49] [Server thread/INFO]: bwjr lost connection: Disconnected
+[03:23:49] [Server thread/INFO]: bwjr left the game
+[06:51:59] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:06:59] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:16:59] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:21:00] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:22:01] [Server thread/INFO]: Stopping the server
+[07:22:01] [Server thread/INFO]: Stopping server
+[07:22:01] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:22:01] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:22:01] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:22:02] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:22:02] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:22:02] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:22:02] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:22:02] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:22:02] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:22:02] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:22:02] [Server thread/INFO]: [NameColor] Disabled.
+[07:22:02] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:22:02] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:22:02] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:22:03] [Server thread/INFO]: [dynmap] Disabled
+[07:22:03] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:22:03] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:22:03] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:22:03] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:22:03] [Server thread/INFO]: Saving players
+[07:22:03] [Server thread/INFO]: Saving worlds
+[07:22:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Saved 19 block chunks, 446 entity chunks, 0 poi chunks in world 'soapSMP' in 0.21s
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:22:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:22:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:22:03] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:22:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:22:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:22:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:22:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:22:03] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:22:03] [Server thread/INFO]: All I/O tasks to complete
+[07:22:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:22:03] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

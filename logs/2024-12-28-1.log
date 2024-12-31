@@ -1,0 +1,81 @@
+[00:02:05] [Server thread/INFO]: SoapieTomato issued server command: /home oracle
+[00:02:15] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:03:25] [Server thread/INFO]: Azuresty lost connection: Disconnected
+[00:03:25] [Server thread/INFO]: Azuresty left the game
+[00:03:30] [User Authenticator #21/INFO]: UUID of player Azuresty is 51643251-0baf-455d-a7be-482a8a2d6913
+[00:03:30] [Async Chat Thread - #95/INFO]: <LunaMaiden> ayo ggngngngngngngngngngn
+[00:03:31] [Server thread/INFO]: Azuresty joined the game
+[00:03:31] [Server thread/INFO]: Azuresty[/38.21.219.232:57451] logged in with entity id 591037 at ([soapSMP]-1826.1225491036464, 70.9375, -668.1043304843336)
+[00:03:34] [Async Chat Thread - #95/INFO]: <ppr> gn!
+[00:03:34] [Async Chat Thread - #95/INFO]: <LunaMaiden> thank for mcd interior
+[00:03:36] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[00:03:36] [Server thread/INFO]: SoapieTomato left the game
+[00:03:38] [Async Chat Thread - #95/INFO]: <bwjr2> gn!
+[00:03:52] [Async Chat Thread - #96/INFO]: <Aze> thank you emerson, heading sleep
+[00:04:10] [Server thread/INFO]: Azuresty lost connection: Disconnected
+[00:04:10] [Server thread/INFO]: Azuresty left the game
+[00:17:25] [Server thread/INFO]: bwjr issued server command: /home 1
+[00:17:32] [Server thread/INFO]: bwjr issued server command: /back
+[00:27:44] [Server thread/INFO]: bwjr lost connection: Disconnected
+[00:27:44] [Server thread/INFO]: bwjr left the game
+[01:13:31] [Server thread/INFO]: bwjr2 lost connection: Disconnected
+[01:13:31] [Server thread/INFO]: bwjr2 left the game
+[03:47:48] [Server thread/INFO]: DamPnutManFan lost connection: Disconnected
+[03:47:48] [Server thread/INFO]: DamPnutManFan left the game
+[06:52:25] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:07:26] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:17:26] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:21:28] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:22:29] [Server thread/INFO]: Stopping the server
+[07:22:30] [Server thread/INFO]: Stopping server
+[07:22:30] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:22:30] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:22:30] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:22:30] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:22:30] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:22:30] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:22:30] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:22:30] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:22:30] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:22:30] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:22:30] [Server thread/INFO]: [NameColor] Disabled.
+[07:22:30] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:22:30] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:22:30] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:22:31] [Server thread/INFO]: [dynmap] Saved 4 pending tile renders in world 'soapSMP'
+[07:22:31] [Server thread/INFO]: [dynmap] Disabled
+[07:22:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:22:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:22:31] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:22:31] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:22:31] [Server thread/INFO]: Saving players
+[07:22:31] [Server thread/INFO]: Saving worlds
+[07:22:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:22:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:22:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:22:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:22:31] [Server thread/INFO]: [ChunkHolderManager] Saved 10 block chunks, 422 entity chunks, 0 poi chunks in world 'soapSMP' in 0.25s
+[07:22:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:22:31] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:22:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 11 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:22:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:22:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:22:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:22:32] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:22:32] [Server thread/INFO]: All I/O tasks to complete
+[07:22:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:22:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
