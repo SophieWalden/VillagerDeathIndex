@@ -1,0 +1,99 @@
+[00:17:47] [Server thread/INFO]: haashthetag issued server command: /back
+[00:17:47] [Server thread/WARN]: haashthetag moved too quickly! -136.415334989882,1.0,-0.11319901537842725
+[00:21:48] [User Authenticator #20/INFO]: UUID of player TheUndead_Cat is aad07af3-16ea-4dba-aeed-8d719e5b895d
+[00:21:49] [Server thread/INFO]: TheUndead_Cat joined the game
+[00:21:49] [Server thread/INFO]: TheUndead_Cat[/174.29.126.17:50865] logged in with entity id 586368 at ([soapSMP]-1461.1607853090027, 104.0, -865.4710927122769)
+[00:21:57] [Server thread/INFO]: TheUndead_Cat issued server command: /home ruins
+[00:22:56] [Server thread/INFO]: TheUndead_Cat issued server command: /home ruins
+[00:22:59] [Server thread/INFO]: haashthetag issued server command: /back
+[00:23:00] [Server thread/WARN]: haashthetag moved too quickly! 135.0583169134643,0.0,-0.7663983586095355
+[00:23:02] [Server thread/INFO]: haashthetag issued server command: /home treasaure
+[00:23:05] [Server thread/INFO]: haashthetag issued server command: /home treasure
+[00:23:05] [Server thread/WARN]: haashthetag moved too quickly! -138.57513952862973,-12.0,11.009030203809516
+[00:23:16] [Server thread/INFO]: haashthetag issued server command: /back
+[00:23:27] [Server thread/INFO]: haashthetag issued server command: /home water
+[00:23:28] [Server thread/WARN]: haashthetag moved too quickly! -129.0856172774338,-1.0,16.73294179388381
+[00:23:40] [Server thread/INFO]: haashthetag issued server command: /home treasure
+[00:32:28] [Server thread/INFO]: TheUndead_Cat issued server command: /mctop archery
+[00:33:36] [Server thread/INFO]: TheUndead_Cat issued server command: /home ruins
+[00:36:02] [Server thread/INFO]: haashthetag issued server command: /home treasure
+[00:36:02] [Server thread/WARN]: haashthetag moved too quickly! -260.4506899185317,-12.0,11.005780740654586
+[00:36:30] [Server thread/INFO]: haashthetag issued server command: /back
+[00:38:07] [Server thread/INFO]: TheUndead_Cat issued server command: /home ruins
+[00:38:24] [Server thread/INFO]: haashthetag issued server command: /home treasure
+[00:38:25] [Server thread/WARN]: haashthetag moved too quickly! -262.3293973770601,-12.0,9.900658347880494
+[00:38:33] [Server thread/INFO]: haashthetag issued server command: /back
+[00:38:34] [Server thread/WARN]: haashthetag moved too quickly! 262.3293973770601,12.0,-15.778849696706402
+[00:46:18] [Server thread/INFO]: haashthetag issued server command: /home water
+[00:49:31] [Server thread/INFO]: (mcMMO) TheUndead_Cat has reached a Power level of 400!
+[00:50:09] [Server thread/INFO]: haashthetag issued server command: /home bridge
+[00:50:14] [Server thread/INFO]: haashthetag issued server command: /sethome bridge
+[00:50:52] [Server thread/INFO]: haashthetag issued server command: /home bridge
+[00:50:52] [Server thread/WARN]: haashthetag moved too quickly! -136.01197485185685,0.0,0.5226676574773137
+[00:51:44] [Server thread/INFO]: TheUndead_Cat was slain by Zombie
+[00:54:09] [Server thread/INFO]: haashthetag issued server command: /sethome bridgeend
+[00:54:13] [Server thread/INFO]: haashthetag issued server command: /home bridge
+[00:54:41] [Server thread/INFO]: TheUndead_Cat issued server command: /home ruins
+[00:56:28] [Server thread/INFO]: TheUndead_Cat lost connection: Disconnected
+[00:56:28] [Server thread/INFO]: TheUndead_Cat left the game
+[00:57:48] [Server thread/INFO]: haashthetag issued server command: /home bridgeend
+[00:57:48] [Server thread/WARN]: haashthetag moved too quickly! 260.39828832642615,0.0,-1.2275033355705318
+[00:58:12] [Server thread/INFO]: haashthetag issued server command: /home bridge
+[01:19:00] [Server thread/INFO]: haashthetag lost connection: Disconnected
+[01:19:00] [Server thread/INFO]: haashthetag left the game
+[06:53:52] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:08:53] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:18:55] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:22:55] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:23:57] [Server thread/INFO]: Stopping the server
+[07:23:57] [Server thread/INFO]: Stopping server
+[07:23:57] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:23:57] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:23:57] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:23:57] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:23:57] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:23:57] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:23:57] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:23:57] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:23:57] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:23:57] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:23:57] [Server thread/INFO]: [NameColor] Disabled.
+[07:23:57] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:23:57] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:23:57] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:23:58] [Server thread/INFO]: [dynmap] Disabled
+[07:23:58] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:23:58] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:23:58] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:23:58] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:23:58] [Server thread/INFO]: Saving players
+[07:23:58] [Server thread/INFO]: Saving worlds
+[07:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:23:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:23:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:23:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:23:58] [Server thread/INFO]: [ChunkHolderManager] Saved 18 block chunks, 237 entity chunks, 0 poi chunks in world 'soapSMP' in 0.38s
+[07:23:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:23:58] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:23:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:23:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:23:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:23:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:23:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:23:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:23:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:23:59] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:23:59] [Server thread/INFO]: All I/O tasks to complete
+[07:23:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:23:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

@@ -1,0 +1,61 @@
+[00:19:20] [User Authenticator #12/INFO]: UUID of player SoapieTomato is dd8b1bf4-8364-463c-bd83-833362c06ae9
+[00:19:21] [Server thread/INFO]: SoapieTomato joined the game
+[00:19:21] [Server thread/INFO]: SoapieTomato[/207.5.148.5:15366] logged in with entity id 232703 at ([soapSMP_nether]-282.7596312019276, 39.0, -2043.707806997289)
+[00:48:33] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[00:48:33] [Server thread/INFO]: SoapieTomato left the game
+[06:53:27] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:08:28] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:18:29] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:22:30] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:23:30] [Server thread/INFO]: Stopping the server
+[07:23:30] [Server thread/INFO]: Stopping server
+[07:23:30] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:23:30] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:23:30] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:23:30] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:23:30] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:23:30] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:23:30] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:23:30] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:23:30] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:23:30] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:23:30] [Server thread/INFO]: [NameColor] Disabled.
+[07:23:30] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:23:30] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:23:30] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:23:31] [Server thread/INFO]: [dynmap] Disabled
+[07:23:31] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:23:31] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:23:31] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:23:31] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:23:31] [Server thread/INFO]: Saving players
+[07:23:32] [Server thread/INFO]: Saving worlds
+[07:23:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Saved 13 block chunks, 496 entity chunks, 0 poi chunks in world 'soapSMP' in 0.34s
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:23:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 9 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:23:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:23:32] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:23:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:23:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:23:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:23:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:23:32] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:23:32] [Server thread/INFO]: All I/O tasks to complete
+[07:23:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:23:32] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

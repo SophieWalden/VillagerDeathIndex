@@ -1,0 +1,133 @@
+[00:00:13] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[00:00:46] [Server thread/INFO]: shadowvyce issued server command: //home 4
+[00:00:51] [Server thread/INFO]: shadowvyce issued server command: /home 4
+[00:07:25] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[00:07:44] [Server thread/INFO]: shadowvyce issued server command: /home 4
+[00:09:15] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[00:09:37] [Server thread/INFO]: shadowvyce issued server command: /home 3
+[00:14:47] [User Authenticator #22/INFO]: UUID of player bwjr is 144958a6-0311-4984-869e-d61b2ffd8745
+[00:14:47] [Server thread/INFO]: bwjr joined the game
+[00:14:47] [Server thread/INFO]: bwjr[/66.181.116.162:1199] logged in with entity id 324970 at ([soapSMP]-548.3395238735324, 63.0, 405.64438046488317)
+[00:15:08] [Server thread/INFO]: bwjr issued server command: /gamemode survival
+[00:15:08] [Server thread/INFO]: [bwjr: Set own game mode to Survival Mode]
+[00:15:20] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:15:20] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:15:49] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[00:17:41] [Server thread/INFO]: bwjr issued server command: /effect clear
+[00:17:41] [Server thread/INFO]: [bwjr: Removed every effect from bwjr]
+[00:19:17] [Server thread/INFO]: shadowvyce issued server command: /home 4
+[00:22:07] [Server thread/INFO]: bwjr issued server command: /gamemode spectator
+[00:22:07] [Server thread/INFO]: [bwjr: Set own game mode to Spectator Mode]
+[00:22:45] [Server thread/INFO]: bwjr issued server command: /gamemode creative
+[00:22:45] [Server thread/INFO]: [bwjr: Set own game mode to Creative Mode]
+[00:23:09] [Server thread/INFO]: bwjr issued server command: /fill -1373 114 -1355
+[00:23:20] [Server thread/INFO]: bwjr issued server command: /fill -1373 114 -1355 -1382 121 -1361 stone
+[00:23:20] [Server thread/INFO]: [bwjr: Successfully filled 112 block(s)]
+[00:34:31] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[00:34:47] [Server thread/INFO]: shadowvyce issued server command: /home 4
+[00:35:23] [Server thread/INFO]: bwjr issued server command: /home 1
+[00:35:31] [Server thread/INFO]: bwjr issued server command: /back
+[00:35:39] [Server thread/INFO]: bwjr issued server command: /phomes
+[00:35:42] [Server thread/INFO]: bwjr issued server command: /huskhomes:phome SoapieTomato.maiden
+[00:38:25] [Server thread/INFO]: bwjr lost connection: Disconnected
+[00:38:25] [Server thread/INFO]: bwjr left the game
+[00:40:07] [Server thread/INFO]: shadowvyce issued server command: /sethome 11
+[00:45:15] [Server thread/INFO]: shadowvyce issued server command: /sethome 21
+[00:45:18] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[00:45:30] [Server thread/INFO]: shadowvyce issued server command: /home 21
+[00:45:57] [Server thread/INFO]: shadowvyce issued server command: /home 21
+[00:48:19] [Server thread/INFO]: shadowvyce issued server command: /sethome 22
+[00:48:53] [Server thread/INFO]: shadowvyce issued server command: /sethome 23
+[00:55:24] [Server thread/INFO]: shadowvyce issued server command: /homes
+[00:55:33] [Server thread/INFO]: shadowvyce issued server command: /sethome 24
+[00:56:40] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[00:56:51] [Server thread/INFO]: shadowvyce issued server command: /home 24
+[00:59:19] [Server thread/INFO]: shadowvyce issued server command: /sethome iceland
+[00:59:27] [Server thread/INFO]: shadowvyce issued server command: /homes
+[00:59:36] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[01:03:04] [Server thread/INFO]: shadowvyce issued server command: /home iceland
+[01:03:52] [Server thread/INFO]: shadowvyce issued server command: /sethome pirateship
+[01:07:35] [Server thread/INFO]: shadowvyce issued server command: /homes
+[01:07:40] [Server thread/INFO]: shadowvyce issued server command: /sethome 25
+[01:07:43] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[01:07:56] [Server thread/INFO]: shadowvyce issued server command: /home 25
+[01:12:06] [Server thread/INFO]: shadowvyce issued server command: /sethome snowland
+[01:13:24] [Server thread/INFO]: Villager Villager['Villager'/351143, uuid='f15b5a0f-d0cc-43c6-8ad1-ab173753e227', l='ServerLevel[soapSMP]', x=-5138.63, y=63.56, z=1698.72, cpos=[-322, 106], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[01:13:58] [Server thread/INFO]: shadowvyce issued server command: /sethome edgeoftheworld
+[01:18:40] [Server thread/INFO]: shadowvyce issued server command: /sethome westend
+[01:18:45] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[01:20:15] [Server thread/INFO]: shadowvyce issued server command: /home westend
+[01:22:29] [Server thread/INFO]: shadowvyce issued server command: /sethome zombietown
+[01:28:55] [Server thread/INFO]: shadowvyce issued server command: /sethome w1
+[01:29:01] [Server thread/INFO]: shadowvyce issued server command: /sethome darkword
+[01:30:14] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[01:30:26] [Server thread/INFO]: shadowvyce issued server command: /home w1
+[01:35:26] [Server thread/INFO]: shadowvyce issued server command: /home w1
+[01:39:41] [Server thread/INFO]: shadowvyce issued server command: /home 3
+[01:40:56] [Server thread/INFO]: shadowvyce issued server command: /home 4
+[02:04:49] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[02:05:12] [Server thread/INFO]: shadowvyce issued server command: /home 4
+[02:07:38] [Server thread/INFO]: shadowvyce issued server command: /home 1
+[02:16:13] [Server thread/INFO]: shadowvyce was slain by Zombie
+[02:17:25] [Server thread/INFO]: shadowvyce issued server command: /home 4
+[02:18:22] [Server thread/INFO]: shadowvyce lost connection: Disconnected
+[02:18:22] [Server thread/INFO]: shadowvyce left the game
+[06:55:32] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:10:32] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:20:33] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:24:36] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:25:39] [Server thread/INFO]: Stopping the server
+[07:25:39] [Server thread/INFO]: Stopping server
+[07:25:39] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:25:39] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:25:39] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:25:39] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:25:39] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:25:39] [Server thread/INFO]: [CamelStatsPlugin] Disabling CamelStatsPlugin v1.0
+[07:25:39] [Server thread/INFO]: [CamelStatsPlugin] CamelStatsPlugin has been disabled.
+[07:25:39] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:25:39] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:25:39] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:25:39] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:25:39] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:25:39] [Server thread/INFO]: [NameColor] Disabled.
+[07:25:39] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:25:39] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:25:39] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:25:40] [Server thread/INFO]: [dynmap] Saved 3 pending tile renders in world 'soapSMP'
+[07:25:40] [Server thread/INFO]: [dynmap] Disabled
+[07:25:40] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:25:40] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:25:40] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:25:40] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:25:40] [Server thread/INFO]: Saving players
+[07:25:40] [Server thread/INFO]: Saving worlds
+[07:25:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:25:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:25:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:25:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Saved 9 block chunks, 398 entity chunks, 1 poi chunks in world 'soapSMP' in 0.47s
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:25:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:25:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:25:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:25:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:25:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:25:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:25:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:25:41] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:25:41] [Server thread/INFO]: All I/O tasks to complete
+[07:25:41] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:25:41] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

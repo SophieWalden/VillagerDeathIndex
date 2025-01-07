@@ -1,0 +1,338 @@
+[00:02:19] [Server thread/INFO]: SoapieTomato issued server command: /home maidne
+[00:02:22] [Server thread/INFO]: SoapieTomato issued server command: /home nether
+[00:02:27] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[00:02:49] [Server thread/INFO]: SoapieTomato issued server command: /home nether
+[00:06:01] [Server thread/INFO]: SoapieTomato issued server command: /pchat
+[00:06:07] [Async Chat Thread - #110/INFO]: [SPY-waldenchaos] LunaMaiden → -293 -2117
+[00:06:11] [Server thread/INFO]: SoapieTomato issued server command: /tp -293 ~ -2117
+[00:07:25] [Async Chat Thread - #112/INFO]: [SPY-waldenchaos] LunaMaiden → 81
+[00:09:34] [Server thread/INFO]: SoapieTomato issued server command: /home stroage
+[00:09:36] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:09:43] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:11:11] [Server thread/INFO]: SoapieTomato issued server command: /sethome wither
+[00:12:12] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:12:44] [Server thread/INFO]: SoapieTomato issued server command: /home spider
+[00:13:17] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:13:30] [Server thread/INFO]: SoapieTomato issued server command: /spawn
+[00:14:00] [Server thread/INFO]: SoapieTomato issued server command: /home wither
+[00:19:25] [Server thread/INFO]: SoapieTomato issued server command: /home wither
+[00:23:18] [Server thread/INFO]: SoapieTomato issued server command: /archery
+[00:23:32] [Server thread/INFO]: SoapieTomato issued server command: /crossbows
+[00:23:45] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/366717, uuid='c3714989-092e-4f7e-b137-a5061ab21250', l='ServerLevel[soapSMP_nether]', x=-235.11, y=82.00, z=-2060.76, cpos=[-15, -129], tl=109, v=true] died: Magma Cube was shot by SoapieTomato
+[00:23:50] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/366747, uuid='b1b21d71-c7b5-44cd-ba3b-055f4f98b23f', l='ServerLevel[soapSMP_nether]', x=-235.54, y=82.00, z=-2062.87, cpos=[-15, -129], tl=77, v=true] died: Magma Cube was shot by SoapieTomato
+[00:23:51] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/366746, uuid='87ca2445-aec3-4efb-be1b-743c08b8f0c5', l='ServerLevel[soapSMP_nether]', x=-237.08, y=82.00, z=-2062.58, cpos=[-15, -129], tl=102, v=true] died: Magma Cube was shot by SoapieTomato
+[00:25:47] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:26:05] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:27:32] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/368431, uuid='1c465a59-cfba-47d3-ae6d-c9ddce6ed4a5', l='ServerLevel[soapSMP_nether]', x=-235.04, y=79.00, z=-2119.94, cpos=[-15, -133], tl=355, v=true] died: Magma Cube was shot by SoapieTomato
+[00:29:34] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/368946, uuid='4f116f57-c5b7-43c0-835f-f9e73e7be6c7', l='ServerLevel[soapSMP_nether]', x=-234.00, y=82.00, z=-2054.50, cpos=[-15, -129], tl=656, v=true] died: Magma Cube was slain by SoapieTomato
+[00:29:37] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369091, uuid='9b817132-e43c-4c00-9990-63fc0fd1bd5f', l='ServerLevel[soapSMP_nether]', x=-238.54, y=82.00, z=-2051.84, cpos=[-15, -129], tl=33, v=true] died: Magma Cube was slain by SoapieTomato
+[00:30:23] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/368951, uuid='6fdb479f-de23-4365-ba12-f0ed04771dbf', l='ServerLevel[soapSMP_nether]', x=-238.09, y=81.00, z=-2032.48, cpos=[-15, -128], tl=1610, v=true] died: Magma Cube was slain by SoapieTomato
+[00:30:32] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369314, uuid='f4af588e-398a-4daa-83df-c7943d2dd272', l='ServerLevel[soapSMP_nether]', x=-211.69, y=82.00, z=-2039.01, cpos=[-14, -128], tl=181, v=true] died: Magma Cube was shot by SoapieTomato
+[00:30:35] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369360, uuid='e7d24a61-b1f8-4dff-9313-103b73052619', l='ServerLevel[soapSMP_nether]', x=-209.86, y=82.00, z=-2037.97, cpos=[-14, -128], tl=40, v=true] died: Magma Cube was shot by SoapieTomato
+[00:31:57] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369361, uuid='8b813285-9eba-442f-ad2b-ff55cf9e6c36', l='ServerLevel[soapSMP_nether]', x=-213.47, y=82.00, z=-2041.07, cpos=[-14, -128], tl=1680, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:01] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369761, uuid='4b9d3c57-596b-46e8-b550-c5cee8584545', l='ServerLevel[soapSMP_nether]', x=-233.28, y=82.00, z=-2034.52, cpos=[-15, -128], tl=194, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:03] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369832, uuid='d2252319-cbe8-443f-aed7-27b3ea96ba57', l='ServerLevel[soapSMP_nether]', x=-236.62, y=82.00, z=-2034.51, cpos=[-15, -128], tl=26, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369833, uuid='b40311f8-85f1-4576-886f-911f9783ea25', l='ServerLevel[soapSMP_nether]', x=-235.75, y=82.00, z=-2034.89, cpos=[-15, -128], tl=40, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:04] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369834, uuid='7fdb32d8-6e45-4e05-832c-89110d41ba4e', l='ServerLevel[soapSMP_nether]', x=-236.90, y=82.00, z=-2033.86, cpos=[-15, -128], tl=43, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:07] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369320, uuid='2b0aea86-3ac3-42bc-be97-daa29a3da30c', l='ServerLevel[soapSMP_nether]', x=-237.12, y=81.00, z=-2032.31, cpos=[-15, -128], tl=2065, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:09] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369319, uuid='ccf96563-1c59-4f13-8c45-edd2a3a44c87', l='ServerLevel[soapSMP_nether]', x=-236.58, y=81.00, z=-2030.94, cpos=[-15, -127], tl=2107, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:11] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369687, uuid='b9c624b2-0623-4fcb-9a9f-c612999894ef', l='ServerLevel[soapSMP_nether]', x=-228.03, y=80.88, z=-2029.74, cpos=[-15, -127], tl=619, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:14] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369895, uuid='bccd8d2e-63fd-45c7-9d89-119f27a006d2', l='ServerLevel[soapSMP_nether]', x=-225.48, y=80.88, z=-2031.36, cpos=[-15, -127], tl=31, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:15] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369897, uuid='bd83e38b-9c3e-4b6b-977c-ec67fe3772bc', l='ServerLevel[soapSMP_nether]', x=-226.89, y=81.88, z=-2026.87, cpos=[-15, -127], tl=49, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:15] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369896, uuid='778a5936-5e9e-4544-823e-4534ef730e4c', l='ServerLevel[soapSMP_nether]', x=-229.28, y=81.88, z=-2027.90, cpos=[-15, -127], tl=59, v=true] died: Magma Cube was slain by SoapieTomato
+[00:32:17] [Server thread/INFO]: Named entity MagmaCube['Magma Cube'/369919, uuid='76d8d8be-f6d3-4588-b873-77da2f2b28ec', l='ServerLevel[soapSMP_nether]', x=-223.63, y=81.83, z=-2031.76, cpos=[-14, -127], tl=48, v=true] died: Magma Cube was slain by SoapieTomato
+[00:34:49] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:35:21] [Server thread/INFO]: SoapieTomato issued server command: /trigger home add 5
+[00:35:21] [Server thread/INFO]: [SoapieTomato: Triggered [Home] (added 5 to value)]
+[00:35:33] [Server thread/WARN]: SoapieTomato moved wrongly!
+[00:35:43] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:36:14] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:36:17] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:36:33] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:36:44] [Server thread/INFO]: SoapieTomato issued server command: /home wither
+[00:37:40] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:38:26] [Server thread/WARN]: SoapieTomato moved wrongly!
+[00:38:54] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:38:54] [Server thread/WARN]: SoapieTomato moved too quickly! -28.961005715358397,17.0,24.81820345546805
+[00:38:59] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:39:03] [Server thread/INFO]: SoapieTomato issued server command: /home wither
+[00:39:47] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:39:52] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:40:32] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:41:13] [Server thread/INFO]: SoapieTomato issued server command: /mining
+[00:43:20] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:43:30] [Server thread/INFO]: SoapieTomato issued server command: /mmoinfo BlastMining
+[00:43:52] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:44:08] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:44:50] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:44:56] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:45:41] [Async Chat Thread - #114/INFO]: [SPY-waldenchaos] LunaMaiden → -224
+[00:45:43] [Async Chat Thread - #114/INFO]: [SPY-waldenchaos] LunaMaiden → 83
+[00:45:44] [Async Chat Thread - #114/INFO]: [SPY-waldenchaos] LunaMaiden → -2045
+[00:45:48] [Async Chat Thread - #114/INFO]: [SPY-waldenchaos] LunaMaiden → -224 83 -2045
+[00:45:55] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[00:46:14] [Server thread/INFO]: SoapieTomato issued server command: /back
+[00:46:32] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[00:46:32] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[00:46:41] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[00:46:41] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[00:47:28] [Async Chat Thread - #116/INFO]: [SPY-waldenchaos] LunaMaiden → 254
+[00:49:25] [Server thread/INFO]: SoapieTomato issued server command: /sethome witherroof
+[00:49:27] [Server thread/INFO]: SoapieTomato issued server command: /home creeper
+[00:50:36] [Server thread/INFO]: SoapieTomato issued server command: /home smelt
+[00:56:29] [Server thread/INFO]: SoapieTomato issued server command: /home witherroof
+[01:01:19] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:01:36] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:01:40] [Server thread/INFO]: SoapieTomato issued server command: /sethome witherroof
+[01:01:57] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:02:13] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:03:08] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:03:14] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:04:05] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:04:18] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:04:42] [Async Chat Thread - #118/INFO]: [SPY-waldenchaos] LunaMaiden → -223
+[01:04:44] [Async Chat Thread - #118/INFO]: [SPY-waldenchaos] LunaMaiden → 213
+[01:04:46] [Async Chat Thread - #118/INFO]: [SPY-waldenchaos] LunaMaiden → -2048
+[01:04:50] [Async Chat Thread - #118/INFO]: [SPY-waldenchaos] LunaMaiden → -223 213 -2048
+[01:05:03] [Server thread/INFO]: DamPnutManFan lost connection: Disconnected
+[01:05:03] [Server thread/INFO]: DamPnutManFan left the game
+[01:05:14] [Server thread/INFO]: SoapieTomato issued server command: /home witherroof
+[01:07:09] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:07:09] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:07:16] [Server thread/INFO]: SoapieTomato issued server command: /tp 251 120 -357
+[01:10:05] [Async Chat Thread - #120/INFO]: [SPY-waldenchaos] LunaMaiden → 69
+[01:23:46] [Async Chat Thread - #122/INFO]: [SPY-waldenchaos] LunaMaiden → 191
+[01:23:48] [Async Chat Thread - #122/INFO]: [SPY-waldenchaos] LunaMaiden → 71
+[01:23:49] [Async Chat Thread - #122/INFO]: [SPY-waldenchaos] LunaMaiden → -333
+[01:23:52] [Async Chat Thread - #122/INFO]: [SPY-waldenchaos] LunaMaiden → 191 71 -333
+[01:24:21] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:24:21] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:24:23] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:24:23] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:24:26] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:24:26] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:24:29] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:24:29] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:27:53] [Async Chat Thread - #124/INFO]: [SPY-waldenchaos] LunaMaiden → 192
+[01:27:54] [Async Chat Thread - #124/INFO]: [SPY-waldenchaos] LunaMaiden → 200
+[01:27:55] [Async Chat Thread - #124/INFO]: [SPY-waldenchaos] LunaMaiden → -336
+[01:27:58] [Async Chat Thread - #124/INFO]: [SPY-waldenchaos] LunaMaiden → 192 200 -336
+[01:28:20] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:28:20] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:28:37] [Async Chat Thread - #124/INFO]: [SPY-waldenchaos] LunaMaiden → 1536
+[01:28:39] [Async Chat Thread - #124/INFO]: [SPY-waldenchaos] LunaMaiden → 199
+[01:28:45] [Async Chat Thread - #124/INFO]: [SPY-waldenchaos] LunaMaiden → -2688
+[01:28:50] [Async Chat Thread - #124/INFO]: [SPY-waldenchaos] LunaMaiden → 1536 199 -2688
+[01:29:31] [Server thread/INFO]: SoapieTomato issued server command: /fill ~ ~ ~ ~ ~ ~ minecraft:stone
+[01:29:31] [Server thread/INFO]: [SoapieTomato: Successfully filled 1 block(s)]
+[01:29:32] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:29:32] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:32:03] [Server thread/INFO]: SoapieTomato issued server command: /sethome witherroof
+[01:32:42] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:32:42] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:32:44] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:32:44] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:32:46] [Server thread/INFO]: SoapieTomato issued server command: /home witherroof
+[01:33:18] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:33:18] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:33:49] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:33:49] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:34:38] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:34:38] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:34:38] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:34:40] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:34:40] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:34:58] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:34:58] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:35:00] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:35:00] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:35:04] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:35:04] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:36:07] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:36:07] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:36:21] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:36:21] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:36:29] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:36:29] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:36:51] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:36:51] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:37:10] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:37:10] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:37:14] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:37:14] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:37:23] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:37:23] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:39:25] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:39:25] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:39:28] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:39:28] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:39:32] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:39:32] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:39:40] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:39:40] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:39:46] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:39:46] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:39:57] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:39:57] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:40:05] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:40:05] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:40:15] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:40:15] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:40:16] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:40:16] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:48:08] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:48:08] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:48:17] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:48:17] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:48:19] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:48:19] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:48:25] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:48:25] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:48:26] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:48:26] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:48:30] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:48:30] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:48:39] [Server thread/INFO]: SoapieTomato issued server command: /home storage
+[01:48:47] [Server thread/INFO]: SoapieTomato issued server command: /back
+[01:50:33] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:50:33] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:50:36] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:50:36] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:50:52] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:50:52] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:52:00] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:52:00] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:52:14] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:52:14] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:52:26] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:52:26] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:52:27] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:52:27] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:55:24] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:55:24] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:55:54] [Server thread/INFO]: SoapieTomato issued server command: /fill 332 83 -462
+[01:56:01] [Server thread/INFO]: SoapieTomato issued server command: /fill 332 83 -462 ~ ~ ~ minecraft:air
+[01:56:01] [Server thread/INFO]: [SoapieTomato: Successfully filled 2199 block(s)]
+[01:56:17] [Server thread/INFO]: SoapieTomato issued server command: /fill ~ ~ ~
+[01:56:26] [Server thread/INFO]: SoapieTomato issued server command: /fill ~ ~ ~ ~ ~ ~ minecraft:air
+[01:56:44] [Server thread/INFO]: SoapieTomato issued server command: /fill 214 88
+[01:56:49] [Server thread/INFO]: SoapieTomato issued server command: /fill 214 68 -470
+[01:56:56] [Server thread/INFO]: SoapieTomato issued server command: /fill 214 68 -470 ~ ~ ~ minecraft:air
+[01:56:56] [Server thread/INFO]: [SoapieTomato: Successfully filled 2794 block(s)]
+[01:57:01] [Server thread/INFO]: SoapieTomato issued server command: /fill 214 68 -470 ~ ~ ~ minecraft:air
+[01:57:01] [Server thread/INFO]: [SoapieTomato: Successfully filled 1053 block(s)]
+[01:57:03] [Server thread/INFO]: SoapieTomato issued server command: /fill 214 68 -470 ~ ~ ~ minecraft:air
+[01:57:03] [Server thread/INFO]: [SoapieTomato: Successfully filled 263 block(s)]
+[01:57:26] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:57:26] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[01:57:28] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[01:57:28] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[01:59:46] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[01:59:46] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[01:59:56] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[01:59:56] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[02:03:00] [Server thread/INFO]: SoapieTomato issued server command: /color
+[02:03:03] [Server thread/INFO]: SoapieTomato issued server command: /colors
+[02:03:06] [Server thread/INFO]: SoapieTomato issued server command: /color
+[02:05:47] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[02:05:47] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[02:05:50] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[02:05:50] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[02:06:01] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[02:06:01] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[02:06:06] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[02:06:06] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[02:06:07] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[02:06:07] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[02:14:38] [Server thread/WARN]: SoapieTomato moved wrongly!
+[02:18:30] [Server thread/INFO]: SoapieTomato issued server command: /gamemode adventure
+[02:18:30] [Server thread/INFO]: [SoapieTomato: Set own game mode to Adventure Mode]
+[02:18:32] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[02:18:32] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[02:18:39] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[02:18:39] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[02:18:46] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[02:18:46] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[02:18:49] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[02:18:49] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[02:23:01] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[02:23:01] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[02:23:06] [Server thread/INFO]: SoapieTomato issued server command: /gamemode creative
+[02:23:06] [Server thread/INFO]: [SoapieTomato: Set own game mode to Creative Mode]
+[02:23:17] [Server thread/INFO]: SoapieTomato issued server command: /gamemode survival
+[02:23:17] [Server thread/INFO]: [SoapieTomato: Set own game mode to Survival Mode]
+[02:23:25] [Server thread/INFO]: Named entity WitherSkeleton['Wither Skeleton'/401325, uuid='834bc460-ddfc-4585-a009-a342ad689e21', l='ServerLevel[soapSMP]', x=1535.70, y=199.00, z=-2684.38, cpos=[95, -168], tl=7919, v=true] died: Wither Skeleton was slain by SoapieTomato
+[02:23:26] [Server thread/INFO]: Named entity WitherSkeleton['Wither Skeleton'/401328, uuid='fdf5d908-f1da-470a-94d6-459b0a89f1de', l='ServerLevel[soapSMP]', x=1537.17, y=199.00, z=-2685.52, cpos=[96, -168], tl=2773, v=true] died: Wither Skeleton was slain by SoapieTomato
+[02:23:27] [Server thread/INFO]: Named entity WitherSkeleton['Wither Skeleton'/401344, uuid='8b7a0986-81ca-4787-959c-0d079374a6e6', l='ServerLevel[soapSMP]', x=1535.69, y=199.00, z=-2684.06, cpos=[95, -168], tl=1136, v=true] died: Wither Skeleton was slain by SoapieTomato
+[02:23:50] [Server thread/INFO]: SoapieTomato issued server command: /home witherroof
+[02:24:00] [Server thread/INFO]: SoapieTomato issued server command: /gamemode spectator
+[02:24:00] [Server thread/INFO]: [SoapieTomato: Set own game mode to Spectator Mode]
+[02:24:10] [Server thread/INFO]: SoapieTomato lost connection: Disconnected
+[02:24:10] [Server thread/INFO]: SoapieTomato left the game
+[02:38:00] [User Authenticator #30/INFO]: UUID of player TheUndead_Cat is aad07af3-16ea-4dba-aeed-8d719e5b895d
+[02:38:00] [Server thread/INFO]: TheUndead_Cat joined the game
+[02:38:00] [Server thread/INFO]: TheUndead_Cat[/174.29.126.17:63175] logged in with entity id 401876 at ([soapSMP]-390.5043085370098, 64.0, 1100.3386405451029)
+[02:46:08] [Server thread/INFO]: TheUndead_Cat issued server command: /home ruins
+[02:55:55] [Server thread/INFO]: TheUndead_Cat issued server command: /home ruins
+[03:08:52] [Server thread/INFO]: TheUndead_Cat issued server command: /home ruins
+[03:09:03] [Server thread/INFO]: TheUndead_Cat issued server command: /back
+[03:09:42] [Server thread/INFO]: TheUndead_Cat issued server command: /back
+[03:09:48] [Server thread/INFO]: TheUndead_Cat lost connection: Disconnected
+[03:09:48] [Server thread/INFO]: TheUndead_Cat left the game
+[06:55:07] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 30 minutes.
+[07:10:07] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 15 minutes.
+[07:20:07] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 5 minutes.
+[07:24:07] [Server thread/INFO]: [Not Secure] [Server] Server will be restarting in 1 minute.
+[07:25:07] [Server thread/INFO]: Stopping the server
+[07:25:07] [Server thread/INFO]: Stopping server
+[07:25:07] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3
+[07:25:07] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v4.8.3...
+[07:25:07] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v4.8.3
+[07:25:07] [Server thread/INFO]: [ArmorPoser] Disabling ArmorPoser v1.1.0
+[07:25:07] [Server thread/INFO]: [BisectHosting] Disabling BisectHosting v1.0.4
+[07:25:07] [Server thread/INFO]: [mcMMO] Disabling mcMMO v2.2.029-SNAPSHOT
+[07:25:07] [Server thread/INFO]: [mcMMO] Server shutdown has been executed, saving and cleaning up data...
+[07:25:07] [Server thread/INFO]: [mcMMO] Saving mcMMOPlayers... (0)
+[07:25:07] [Server thread/INFO]: [mcMMO] Finished save operation for 0 players!
+[07:25:07] [Server thread/INFO]: [NameColor] Disabling NameColor v1.9
+[07:25:07] [Server thread/INFO]: [NameColor] Disabled.
+[07:25:07] [Server thread/INFO]: [dynmap] Disabling dynmap v3.7-beta-7-Dev
+[07:25:07] [Server thread/INFO]: [dynmap] Unloaded 11 components.
+[07:25:07] [Server thread/INFO]: [dynmap] Stopping map renderer...
+[07:25:07] [Server thread/INFO]: [dynmap] Saved 1 pending tile renders in world 'soapSMP'
+[07:25:07] [Server thread/INFO]: [dynmap] Disabled
+[07:25:07] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.150
+[07:25:07] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:25:07] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:25:08] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:25:08] [Server thread/INFO]: Saving players
+[07:25:08] [Server thread/INFO]: Saving worlds
+[07:25:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP]'/minecraft:overworld
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Saved 17 block chunks, 428 entity chunks, 0 poi chunks in world 'soapSMP' in 0.38s
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP'
+[07:25:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_nether]'/minecraft:the_nether
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_nether'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_nether'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_nether'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 7 entity chunks, 0 poi chunks in world 'soapSMP_nether' in 0.01s
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_nether'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_nether'
+[07:25:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[soapSMP_the_end]'/minecraft:the_end
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'soapSMP_the_end'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'soapSMP_the_end'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'soapSMP_the_end'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'soapSMP_the_end' in 0.01s
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'soapSMP_the_end'
+[07:25:08] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'soapSMP_the_end'
+[07:25:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (soapSMP): All chunks are saved
+[07:25:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:25:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:25:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:25:08] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[07:25:08] [Server thread/INFO]: All I/O tasks to complete
+[07:25:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[07:25:08] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
