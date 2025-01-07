@@ -14,23 +14,23 @@ const calculateDistance = (coord1, coord2) => {
 const LogViewer = () => {
   const [villagerDeaths, setVillagerDeaths] = useState([]);
   const [selectedLog, setSelectedLog] = useState(null);
-  const [sortBy, setSortBy] = useState("name");  // Default to sort by name
-  const [filterType, setFilterType] = useState("all");  // Default to show all villagers
+  const [sortBy, setSortBy] = useState("name"); 
+  const [filterType, setFilterType] = useState("all"); 
   const [selectedBase, setSelectedBase] = useState("all");
 
   useEffect(() => {
-    // Fetch the manifest file that lists all files
     fetch("/VillagerDeathIndex/logs-manifest.json")
       .then((response) => response.json())
       .then((data) => {
-        // Filter only the .log files
+      
         const logFiles = data.logs.filter((file) => file.endsWith(".log"));
-        // Fetch and process each log file
+
         logFiles.forEach((file) => {
-          fetch(`/VillagerDeathIndex/logs/${file}`)
-            .then((response) => response.text()) // Get the text content of the log file
+          console.log(file);
+          fetch(`/VillagerDeathIndex/logs/${file}/${file}`)
+            .then((response) => response.text()) 
             .then((data) => {
-              // Process the log content to extract villager death info
+
               const deathMessages = extractVillagerDeaths(data);
               setVillagerDeaths((prevDeaths) => [...prevDeaths, ...deathMessages]);
             })
@@ -45,14 +45,22 @@ const LogViewer = () => {
   }, []);
 
   const assignBase = (death) => {
-    const radius = 400; // Define your radius here
+    const radius = 400; 
+    let closestBase = null;
+    let closestDistance = Infinity;
+
+
     for (const [baseName, baseCoords] of Object.entries(cordinates)) {
       const distance = calculateDistance(death.coordinates, baseCoords);
       if (distance <= radius) {
-        return baseName; // Assign the base name if within radius
+        if (distance < closestDistance) {
+          closestBase = baseName; 
+          closestDistance = distance;
+        }
       }
     }
-    return "Random Death"; // Default if no base matches
+
+    return closestBase ? closestBase : "Random Death";
   };
   
   const extractVillagerDeaths = (logContent) => {
@@ -82,7 +90,6 @@ const LogViewer = () => {
     return deathMessages;
   };
 
-  // Sorting function
   const getSortedDeaths = (deaths) => {
     let sortedDeaths = [...deaths];
   
@@ -101,11 +108,11 @@ const LogViewer = () => {
     return sortedDeaths;
   };
 
-  // Filtering function
+
   const getFilteredDeaths = (deaths) => {
     let filteredDeaths = deaths;
   
-    // Apply name-based filter
+
     if (filterType === "named") {
       filteredDeaths = filteredDeaths.filter(
         (death) => death.name && death.name !== "Villager" && !isBaseVillagerType(death.name)
@@ -116,7 +123,7 @@ const LogViewer = () => {
       );
     }
   
-    // Apply base-based filter
+
     if (selectedBase !== "all") {
       filteredDeaths = filteredDeaths.filter((death) => death.base === selectedBase);
     }
@@ -124,7 +131,7 @@ const LogViewer = () => {
     return filteredDeaths;
   };
   
-  // Helper function to check if a name matches base villager types
+
   const isBaseVillagerType = (name) => {
     const baseTypes = [
       "Butcher",
@@ -184,7 +191,6 @@ const LogViewer = () => {
         </div>
       </div>
 
-      {/* List of villager deaths */}
       <div className="death-list">
         {sortedAndFilteredDeaths.length === 0 ? (
           <p>No villager deaths found.</p>
@@ -206,7 +212,7 @@ const LogViewer = () => {
         ? "green"
         : death.base === "Gimon"
         ? "blue"
-        : "#5a5a5a", // Default color for 'Random Death' or unassigned bases
+        : "#5a5a5a", 
   }}
 >
   Assigned Base: {death.base}
